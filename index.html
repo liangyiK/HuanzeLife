@@ -1,4 +1,4 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>環澤一生</title><meta name="description" content="投胎到六洲的某一戶人家，一年十二回自己挑要做的事：讀書、學手藝、找活、修律……本事練到了才做得了那些事。免費、不用登入的古風人生養成。"><meta property="og:type" content="website"><meta property="og:title" content="環澤一生"><meta property="og:description" content="投胎到六洲的某一戶人家，一年十二回自己挑要做的事：讀書、學手藝、找活、修律……本事練到了才做得了那些事。免費、不用登入的古風人生養成。"><meta property="og:url" content="https://liangyik.github.io/HuanzeLife/"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%275%27 fill=%27%23ad3427%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-size=%2720%27 text-anchor=%27middle%27 fill=%27%23f8f7f2%27 font-family=%27serif%27%3E%E7%94%9F%3C/text%3E%3C/svg%3E"></head><body><title>環澤一生</title>
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>環澤一生</title><meta name="description" content="投胎到六洲的某一戶人家，一年十二回自己挑要做的事：讀書、學手藝、找活、修律……本事練到了才做得了那些事。免費、不用登入的古風人生養成。"><meta property="og:type" content="website"><meta property="og:title" content="環澤一生"><meta property="og:description" content="投胎到六洲的某一戶人家，一年十二回自己挑要做的事：讀書、學手藝、找活、修律……本事練到了才做得了那些事。免費、不用登入的古風人生養成。"><meta property="og:url" content="https://liangyik.github.io/HuanzeLife/"><meta property="og:image" content="https://liangyik.github.io/HuanzeLife/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%275%27 fill=%27%23ad3427%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-size=%2720%27 text-anchor=%27middle%27 fill=%27%23f8f7f2%27 font-family=%27serif%27%3E%E7%94%9F%3C/text%3E%3C/svg%3E"></head><body><title>環澤一生</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap">
 <style>
@@ -380,7 +380,7 @@ h1, h2, h3 { text-wrap: balance; }
 .文書位.現 .文書 { animation: 浮現 0.5s ease both; }
 
 /* 墓誌：墨暈開，碑立起來 */
-.誌 h2.碑題 { writing-mode: horizontal-tb; border: 0; padding: 0; margin: 0; line-height: 0; }
+.誌 h2.碑題 { writing-mode: horizontal-tb; border: 0; padding: 0; margin: 0; line-height: 0; letter-spacing: 0; }
 .視隱 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .墓碑 { width: clamp(70px, 16vw, 104px); height: auto; flex: none; }
 .墓碑 .碑基 { fill: var(--紙三); stroke: var(--淡); }
@@ -1398,7 +1398,7 @@ const 動表 = [
     擋: () => (有("有功名") ? "已經考上了" : 本("智") < 60 ? "要聰慧 60" : 生.考.功名 != null && 生.齡 - 生.考.功名 < 3 ? `${生.考.功名 + 3} 歲才能再考` : !家付(4) && 生.錢 < 100 ? "要盤纏 100 文" : ""),
     做: () => {
       生.考.功名 = 生.齡; if (!家付(4)) 生.錢 -= 100;
-      const 底 = 本("智") + (天("讀書種子") ? 6 : 0), 點 = 底 + 亂(30), 判 = { 名: 天("讀書種子") ? "聰慧＋6" : "聰慧", 低: 底, 高: 底 + 29, 難: 88, 點 };
+      const 底 = 本("智") + (天("讀書種子") ? 6 : 0), 點 = 底 + 亂(30), 判 = { 名: 天("讀書種子") ? "聰慧＋讀書種子" : "聰慧", 低: 底, 高: 底 + 29, 難: 88, 點 };
       if (點 >= 88) { 加旗("有功名"); 成長("緣", 1.5); return { 文: "你考上了，名字貼在城牆上，家裡放了一串炮。", 星: 1, 情: "大", 判, 印: "中" }; }
       return { 文: "你去考了一場，沒考上。回家的路上，你一句話也沒說。", 情: "憂", 判 };
     } },
