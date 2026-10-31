@@ -1,0 +1,2255 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>環澤一生</title><meta name="description" content="投胎到六洲的某一戶人家，一年十二回自己挑要做的事：讀書、學手藝、找活、修律……本事練到了才做得了那些事。免費、不用登入的古風人生養成。"><meta property="og:type" content="website"><meta property="og:title" content="環澤一生"><meta property="og:description" content="投胎到六洲的某一戶人家，一年十二回自己挑要做的事：讀書、學手藝、找活、修律……本事練到了才做得了那些事。免費、不用登入的古風人生養成。"><meta property="og:url" content="https://liangyik.github.io/HuanzeLife/"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%275%27 fill=%27%23ad3427%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-size=%2720%27 text-anchor=%27middle%27 fill=%27%23f8f7f2%27 font-family=%27serif%27%3E%E7%94%9F%3C/text%3E%3C/svg%3E"></head><body><title>環澤一生</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600&display=swap">
+<style>
+/* 版面：一卷宣紙。投胎時領一張身分文書；一生是一欄年譜，旁邊一張年格子；死後刻一方墓誌，收進大家共用的追思館。 */
+:root {
+  --紙: #f1f0ea; --紙二: #f8f7f2; --紙三: #e6e2d6; --墨: #24221f; --淡: #6c675d; --線: #cdc7b9;
+  --朱: #ad3427; --朱淡: #f2e3dc; --青: #2f5462; --青淡: #dfe8ea; --金: #8a6a2a; --金淡: #f1e8d2; --警: #a3352a;
+  --紋濃: 0.32; --紋混: multiply;
+  --字-題: "LXGW WenKai TC", "Kaiti TC", "DFKai-SB", "BiauKai", serif;
+  --字-文: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+  --字-介: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --圓: 3px;
+  --筆痕: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 10' preserveAspectRatio='none'%3E%3Cpath d='M0 6 C70 3 150 7 250 5 S430 2 520 5 S580 6 600 4 L600 6 C560 8 500 6 430 7 S240 9 150 8 S40 8 0 8 Z'/%3E%3C/svg%3E");
+  --遠山: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 120' preserveAspectRatio='none'%3E%3Cpath opacity='.45' d='M0 120 L0 78 C40 62 72 40 112 54 C150 68 172 28 212 34 C252 40 274 70 322 60 C372 50 392 18 442 28 C492 38 524 70 600 52 L600 120Z'/%3E%3Cpath d='M0 120 L0 96 C60 86 100 70 150 82 C200 94 242 74 300 80 C360 86 402 70 462 78 C522 86 562 80 600 90 L600 120Z'/%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --紙: #151412; --紙二: #1c1a17; --紙三: #29261f; --墨: #e4d9be; --淡: #a3997f; --線: #3a352b;
+    --朱: #d1553e; --朱淡: #33201a; --青: #95b6c2; --青淡: #1c2629; --金: #d1ac5c; --金淡: #2e2616; --警: #e27c64;
+    --紋濃: 0.10; --紋混: screen; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --紙: #151412; --紙二: #1c1a17; --紙三: #29261f; --墨: #e4d9be; --淡: #a3997f; --線: #3a352b;
+  --朱: #d1553e; --朱淡: #33201a; --青: #95b6c2; --青淡: #1c2629; --金: #d1ac5c; --金淡: #2e2616; --警: #e27c64;
+  --紋濃: 0.10; --紋混: screen; color-scheme: dark;
+}
+html, body { height: 100%; }
+[hidden] { display: none !important; }
+body { background: var(--紙); color: var(--墨); font-family: var(--字-介); font-size: 15px; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--紙); }
+body::after { content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 40; opacity: var(--紋濃); mix-blend-mode: var(--紋混);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .48 0 0 0 0 .44 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23f)'/%3E%3C/svg%3E"); }
+button, textarea, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--青); outline-offset: 2px; }
+h1, h2, h3 { text-wrap: balance; }
+
+.頂 { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--紙);
+  padding-block: 10px 14px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.頂::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 7px; background: var(--墨); opacity: 0.55;
+  -webkit-mask: var(--筆痕) center / 100% 100% no-repeat; mask: var(--筆痕) center / 100% 100% no-repeat; }
+.頂內 { max-width: 64rem; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.名 { display: flex; align-items: center; gap: 8px; margin: 0; font-family: var(--字-題); font-weight: 400; font-size: 1.6rem; letter-spacing: 0.14em; line-height: 1; }
+.印 { display: inline-grid; place-items: center; writing-mode: vertical-rl; font-family: var(--字-題); font-size: 0.72rem; letter-spacing: 0.05em; line-height: 1;
+  color: var(--紙二); background: var(--朱); border-radius: 2px; padding: 4px 3px; transform: rotate(-4deg); }
+.鈕列 { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+.鈕 { border: 1px solid var(--線); background: var(--紙二); border-radius: var(--圓); padding: 6px 12px; letter-spacing: 0.04em; }
+.鈕:hover:not(:disabled) { border-color: var(--墨); }
+.鈕.主 { background: var(--墨); border-color: var(--墨); color: var(--紙二); font-weight: 600; }
+.鈕.朱 { background: var(--朱); border-color: var(--朱); color: var(--紙二); font-weight: 600; }
+.鈕.小 { padding: 3px 9px; font-size: 0.85rem; }
+.鈕:disabled { opacity: 0.45; cursor: default; }
+.淡 { color: var(--淡); }
+.小字 { font-size: 0.8rem; color: var(--淡); line-height: 1.6; }
+
+.場 { max-width: 64rem; margin: 0 auto; padding-block: 24px 120px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.卡 { position: relative; overflow: hidden; border: 1px solid var(--線); background: var(--紙二); border-radius: 4px; padding: 22px clamp(16px, 4vw, 30px); }
+
+/* 首頁 */
+.扉 { display: grid; gap: 22px; padding-bottom: 80px; }
+.扉::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 70px; background: var(--墨); opacity: 0.09; pointer-events: none;
+  -webkit-mask: var(--遠山) bottom / 100% 100% no-repeat; mask: var(--遠山) bottom / 100% 100% no-repeat; }
+.扉 h2 { font-family: var(--字-題); font-weight: 400; font-size: 2.1rem; letter-spacing: 0.2em; margin: 0; line-height: 1.4; }
+.扉 p { margin: 0; line-height: 1.9; color: var(--淡); max-width: 36em; }
+.扉 .題 { display: flex; align-items: flex-start; gap: 10px; }
+@media (min-width: 760px) {
+  .扉 { grid-template-columns: auto minmax(0, 1fr); column-gap: 32px; }
+  .扉 .題 { flex-direction: column; align-items: center; border-right: 1px solid var(--線); padding-right: 24px; }
+  .扉 h2 { writing-mode: vertical-rl; }
+}
+.扉 .文 { display: grid; gap: 14px; align-content: start; min-width: 0; }
+.扉 .鈕組 { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* 身分文書 */
+.文書 { border: 1.5px solid var(--墨); background: var(--紙二); padding: 18px 20px 20px; display: grid; gap: 10px; position: relative; max-width: 30rem; }
+.文書 h3 { margin: 0; font-family: var(--字-題); font-weight: 400; font-size: 1.15rem; letter-spacing: 0.3em; text-align: center; }
+.文書 dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; font-size: 0.95rem; }
+.文書 dt { color: var(--淡); letter-spacing: 0.2em; }
+.文書 dd { margin: 0; font-family: var(--字-文); }
+.文書 .大印 { position: absolute; right: 14px; bottom: 12px; width: 58px; height: 58px; border: 2px solid var(--朱); color: var(--朱); border-radius: 4px; display: grid; place-items: center;
+  font-family: var(--字-題); font-size: 0.85rem; line-height: 1.1; text-align: center; transform: rotate(-8deg); opacity: 0.85; }
+.抽 { font-family: var(--字-題); font-size: 1.4rem; letter-spacing: 0.2em; min-height: 2em; }
+
+/* 天賦與屬性 */
+.備 { display: grid; gap: 22px; }
+.備 h3 { margin: 0 0 6px; font-family: var(--字-題); font-weight: 400; font-size: 1.25rem; letter-spacing: 0.12em; }
+.牌組 { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(8.4rem, 100%), 1fr)); gap: 8px; }
+.牌 { text-align: left; border: 1px solid var(--線); background: var(--紙二); border-radius: 4px; padding: 10px 12px; display: grid; gap: 4px; min-height: 5.2rem; }
+.牌 b { font-family: var(--字-題); font-weight: 400; font-size: 1.05rem; letter-spacing: 0.06em; }
+.牌 span { font-size: 0.8rem; color: var(--淡); line-height: 1.5; }
+.牌 em { font-style: normal; font-size: 0.74rem; line-height: 1.45; color: var(--青); }
+.牌[aria-pressed="true"] em { color: var(--紙三); }
+.牌[data-級="2"] { border-color: var(--青); } .牌[data-級="2"] b { color: var(--青); }
+.牌[data-級="3"] { border-color: var(--金); } .牌[data-級="3"] b { color: var(--金); }
+.牌[data-級="4"] { border-color: var(--朱); } .牌[data-級="4"] b { color: var(--朱); }
+.牌[aria-pressed="true"] { background: var(--墨); color: var(--紙二); border-color: var(--墨); }
+.牌[aria-pressed="true"] b, .牌[aria-pressed="true"] span { color: var(--紙二); }
+.分配 { display: grid; gap: 8px; max-width: 30rem; }
+.分行 { display: grid; grid-template-columns: 4.5em 2rem 1fr 2rem 2em; align-items: center; gap: 8px; }
+.分行 label { letter-spacing: 0.12em; }
+.分行 .值 { text-align: center; font-variant-numeric: tabular-nums; font-weight: 600; }
+.條 { height: 8px; background: var(--紙三); border-radius: 2px; overflow: hidden; }
+.條 i { display: block; height: 100%; background: var(--墨); }
+
+/* 一生：左邊是這個人和年格子，右邊是今年的十二回和年譜。手機上照「今年、這個人、年格子、年譜」排（舞台和按鈕在最上面）。 */
+.生 { display: grid; gap: 16px; }
+.側, .主 { display: grid; gap: 14px; align-content: start; min-width: 0; }
+@media (max-width: 899px) { .側, .主 { display: contents; } #今 { order: 1; } #摘 { order: 2; } #格卡 { order: 3; } #往 { order: 4; } }
+@media (min-width: 900px) { .生 { grid-template-columns: 19rem minmax(0, 1fr); align-items: start; } .側 { position: sticky; top: 84px; } }
+.摘 h3 { margin: 0; font-family: var(--字-題); font-weight: 400; font-size: 1.5rem; letter-spacing: 0.12em; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.摘 h3 small { font-family: var(--字-介); font-size: 0.8rem; color: var(--淡); letter-spacing: 0.04em; }
+.摘 .齡 { font-family: var(--字-題); font-size: 2.2rem; color: var(--朱); line-height: 1; }
+.摘 p { margin: 6px 0 0; font-size: 0.88rem; color: var(--淡); line-height: 1.6; }
+.屬列 { display: grid; gap: 5px; margin-top: 10px; }
+.屬行 { display: grid; grid-template-columns: 3em 1fr 2.6em; align-items: center; gap: 8px; font-size: 0.85rem; }
+.屬行.體 .條 i { background: var(--青); }
+.錢行 { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.85rem; margin-top: 4px; }
+.錢行 b { font-family: var(--字-題); font-weight: 400; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+.錢行 .欠 { color: var(--警); }
+.屬行 .值 { text-align: right; font-variant-numeric: tabular-nums; }
+.格 { display: grid; grid-template-columns: repeat(10, 1fr); gap: 3px; }
+.格 button { aspect-ratio: 1; border: 1px solid var(--線); border-radius: 2px; background: transparent; padding: 0; position: relative; max-width: 100%; }
+.格 button[data-情="平"] { background: var(--紙三); }
+.格 button[data-情="喜"] { background: var(--青); border-color: var(--青); opacity: 0.75; }
+.格 button[data-情="憂"] { background: var(--淡); border-color: var(--淡); opacity: 0.55; }
+.格 button[data-情="大"] { background: var(--朱); border-color: var(--朱); opacity: 0.85; }
+.格 button[data-情="死"] { background: var(--墨); border-color: var(--墨); }
+.格 button[data-星="1"]::after { content: "★"; position: absolute; inset: 0; display: grid; place-items: center; font-size: 0.62rem; color: var(--金淡); }
+.格 button:disabled { cursor: default; }
+.格說 { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.72rem; color: var(--淡); }
+.格說 i { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+.譜 { display: grid; gap: 10px; }
+.年 { display: grid; grid-template-columns: 3.4em minmax(0, 1fr); gap: 12px; align-items: baseline; }
+.年 .歲 { font-family: var(--字-題); color: var(--淡); text-align: right; font-size: 1rem; white-space: nowrap; }
+.年 .句 { font-family: var(--字-文); line-height: 1.9; }
+.年 .句 p { margin: 0; }
+.年 .句 .選 { font-family: var(--字-介); font-size: 0.82rem; color: var(--朱); }
+.年 .句 .記 { font-family: var(--字-題); color: var(--青); font-size: 0.95rem; }
+.年 .句 .總 { font-family: var(--字-介); font-size: 0.78rem; color: var(--淡); line-height: 1.6; }
+.往頭 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 10px; }
+.往頭 b, .格頭 b { font-family: var(--字-題); font-weight: 400; letter-spacing: 0.12em; }
+.格頭 { display: flex; justify-content: space-between; align-items: baseline; }
+
+/* 今年：十二回 */
+.今 { display: grid; gap: 14px; }
+.今頭 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; }
+.今頭 .齡字 { font-family: var(--字-題); font-size: 1.45rem; letter-spacing: 0.12em; }
+.回點 { display: flex; gap: 3px; align-items: center; }
+.回點 i { width: 9px; height: 9px; border-radius: 50%; border: 1px solid var(--淡); }
+.回點 i.用 { background: var(--墨); border-color: var(--墨); }
+.本年 { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; font-size: 0.9rem; }
+.本年 li { display: grid; grid-template-columns: 2.2em minmax(0, 1fr); gap: 8px; line-height: 1.7; }
+.本年 .回 { font-family: var(--字-題); color: var(--淡); text-align: right; }
+.本年 .變 { color: var(--淡); font-size: 0.78rem; margin-left: 6px; white-space: nowrap; }
+.本年 .文 { font-family: var(--字-文); }
+.本年 .小事 { display: block; color: var(--青); font-family: var(--字-文); }
+.本年 li.星 .回 { color: var(--朱); }
+.最新 { min-height: 4.6rem; padding: 6px 10px 6px 0; border-left: 3px solid var(--青); background: color-mix(in srgb, var(--青淡) 45%, transparent); border-radius: 0 4px 4px 0; }
+.最新 > p { padding-left: 10px; }
+.年單 { display: grid; gap: 6px; border-top: 1px dashed var(--線); padding-top: 12px; }
+.年單 > b { font-family: var(--字-題); font-weight: 400; letter-spacing: 0.14em; font-size: 0.95rem; }
+.動區 { display: grid; gap: 12px; }
+.動組 h4 { margin: 0 0 6px; font-family: var(--字-題); font-weight: 400; letter-spacing: 0.14em; font-size: 0.98rem; }
+.動列 { display: grid; grid-template-columns: repeat(auto-fill, minmax(8.8rem, 1fr)); gap: 8px; }
+.動 { text-align: left; border: 1px solid var(--線); background: var(--紙二); border-radius: 4px; padding: 7px 10px; display: grid; gap: 2px; align-content: start; min-height: 3.5rem; }
+.動 b { font-weight: 600; font-size: 0.93rem; letter-spacing: 0.02em; }
+.動 small { font-size: 0.74rem; color: var(--淡); line-height: 1.45; }
+.動 small.鎖 { color: var(--朱); }
+.動:hover:not(:disabled) { border-color: var(--墨); }
+.動:disabled { cursor: default; background: transparent; }
+.動:disabled b { color: var(--淡); }
+.動[aria-expanded="true"] { border-color: var(--墨); box-shadow: inset 3px 0 0 var(--墨); }
+.活單 { border: 1px solid var(--線); border-radius: 4px; padding: 10px 12px; display: grid; gap: 8px; background: var(--紙); }
+.活行 { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 10px; align-items: center; border-top: 1px dashed var(--線); padding-top: 8px; }
+.活行:first-of-type { border-top: 0; padding-top: 0; }
+.活行 .小字 { grid-column: 1; }
+.律戲 { border: 1px solid var(--律); border-radius: 4px; padding: 10px 12px; display: grid; gap: 10px; background: color-mix(in srgb, var(--律) 8%, var(--紙二)); }
+.律戲頭 { display: grid; gap: 2px; } .律戲頭 b { font-family: var(--字-題); font-weight: 400; letter-spacing: 0.12em; }
+.律條 { position: relative; height: 20px; border-radius: 10px; background: var(--紙三); border: 1px solid var(--線); overflow: hidden; }
+.律段 { position: absolute; top: 0; bottom: 0; background: color-mix(in srgb, var(--律) 38%, transparent); }
+.律心 { position: absolute; top: 0; bottom: 0; left: 30%; width: 40%; background: color-mix(in srgb, var(--律) 80%, transparent); }
+.律針 { position: absolute; top: -3px; bottom: -3px; left: 2%; width: 4px; margin-left: -2px; background: var(--墨); border-radius: 2px; }
+.律鈕 { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.片行 { color: var(--淡); }
+.本記 { border: 0; border-bottom: 1px dashed var(--線); background: transparent; padding: 4px 2px; font-family: var(--字-題); color: var(--青); width: 100%; }
+.完 { font-family: var(--字-文); line-height: 1.8; margin: 0; }
+.年[data-情="大"] .歲 { color: var(--朱); }
+.年[data-情="死"] .句 { font-weight: 600; }
+.年[data-星="1"] .歲::before { content: "★ "; color: var(--金); font-size: 0.8em; }
+.抉 { border: 1px solid var(--朱); border-left-width: 3px; background: var(--朱淡); border-radius: 0 4px 4px 0; padding: 14px 16px; display: grid; gap: 10px; }
+.抉 p { margin: 0; font-family: var(--字-文); line-height: 1.85; }
+.抉 .選項 { display: grid; gap: 8px; }
+.抉 .選項 .鈕 { text-align: left; }
+.抉 .缺 { font-size: 0.78rem; color: var(--淡); margin-left: 6px; }
+.自寫 { display: grid; gap: 6px; }
+.自寫 textarea { border: 1px solid var(--線); background: var(--紙二); border-radius: 3px; padding: 8px 10px; line-height: 1.6; resize: vertical; min-height: 3.2em; }
+.控 { position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; background: linear-gradient(transparent, var(--紙) 30%);
+  padding-top: 24px; padding-bottom: max(12px, env(safe-area-inset-bottom, 0px)); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.控內 { max-width: 64rem; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.控內 .右 { margin-left: auto; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+/* ===== 舞台：這一回你在哪裡、在做什麼。景是積木拼的，人是紙偶（照《環澤七州》的舞台）。暗色時是夜裡的景。 ===== */
+.舞台 {
+  --天a: #c3d9d8; --天b: #f0f1e6; --遠c: #b6c6c2; --地a: #dbd5be; --地紋c: #cac3a9; --牆c: #eee8d6; --頂c: #3a434b; --木c: #96744f; --淺木c: #b8976c;
+  --暗c: #4b4139; --石c: #bcbab0; --水c: #93bfc7; --浪c: #ecf5f4; --紙c: #f8f3e4; --臉c: #f3dfc4; --髮c: #2a2e35; --白髮c: #d9d9d4; --鐵c: #555c62;
+  --葉c: #6f9069; --葉淺c: #8fad81; --蘆c: #a89a5e; --袋c: #d9c9a0; --燈c: #e9a03b; --日c: #f6efd2; --陶c: #b96f45; --沙c: #d8c39a; --路c: #cfc6a8;
+  --州: var(--青); --澤: var(--青); --赭: var(--金);
+  container-type: inline-size; position: relative; overflow: hidden; aspect-ratio: 400 / 150;
+  margin: -22px calc(-1 * clamp(16px, 4vw, 30px)) 0; border-bottom: 1px solid var(--線); border-radius: 4px 4px 0 0; background: var(--天b);
+  user-select: none; -webkit-user-select: none;
+}
+.舞台.季-夏 { --天a: #a9d3dc; --天b: #e9f3ea; --葉c: #5f8a5c; --日c: #fff3c4; }
+.舞台.季-秋 { --天a: #e6cfa6; --天b: #f4ecd9; --遠c: #c7b697; --葉c: #b9843c; --葉淺c: #d2a85a; --地a: #ddd0b0; --地紋c: #cdbf9c; }
+.舞台.季-冬 { --天a: #cfd7dc; --天b: #eef0f0; --遠c: #b9c0c3; --葉c: #8b978d; --葉淺c: #a9b3aa; --地a: #e4e5df; --地紋c: #d3d5ce; --水c: #a9c3ca; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .舞台 {
+    --天a: #142029; --天b: #20313a; --遠c: #1b2a32; --地a: #2b3231; --地紋c: #353d3b; --牆c: #3b4347; --頂c: #0d1317; --木c: #5d4935; --淺木c: #77603f;
+    --暗c: #12171a; --石c: #4b5153; --水c: #1f404a; --浪c: #3e6670; --紙c: #cfc8b4; --臉c: #d9c3a6; --髮c: #0c0f12; --白髮c: #a9aaa6; --鐵c: #252b30;
+    --葉c: #2f4a3a; --葉淺c: #3b5c48; --蘆c: #5f5936; --袋c: #7c7153; --燈c: #f2b04a; --日c: #dfe6e2; --陶c: #6e3f28; --沙c: #4a4232; --路c: #34392f;
+  }
+}
+:root[data-theme="dark"] .舞台 {
+  --天a: #142029; --天b: #20313a; --遠c: #1b2a32; --地a: #2b3231; --地紋c: #353d3b; --牆c: #3b4347; --頂c: #0d1317; --木c: #5d4935; --淺木c: #77603f;
+  --暗c: #12171a; --石c: #4b5153; --水c: #1f404a; --浪c: #3e6670; --紙c: #cfc8b4; --臉c: #d9c3a6; --髮c: #0c0f12; --白髮c: #a9aaa6; --鐵c: #252b30;
+  --葉c: #2f4a3a; --葉淺c: #3b5c48; --蘆c: #5f5936; --袋c: #7c7153; --燈c: #f2b04a; --日c: #dfe6e2; --陶c: #6e3f28; --沙c: #4a4232; --路c: #34392f;
+}
+.舞台 .景圖 { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.舞台 .日 { fill: var(--日c); opacity: 0.9; }
+.舞台 .遠 { fill: var(--遠c); } .舞台 .遠.近 { opacity: 0.75; } .舞台 .遠.沙 { fill: var(--沙c); opacity: 0.6; }
+.舞台 .雪頂 { fill: var(--浪c); opacity: 0.85; }
+.舞台 .地 { fill: var(--地a); } .舞台 .地紋 { stroke: var(--地紋c); stroke-width: 1; fill: none; stroke-dasharray: 26 14; }
+.舞台 .路 { fill: var(--路c); opacity: 0.8; }
+.舞台 .牆 { fill: var(--牆c); stroke: var(--頂c); stroke-width: 0.8; }
+.舞台 .城 { fill: var(--石c); stroke: var(--頂c); stroke-width: 0.8; } .舞台 .磚 { stroke: var(--頂c); stroke-width: 0.5; opacity: 0.35; fill: none; }
+.舞台 .門洞, .舞台 .暗, .舞台 .門 { fill: var(--暗c); }
+.舞台 .屋頂, .舞台 .脊 { fill: var(--頂c); }
+.舞台 .木 { fill: var(--木c); stroke: var(--頂c); stroke-width: 0.6; }
+.舞台 .木線 { stroke: var(--木c); stroke-width: 1.6; fill: none; stroke-linecap: round; } .舞台 .木線.粗 { stroke-width: 2.6; }
+.舞台 .朱柱 { fill: var(--朱); stroke: var(--頂c); stroke-width: 0.5; } .舞台 .朱線 { stroke: var(--朱); stroke-width: 1.4; fill: none; } .舞台 .朱線.粗 { stroke-width: 4; }
+.舞台 .朱點 { fill: var(--朱); }
+.舞台 .石 { fill: var(--石c); stroke: var(--頂c); stroke-width: 0.6; } .舞台 .石線 { stroke: var(--頂c); stroke-width: 2; fill: none; }
+.舞台 .鐵 { fill: var(--鐵c); }
+.舞台 .窗 { fill: var(--紙c); stroke: var(--木c); stroke-width: 1; } .舞台 .格 { stroke: var(--頂c); stroke-width: 0.7; fill: none; opacity: 0.7; }
+.舞台 .匾 { fill: var(--暗c); stroke: var(--赭); stroke-width: 0.8; } .舞台 .匾字 { fill: var(--紙c); font: 700 9.5px var(--字-題); text-anchor: middle; letter-spacing: 1px; } .舞台 .匾字.大 { font-size: 11px; }
+.舞台 .幌 { fill: var(--州); } .舞台 .幌字 { fill: #fbf7ea; font: 700 9.5px var(--字-題); text-anchor: middle; }
+.舞台 .篷 { fill: var(--紙c); stroke: var(--頂c); stroke-width: 0.6; } .舞台 .篷.朱篷 { fill: var(--朱); } .舞台 .篷.靛篷 { fill: var(--澤); }
+.舞台 .袋 { fill: var(--袋c); stroke: var(--木c); stroke-width: 0.7; }
+.舞台 .船 { fill: var(--木c); stroke: var(--頂c); stroke-width: 0.7; }
+.舞台 .葉 { fill: var(--葉c); } .舞台 .葉.淺 { fill: var(--葉淺c); }
+.舞台 .蘆頂 { fill: var(--蘆c); stroke: var(--木c); stroke-width: 0.6; }
+.舞台 .屜 { fill: var(--淺木c); }
+.舞台 .紙片 { fill: var(--紙c); stroke: var(--木c); stroke-width: 0.7; } .舞台 .字痕 { stroke: var(--頂c); stroke-width: 0.8; fill: none; opacity: 0.5; }
+.舞台 .燈 { fill: var(--燈c); stroke: var(--朱); stroke-width: 0.8; }
+.舞台 .塔燈 { animation: 塔燈 2.4s ease-in-out infinite alternate; }
+@keyframes 塔燈 { from { opacity: 0.55; } to { opacity: 1; } }
+.舞台 .水 { fill: var(--水c); } .舞台 .水.遠水 { opacity: 0.7; }
+.舞台 .浪 { stroke: var(--浪c); stroke-width: 1.1; fill: none; stroke-linecap: round; animation: 浪 5s ease-in-out infinite alternate; }
+.舞台 .浪1 { animation-duration: 6.5s; } .舞台 .浪2 { animation-duration: 8s; }
+@keyframes 浪 { from { transform: translateX(-5px); } to { transform: translateX(5px); } }
+.舞台 .煙 { stroke: var(--紙c); stroke-width: 2.4; fill: none; stroke-linecap: round; opacity: 0.6; animation: 煙 3.6s ease-in-out infinite; transform-box: fill-box; transform-origin: bottom center; }
+.舞台 .煙.慢 { animation-duration: 5s; opacity: 0.4; }
+@keyframes 煙 { 0% { transform: translateY(4px) scaleY(0.7); opacity: 0; } 35% { opacity: 0.6; } 100% { transform: translateY(-6px) scaleY(1.15); opacity: 0; } }
+.舞台 .雪 { fill: #fff; opacity: 0.85; animation: 落 7s linear infinite; }
+.舞台 .落葉 { fill: var(--葉c); animation: 落 9s linear infinite; }
+.舞台 .花瓣 { fill: #e9b7b4; opacity: 0.9; animation: 落 10s linear infinite; }
+.舞台 .螢 { fill: #f3e7a0; animation: 螢 4s ease-in-out infinite alternate; }
+.舞台 .飄1 { animation-delay: -2s; } .舞台 .飄2 { animation-delay: -4s; animation-duration: 10s; } .舞台 .飄3 { animation-delay: -6s; animation-duration: 12s; }
+@keyframes 落 { from { transform: translate(0, -30px); } to { transform: translate(-26px, 190px); } }
+@keyframes 螢 { from { transform: translate(-6px, 4px); opacity: 0.2; } to { transform: translate(8px, -6px); opacity: 0.9; } }
+.舞台 .帳布 { fill: var(--紙c); stroke: var(--頂c); stroke-width: 0.8; } .舞台 .帳帶 { fill: var(--州); } .舞台 .帳帶.朱帶 { fill: var(--朱); }
+.舞台 .火 { fill: var(--燈c); stroke: var(--朱); stroke-width: 0.8; transform-box: fill-box; transform-origin: 50% 100%; animation: 焰 0.5s ease-in-out infinite alternate; }
+@keyframes 焰 { from { transform: scale(1, 0.86); } to { transform: scale(0.92, 1.1); } }
+.舞台 .陶 { fill: var(--陶c); stroke: var(--頂c); stroke-width: 0.7; }
+.舞台 .馬 ellipse, .舞台 .馬 path { fill: var(--暗c); } .舞台 .馬.淺馬 ellipse, .舞台 .馬.淺馬 path { fill: var(--木c); }
+.舞台 .馬 .馬腿, .舞台 .羊 .馬腿 { fill: none; stroke: var(--暗c); stroke-width: 2.2; stroke-linecap: round; }
+.舞台 .羊 ellipse, .舞台 .羊 circle { fill: var(--紙c); stroke: var(--頂c); stroke-width: 0.6; }
+.舞台 .魚 { fill: var(--石c); stroke: var(--頂c); stroke-width: 0.5; }
+.舞台 .田土 { fill: var(--地紋c); stroke: var(--木c); stroke-width: 0.5; } .舞台 .田壟 { stroke: var(--木c); stroke-width: 1; opacity: 0.5; fill: none; }
+.舞台 .草 { stroke: var(--葉c); stroke-width: 1.3; fill: none; stroke-linecap: round; }
+.舞台 .旗 { fill: var(--朱); } .舞台 .旗.靛旗 { fill: var(--澤); }
+.舞台 .網線 { stroke: var(--淡); stroke-width: 0.9; fill: none; } .舞台 .柳絲 { stroke: var(--葉淺c); stroke-width: 1.3; fill: none; stroke-linecap: round; }
+.舞台 .榜紙 { fill: #f4ecd4; stroke: var(--木c); stroke-width: 0.6; } .舞台 .榜紙.紅 { fill: var(--朱); } .舞台 .榜字 { stroke: #3b332b; stroke-width: 1.4; opacity: 0.55; stroke-dasharray: 3 2; }
+.舞台 .律紋 { fill: none; stroke: var(--律); stroke-width: 1.2; opacity: 0.8; transform-box: fill-box; transform-origin: center; animation: 轉 9s linear infinite; }
+@keyframes 轉 { to { transform: rotate(360deg); } }
+.舞台 .招牌 { transform-box: fill-box; transform-origin: 50% 0; }
+
+/* 紙偶 */
+.舞台 .偶 { display: block; height: clamp(46px, 10.5cqw, 78px); width: auto; overflow: visible; }
+.舞台 .偶.小 { height: clamp(34px, 7.6cqw, 56px); }
+.舞台 .偶 .影 { fill: #000; opacity: 0.16; }
+.舞台 .偶 .衣, .舞台 .偶 .袖 { fill: var(--衣); stroke: var(--頂c); stroke-width: 0.8; } .舞台 .偶 .袖 { filter: brightness(0.88); }
+.舞台 .偶 .帶 { fill: var(--紙c); opacity: 0.85; } .舞台 .偶 .襟 { stroke: var(--紙c); stroke-width: 1.2; fill: none; opacity: 0.85; }
+.舞台 .偶 .臉, .舞台 .搖籃圖 .臉 { fill: var(--臉c); stroke: var(--頂c); stroke-width: 0.8; }
+.舞台 .偶 .髮 { fill: var(--髮c); } .舞台 .偶 .髮.白 { fill: var(--白髮c); stroke: var(--頂c); stroke-width: 0.5; } .舞台 .偶 .髮線 { stroke: var(--髮c); stroke-width: 1.6; fill: none; stroke-linecap: round; }
+.舞台 .偶 .笠 { fill: var(--蘆c); stroke: var(--頂c); stroke-width: 0.8; }
+.舞台 .偶 .眼 { fill: var(--髮c); }
+.舞台 .偶 .律光 { fill: var(--律, var(--燈c)); opacity: 0.85; filter: drop-shadow(0 0 3px var(--律, var(--燈c))); }
+.舞台 .偶 .身 { transform-box: fill-box; transform-origin: 50% 100%; animation: 晃 4.2s ease-in-out infinite alternate; }
+@keyframes 晃 { from { transform: rotate(-1.4deg); } to { transform: rotate(1.4deg); } }
+.舞台 .我偶 .影 { fill: var(--朱); opacity: 0.4; }
+.舞台 .我, .舞台 .旁 { position: absolute; bottom: 10cqw; transform: translateX(-50%); pointer-events: none; }
+.舞台 .我 { z-index: 2; }
+.舞台 .旁 { z-index: 1; }
+.舞台 .搖籃圖 { display: block; width: clamp(54px, 13cqw, 90px); height: auto; overflow: visible; }
+/* 這一回的動作：都在一秒內演完，演完回到平常輕輕晃 */
+.舞台 .我.入 { animation: 走入 0.55s ease-out both; }
+.舞台 .我.入 .身 { animation: 步 0.14s ease-in-out 4 alternate, 晃 4.2s ease-in-out 0.6s infinite alternate; }
+@keyframes 走入 { from { transform: translateX(calc(-50% - 22cqw)); } to { transform: translateX(-50%); } }
+@keyframes 步 { from { transform: translateY(0) rotate(-3deg); } to { transform: translateY(-3px) rotate(3deg); } }
+.舞台 .我 .持 { transform-box: view-box; transform-origin: 35px 46px; }
+.舞台 .我.動-揮 .持 { animation: 揮 0.22s ease-in-out 0.5s 4 alternate; }
+@keyframes 揮 { from { transform: rotate(10deg); } to { transform: rotate(-38deg); } }
+.舞台 .我.動-讀 .身 { animation: 點頭 0.3s ease-in-out 0.5s 2 alternate, 晃 4.2s ease-in-out 1.2s infinite alternate; }
+@keyframes 點頭 { from { transform: rotate(0); } to { transform: rotate(4deg) translateY(1px); } }
+.舞台 .我.動-舉 .身 { animation: 舉 0.2s ease-in-out 0.5s 4 alternate, 晃 4.2s ease-in-out 1.4s infinite alternate; }
+@keyframes 舉 { from { transform: translateY(0); } to { transform: translateY(-5px) scaleY(1.03); } }
+.舞台 .我.動-坐 .偶, .舞台 .我.動-睡 .偶 { transform: translateY(4%) scaleY(0.9); transform-origin: 50% 100%; }
+.舞台 .我.動-修 .律光 { animation: 光 0.35s ease-in-out 0.5s 3 alternate; transform-box: fill-box; transform-origin: center; }
+@keyframes 光 { from { transform: scale(0.7); } to { transform: scale(1.5); } }
+.舞台 .睡字 { position: absolute; left: 70%; top: -6px; font: 700 13px var(--字-題); color: var(--淡); animation: 睡 1.6s ease-out 0.4s both; }
+.舞台 .睡字 i { font-style: normal; font-size: 0.75em; margin-left: 2px; }
+@keyframes 睡 { from { opacity: 0; transform: translate(0, 6px); } 30% { opacity: 1; } to { opacity: 0; transform: translate(10px, -14px); } }
+/* 台上的牌子、飄起來的數字、一句小事、朱印 */
+.舞台 .台牌 { position: absolute; top: 8px; left: 10px; z-index: 3; padding: 2px 10px; border-radius: 999px; font: 400 0.82rem var(--字-題); letter-spacing: 0.12em;
+  color: var(--墨); background: color-mix(in srgb, var(--紙二) 86%, transparent); border: 1px solid var(--線); }
+.舞台 .飄字 { position: absolute; bottom: calc(10cqw + clamp(46px, 10.5cqw, 78px)); transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 2px; z-index: 4; pointer-events: none; }
+.舞台 .飄字 span { font: 700 0.8rem var(--字-介); padding: 0 6px; border-radius: 3px; white-space: nowrap; background: color-mix(in srgb, var(--紙二) 88%, transparent);
+  animation: 飄 1.3s ease-out both; animation-delay: calc(0.35s + var(--序) * 0.08s); }
+.舞台 .飄字 .加 { color: var(--青); } .舞台 .飄字 .減 { color: var(--警); } .舞台 .飄字 .錢 { color: var(--金); }
+@keyframes 飄 { 0% { opacity: 0; transform: translateY(8px); } 18% { opacity: 1; transform: none; } 75% { opacity: 1; } 100% { opacity: 0; transform: translateY(-18px); } }
+.舞台 .台報 { position: absolute; bottom: 4px; left: 50%; transform: translateX(-50%); z-index: 4; max-width: 84%; width: max-content; padding: 5px 12px; border-radius: 8px;
+  font: 0.82rem/1.5 var(--字-文); background: color-mix(in srgb, var(--紙二) 94%, transparent); border: 1px solid var(--青); pointer-events: none; animation: 報 3.2s ease both; }
+@keyframes 報 { 0% { opacity: 0; transform: translate(-50%, 8px); } 10% { opacity: 1; transform: translate(-50%, 0); } 82% { opacity: 1; } 100% { opacity: 0; transform: translate(-50%, -6px); visibility: hidden; } }
+.朱印 { position: absolute; z-index: 5; display: grid; place-items: center; font-family: var(--字-題); color: #fff; background: var(--朱); border-radius: 6px; pointer-events: none;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--朱) 35%, transparent); }
+.舞台 .朱印 { right: 9%; top: 18%; width: clamp(48px, 12cqw, 70px); height: clamp(48px, 12cqw, 70px); font-size: clamp(1.2rem, 4.4cqw, 2rem); letter-spacing: 0.04em; animation: 蓋印 0.5s cubic-bezier(0.2, 1.6, 0.4, 1) 0.4s both; }
+@keyframes 蓋印 { from { opacity: 0; transform: scale(2.2) rotate(-24deg); } to { opacity: 1; transform: scale(1) rotate(-8deg); } }
+.舞台.開張 .招牌 { animation: 掛牌 0.7s cubic-bezier(0.3, 1.5, 0.5, 1) 0.3s both; }
+@keyframes 掛牌 { from { transform: translateY(-60px); } to { transform: none; } }
+
+/* 擲骰尺：針走到這一回擲出來的地方 */
+.骰尺 { display: block; margin: 4px 0 2px; max-width: 26em; }
+.骰尺 .尺 { display: block; position: relative; height: 12px; border-radius: 6px; background: var(--朱淡); border: 1px solid var(--線); overflow: hidden; }
+.骰尺 .成 { position: absolute; top: 0; bottom: 0; right: 0; width: var(--成); background: var(--青淡); border-left: 1px solid var(--青); }
+.骰尺 .針 { position: absolute; top: -2px; bottom: -2px; width: 3px; margin-left: -1.5px; background: var(--墨); border-radius: 2px; left: var(--點); animation: 針 1s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+@keyframes 針 { 0% { left: 0%; } 45% { left: 96%; } 72% { left: calc(var(--點) - 9%); } 88% { left: calc(var(--點) + 3%); } 100% { left: var(--點); } }
+.骰尺 .註 { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--淡); }
+.骰尺.演 + .果 { animation: 浮現 0.4s ease 0.95s both; }
+@keyframes 浮現 { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+/* 摘：本事條長上去 */
+.條 i { transition: width 0.6s ease; }
+.屬行 .值.漲 { color: var(--青); font-weight: 700; animation: 漲 0.9s ease both; }
+.屬行 .值.跌 { color: var(--警); font-weight: 700; }
+@keyframes 漲 { 0% { transform: scale(1.5); } 100% { transform: none; } }
+.格 button.新 { animation: 新格 0.6s cubic-bezier(0.3, 1.6, 0.5, 1) both; }
+@keyframes 新格 { from { transform: scale(0.2); opacity: 0; } to { transform: none; opacity: 1; } }
+
+/* 過一年：翻一張年紙 */
+.年紙 { position: fixed; left: 50%; top: 38%; z-index: 30; transform: translate(-50%, -50%); pointer-events: none; perspective: 600px; }
+.年紙 .紙 { position: relative; min-width: 12rem; max-width: min(24rem, 86vw); padding: 18px 26px 16px; text-align: center; background: var(--紙二); border: 1px solid var(--線); border-top: 6px solid var(--朱);
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--墨) 22%, transparent); transform-origin: 50% 0; animation: 年紙 1.9s ease both; }
+.年紙 .歲 { font: 400 2.2rem/1.2 var(--字-題); letter-spacing: 0.16em; }
+.年紙 .句 { margin-top: 6px; font: 0.85rem/1.6 var(--字-文); color: var(--淡); }
+.年紙 .朱印 { right: -18px; top: -16px; width: 52px; height: 52px; font-size: 1.05rem; animation: 蓋印 0.45s cubic-bezier(0.2, 1.6, 0.4, 1) 0.45s both; }
+@keyframes 年紙 { 0% { opacity: 0; transform: rotateX(80deg); } 22% { opacity: 1; transform: rotateX(0); } 78% { opacity: 1; transform: none; } 100% { opacity: 0; transform: translateY(-14px); } }
+
+/* 投胎：六洲方位示意 */
+.六洲圖 { width: min(30rem, 100%); height: auto; display: block; }
+.六洲圖 .陸 { fill: var(--紙三); stroke: var(--淡); stroke-width: 1.2; stroke-linejoin: round; }
+.六洲圖 .灣 { fill: var(--紙); stroke: var(--淡); stroke-width: 1; }
+.六洲圖 .山紋 { fill: none; stroke: var(--淡); stroke-width: 1.1; opacity: 0.6; }
+.六洲圖 .洲點 circle { fill: var(--紙二); stroke: var(--淡); stroke-width: 1.2; transition: fill 0.08s, r 0.08s; }
+.六洲圖 .洲點 text { font: 400 13px var(--字-題); fill: var(--淡); text-anchor: middle; letter-spacing: 1px; }
+.六洲圖 .洲點.亮 circle { fill: var(--墨); r: 7px; } .六洲圖 .洲點.亮 text { fill: var(--墨); }
+.六洲圖 .洲點.落 circle { fill: var(--朱); stroke: var(--朱); r: 8px; animation: 落點 0.6s ease both; } .六洲圖 .洲點.落 text { fill: var(--朱); font-size: 15px; }
+@keyframes 落點 { 0% { r: 20px; opacity: 0.2; } 100% { r: 8px; opacity: 1; } }
+.文書位.現 .文書 { animation: 浮現 0.5s ease both; }
+
+/* 墓誌：墨暈開，碑立起來 */
+.誌 h2.碑題 { writing-mode: horizontal-tb; border: 0; padding: 0; margin: 0; line-height: 0; }
+.視隱 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.墓碑 { width: clamp(70px, 16vw, 104px); height: auto; flex: none; }
+.墓碑 .碑基 { fill: var(--紙三); stroke: var(--淡); }
+.墓碑 .碑身 { fill: var(--紙三); stroke: var(--墨); stroke-width: 1.4; }
+.墓碑 .碑框 { fill: none; stroke: var(--淡); stroke-width: 0.8; opacity: 0.7; }
+.墓碑 .碑字 { font: 400 19px var(--字-題); fill: var(--墨); text-anchor: middle; }
+.墓碑 .碑小 { font: 400 8px var(--字-題); fill: var(--淡); text-anchor: middle; }
+.誌.初 .墓碑 { animation: 立碑 0.8s ease 0.7s both; }
+@keyframes 立碑 { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+.誌.初::before { content: ""; position: absolute; left: 60px; top: 90px; width: 40px; height: 40px; border-radius: 50%; z-index: 3; pointer-events: none;
+  background: radial-gradient(circle, #1d1b18 0 55%, color-mix(in srgb, #1d1b18 60%, transparent) 70%, transparent 72%); animation: 墨暈 1.5s ease-out both; }
+@keyframes 墨暈 { 0% { transform: scale(0.2); opacity: 0.9; } 45% { transform: scale(40); opacity: 0.85; } 100% { transform: scale(46); opacity: 0; } }
+
+/* 動畫關掉：系統的「減少動態」或設定裡關掉 */
+@media (prefers-reduced-motion: reduce) { .舞台 *, .舞台, .年紙 *, .六洲圖 *, .誌 *, .誌::before, .骰尺 *, .條 i, .格 button, .屬行 .值 { animation: none !important; transition: none !important; } .年紙 { display: none; } }
+html.靜 .舞台 *, html.靜 .舞台, html.靜 .六洲圖 *, html.靜 .誌 *, html.靜 .誌::before, html.靜 .骰尺 *, html.靜 .條 i, html.靜 .格 button, html.靜 .屬行 .值 { animation: none !important; transition: none !important; }
+html.靜 .年紙 { display: none; }
+
+/* 墓誌 */
+.誌 { display: grid; gap: 16px; padding-bottom: 76px; }
+.誌::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 64px; background: var(--墨); opacity: 0.08; pointer-events: none;
+  -webkit-mask: var(--遠山) bottom / 100% 100% no-repeat; mask: var(--遠山) bottom / 100% 100% no-repeat; }
+.誌 .頭 { display: flex; gap: 18px; align-items: flex-start; flex-wrap: wrap; }
+.誌 h2 { margin: 0; font-family: var(--字-題); font-weight: 400; font-size: 2.2rem; letter-spacing: 0.24em; }
+@media (min-width: 640px) { .誌 h2 { writing-mode: vertical-rl; border-right: 1px solid var(--線); padding-right: 18px; } }
+.誌 .評 { font-family: var(--字-題); font-size: 1.15rem; color: var(--朱); letter-spacing: 0.1em; }
+.誌 .銘 { font-family: var(--字-文); font-size: 1.05rem; line-height: 1.9; }
+.誌 .大事 { margin: 0; padding-left: 1.2em; line-height: 1.8; font-family: var(--字-文); }
+.誌 .格 { max-width: 22rem; }
+
+/* 疊頁：追思館、前世、設定 */
+.疊 { position: fixed; inset: 0; z-index: 20; background: color-mix(in srgb, var(--墨) 35%, transparent); display: grid; place-items: start center; overflow-y: auto;
+  padding-top: max(24px, env(safe-area-inset-top, 0px)); padding-bottom: 24px; padding-left: max(12px, env(safe-area-inset-left, 0px)); padding-right: max(12px, env(safe-area-inset-right, 0px)); }
+.疊內 { width: min(60rem, 100%); background: var(--紙); border: 1px solid var(--線); border-radius: 6px; padding: 20px clamp(14px, 3vw, 26px); display: grid; gap: 14px; }
+.疊內 .標 { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.疊內 h2 { margin: 0; font-family: var(--字-題); font-weight: 400; font-size: 1.5rem; letter-spacing: 0.16em; }
+.數 { display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 0.88rem; color: var(--淡); }
+.數 b { font-family: var(--字-題); font-weight: 400; font-size: 1.3rem; color: var(--墨); margin-right: 4px; font-variant-numeric: tabular-nums; }
+.碑林 { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 12px; }
+.碑 { border: 1px solid var(--線); background: var(--紙二); border-radius: 4px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; }
+.碑 h4 { margin: 0; font-family: var(--字-題); font-weight: 400; font-size: 1.15rem; letter-spacing: 0.1em; display: flex; justify-content: space-between; gap: 8px; }
+.碑 h4 small { font-family: var(--字-介); font-size: 0.78rem; color: var(--淡); letter-spacing: 0; white-space: nowrap; }
+.碑 .評 { font-size: 0.82rem; color: var(--朱); }
+.碑 p { margin: 0; font-family: var(--字-文); font-size: 0.9rem; line-height: 1.7; }
+.碑 .格 { gap: 2px; }
+.碑 .格 button { border-radius: 1px; }
+.設 { display: grid; gap: 12px; }
+.設 label { display: flex; gap: 8px; align-items: flex-start; line-height: 1.6; }
+</style>
+
+<header class="頂"><div class="頂內">
+  <h1 class="名">環澤<span class="印" aria-hidden="true">一生</span></h1>
+  <div class="鈕列">
+    <button class="鈕" id="開館" type="button">追思館</button>
+    <button class="鈕" id="開前世" type="button">我的前世</button>
+    <button class="鈕" id="開設" type="button">設定</button>
+  </div>
+</div></header>
+
+<main class="場" id="場"></main>
+<div class="控" id="控" hidden></div>
+<div class="疊" id="疊" hidden><div class="疊內" id="疊內" role="dialog" aria-modal="true"></div></div>
+
+<script>// 環澤・一生｜事件庫（不用 Claude 也能玩完一生的部分）
+// 一年一則。條件：齡[起,迄]、要{屬:至少}、低{屬:至多}、家[]、洲[]、勢[]、旗[]（都要有）、無[]（都不能有）、職[]、律（true 或某一律）、性。
+// 效：體智巧緣財（加減）、康（加減）、旗[]、去[]、職。情：喜／憂／平／大。星：自動標星。重：可以重複（日常）。
+// 擇：抉擇，停下來讓玩家選；選項可有 需{屬:至少}、判{屬, 難, 成{文,效}, 敗{文,效}}。
+// 世界設定沒定的事（遺跡用途、律素比例、地名、國界）不在這裡定案：遺跡只寫看得到的，地名用「灣口的小鎮」這種說法。
+
+const 洲表 = [
+  { 名: "中原洲", 勢: [["承鼎", 6], ["地方自治的縣", 2]], 地: ["河谷裡的村子", "丘陵上的鎮", "盆地裡的縣城", "大路邊的驛鎮"] },
+  { 名: "南濱洲", 勢: [["江潮", 6], ["獨立的港市", 2]], 地: ["河口的漁村", "海邊的港市", "丘陵上的茶村", "沙洲上的小鎮"] },
+  { 名: "西陲洲", 勢: [["沙陵", 6], ["山谷裡的小邦", 2]], 地: ["高地的牧村", "谷地的驛站", "盆地裡的城", "山口的關鎮"] },
+  { 名: "北岫洲", 勢: [["承鼎", 3], ["山原上的自治地", 4]], 地: ["山原上的林場", "谷地的村子", "依山的石城", "雪線下的獵村"] },
+  { 名: "鏡灣洲", 勢: [["江潮", 5], ["承鼎", 2]], 地: ["灣口的小鎮", "深灣邊的港口", "內灣的田莊", "河口的市集"] },
+  { 名: "東岬洲", 勢: [["江潮", 3], ["島邦", 3]], 地: ["半島上的漁港", "山海之間的村子", "外圍的小島", "岬角的燈塔鎮"] },
+];
+const 家表 = [
+  { 名: "佃農", 財: 1, 職: "農", 權: 5 }, { 名: "自耕農", 財: 3, 職: "農", 權: 6 }, { 名: "漁家", 財: 2, 職: "漁", 權: 3, 洲: ["南濱洲", "鏡灣洲", "東岬洲"] },
+  { 名: "牧戶", 財: 2, 職: "牧", 權: 3, 洲: ["西陲洲", "北岫洲"] }, { 名: "工匠", 財: 3, 職: "匠", 權: 4 }, { 名: "小商販", 財: 4, 職: "商", 權: 3 },
+  { 名: "商號", 財: 6, 職: "商", 權: 1 }, { 名: "讀書人家", 財: 4, 職: "讀", 權: 2 }, { 名: "小吏", 財: 5, 職: "吏", 權: 2 },
+  { 名: "大族旁支", 財: 7, 職: "讀", 權: 1 }, { 名: "流民", 財: 0, 職: null, 權: 2 }, { 名: "術工之家", 財: 5, 職: "匠", 權: 1, 律機: 0.35 },
+];
+const 姓表 = "林柳韓周沈葉江程蘇何許陸顧杜方孟白溫傅梁喬季姜薛夏衛邵鍾段石".split("");
+const 名表 = { 男: ["遠山", "青禾", "守拙", "長庚", "阿實", "子衡", "平安", "伯禮", "小滿", "承之", "懷遠", "石生", "望舒", "知行", "敬亭", "阿木"],
+  女: ["青蘿", "小滿", "雲岫", "阿禾", "素心", "晚晴", "照水", "采薇", "若蘭", "知微", "春生", "阿蕖", "月白", "靜姝", "細柳", "清和"] };
+const 律名 = ["土", "水", "火", "風"];
+
+// 天賦：開局從這裡照稀有度抽八張，挑三張。稀有度只是這個玩法的平衡，不是世界上的比例。
+// 效：體智巧緣加在資質上（練得快、頂也高）、財加家底、康加身子、旗、律。沒有效的天賦，作用寫在頁面的引擎裡（找「天(」）。效說：牌上那行小字。
+const 天賦表 = [
+  { id: "耐苦", 名: "耐苦", 說: "粗活累活都扛得住", 級: 1, 效: { 體: 1, 康: 5 }, 效說: "體魄資質 +1・身子 +5" },
+  { id: "好記性", 名: "好記性", 說: "聽過的事不容易忘", 級: 1, 效: { 智: 1 }, 效說: "聰慧資質 +1" },
+  { id: "手穩", 名: "手穩", 說: "拿針拿刀都不抖", 級: 1, 效: { 巧: 1 }, 效說: "手藝資質 +1" },
+  { id: "嘴甜", 名: "嘴甜", 說: "長輩都喜歡你", 級: 1, 效: { 緣: 1 }, 效說: "人緣資質 +1" },
+  { id: "識水性", 名: "識水性", 說: "掉進水裡也不怕", 級: 1, 效: { 旗: ["識水"] }, 效說: "不會落水，還能救人" },
+  { id: "吃得飽", 名: "胃口好", 說: "小時候不太生病", 級: 1, 效: { 康: 8 }, 效說: "身子 +8" },
+  { id: "早起", 名: "早起", 說: "天不亮就醒了", 級: 1, 效: {}, 效說: "體力上限 +6" },
+  { id: "節儉", 名: "省吃儉用", 說: "一文錢掰成兩半花", 級: 1, 效: {}, 效說: "每年生活費少兩成" },
+  { id: "熱鬧", 名: "愛熱鬧", 說: "哪裡有人就往哪裡去", 級: 1, 效: {}, 效說: "跟人來往，人緣多長三成" },
+  { id: "好眠", 名: "睡得香", 說: "頭一沾枕頭就睡著", 級: 1, 效: {}, 效說: "休息多回 10 體力" },
+  { id: "利落", 名: "腿腳利落", 說: "上山下坎都不喘", 級: 1, 效: {}, 效說: "練身體只花 12 體力" },
+  { id: "細心", 名: "細心", 說: "東西放在哪裡都記得", 級: 1, 效: {}, 效說: "學手藝多長一成半" },
+  { id: "膽大", 名: "膽大", 說: "夜路也敢一個人走", 級: 1, 效: {}, 效說: "冒險的事多一分把握・走鏢少受傷" },
+  { id: "孝順", 名: "孝順", 說: "家裡人都疼你", 級: 1, 效: {}, 效說: "陪家人，人緣和身子都多長一倍" },
+  { id: "過目不忘", 名: "過目不忘", 說: "書看一遍就記住", 級: 2, 效: { 智: 2 }, 效說: "聰慧資質 +2" },
+  { id: "力氣大", 名: "天生力氣", 說: "十歲就挑得動兩桶水", 級: 2, 效: { 體: 2 }, 效說: "體魄資質 +2" },
+  { id: "巧手", 名: "巧手", 說: "什麼東西到你手上都能修", 級: 2, 效: { 巧: 2 }, 效說: "手藝資質 +2" },
+  { id: "人緣", 名: "人見人親", 說: "走到哪裡都有人幫", 級: 2, 效: { 緣: 2 }, 效說: "人緣資質 +2" },
+  { id: "長壽相", 名: "長壽之相", 說: "算命的說你命長", 級: 2, 效: { 康: 15 }, 效說: "身子 +15" },
+  { id: "餘糧", 名: "家有餘糧", 說: "家裡比鄰居寬裕一點", 級: 2, 效: { 財: 2 }, 效說: "家底 +2" },
+  { id: "口才", 名: "好口才", 說: "吵架從來沒輸過", 級: 2, 效: { 智: 1, 緣: 1 }, 效說: "聰慧、人緣資質各 +1" },
+  { id: "精算", 名: "算盤精", 說: "心算比別人打算盤還快", 級: 2, 效: {}, 效說: "做買賣多收一成・做買賣的活工錢多一成半" },
+  { id: "讀書種子", 名: "讀書種子", 說: "先生說你是塊讀書的料", 級: 2, 效: {}, 效說: "考功名多 6 分" },
+  { id: "快手", 名: "手腳快", 說: "做活比別人快一倍", 級: 2, 效: {}, 效說: "上工的工錢多一成" },
+  { id: "少病", 名: "百病不侵", 說: "小病小痛很少找上你", 級: 2, 效: {}, 效說: "累過頭也少一半機會病倒" },
+  { id: "精力", 名: "精力旺盛", 說: "睡兩個時辰就夠了", 級: 2, 效: {}, 效說: "體力上限 +12" },
+  { id: "土律", 名: "土律適性", 說: "能感覺到石頭和泥土裡的律素", 級: 3, 效: { 律: "土" }, 效說: "可以修律、考術工學舍" },
+  { id: "水律", 名: "水律適性", 說: "能感覺到水流裡的律素", 級: 3, 效: { 律: "水" }, 效說: "可以修律、考術工學舍" },
+  { id: "火律", 名: "火律適性", 說: "能感覺到冷熱裡的律素", 級: 3, 效: { 律: "火" }, 效說: "可以修律、考術工學舍" },
+  { id: "風律", 名: "風律適性", 說: "能感覺到風裡的律素", 級: 3, 效: { 律: "風" }, 效說: "可以修律、考術工學舍" },
+  { id: "遺跡緣", 名: "遺跡緣", 說: "總會碰上古代留下的東西", 級: 3, 效: { 旗: ["遺跡緣"] }, 效說: "古代遺跡的事碰到的機會多三倍" },
+  { id: "逢凶化吉", 名: "逢凶化吉", 說: "大難常常不死", 級: 3, 效: { 旗: ["逢凶化吉"] }, 效說: "每年過世的機會少四成" },
+  { id: "晚成", 名: "大器晚成", 說: "年紀越大越開竅", 級: 3, 效: {}, 效說: "四十歲以後本事照樣長" },
+  { id: "筋骨", 名: "筋骨奇佳", 說: "骨架比同齡人大一圈", 級: 3, 效: { 體: 3 }, 效說: "體魄資質 +3" },
+  { id: "匠心", 名: "匠心", 說: "一件東西做三遍才放手", 級: 3, 效: { 巧: 3 }, 效說: "手藝資質 +3" },
+  { id: "玲瓏", 名: "八面玲瓏", 說: "跟誰都說得上話", 級: 3, 效: { 緣: 3 }, 效說: "人緣資質 +3" },
+  { id: "福星", 名: "福星", 說: "走到哪裡都沾一點好運", 級: 3, 效: {}, 效說: "一回裡碰到小事的機會多八成，壞事常常躲過" },
+  { id: "秘方", 名: "家傳秘方", 說: "家裡有一張治病的方子", 級: 3, 效: { 康: 8 }, 效說: "身子 +8・看大夫只要 20 文" },
+  { id: "貴人", 名: "貴人相助", 說: "命裡總有人提拔你", 級: 3, 效: {}, 效說: "出師、升掌櫃、升主簿要的年資少四成" },
+  { id: "大族", 名: "大族血脈", 說: "家族的名字在當地有分量", 級: 4, 效: { 財: 3, 緣: 1 }, 效說: "家底 +3・人緣資質 +1" },
+  { id: "早慧", 名: "早慧", 說: "三歲就會算帳", 級: 4, 效: { 智: 3 }, 效說: "聰慧資質 +3" },
+  { id: "百藝", 名: "百藝通", 說: "學什麼都比別人快一點", 級: 4, 效: { 體: 1, 智: 1, 巧: 1, 緣: 1 }, 效說: "四項資質各 +1" },
+];
+
+const 事件庫 = [
+  // ── 幼年 1～6 ──
+  { id: "幼-走路", 齡: [1, 2], 文: "你學會走路的那天，一跤摔進門口的水溝，哭得整條巷子都聽見。" },
+  { id: "幼-高燒", 齡: [1, 4], 文: "一場高燒，你燒了三天三夜，家裡人輪流守在床邊。", 效: { 康: -12 }, 情: "憂" },
+  { id: "幼-古事", 齡: [3, 6], 文: "你第一次聽大人講很久以前的事，說那時候的人能讓鐵船自己走。你問鐵怎麼會走，沒有人答得出來。", 效: { 智: 1, 旗: ["聽過古事"] } },
+  { id: "幼-趕集", 齡: [3, 6], 文: "你跟著家裡人去趕集，把一串糖葫蘆攥了一路，回家才捨得吃。", 情: "喜" },
+  { id: "幼-律顯", 齡: [2, 6], 律: true, 文: "你一哭，屋裡的{律象}就跟著亂。家裡人開始悄悄看你。", 效: { 旗: ["律顯"] }, 情: "大", 星: true },
+  { id: "幼-玩伴", 齡: [3, 6], 文: "隔壁家的孩子成了你的玩伴，你們在外頭瘋了一整個夏天。", 效: { 緣: 1, 旗: ["兒時玩伴"] }, 情: "喜" },
+  { id: "幼-漁船", 齡: [4, 6], 家: ["漁家"], 文: "爹把你抱上船，你第一次看見海原來那麼大。", 效: { 旗: ["識水"] } },
+  { id: "幼-作坊", 齡: [4, 6], 家: ["工匠", "術工之家"], 文: "你蹲在作坊角落，看了一整天木屑和火星怎麼飛。", 效: { 巧: 1 } },
+  { id: "幼-描紅", 齡: [4, 6], 家: ["讀書人家", "小吏", "大族旁支"], 文: "你被按在桌前描紅，墨汁抹了一臉。", 效: { 智: 1 } },
+  { id: "幼-野菜", 齡: [3, 6], 家: ["流民", "佃農"], 文: "家裡斷了糧，你跟著大人挖了半個月的野菜。", 效: { 體: 1, 康: -6 }, 情: "憂" },
+  { id: "幼-大雪", 齡: [3, 6], 洲: ["北岫洲"], 文: "雪下到窗台那麼高，一家人擠在一間屋裡過了一冬。" },
+  { id: "幼-颱風", 齡: [3, 6], 洲: ["南濱洲", "鏡灣洲", "東岬洲"], 文: "大風把屋頂掀了一角。你記得那晚的雨是橫著下的。", 情: "憂" },
+  { id: "幼-商隊", 齡: [3, 6], 洲: ["西陲洲"], 文: "商隊經過村口，牲口脖子上的鈴聲讓你追了半里路。" },
+  { id: "幼-河谷", 齡: [3, 6], 洲: ["中原洲"], 文: "春天河谷裡開滿了花，你在田埂上跑，跑到看不見家。" },
+  { id: "幼-牧", 齡: [4, 6], 家: ["牧戶"], 文: "你第一次自己趕羊回圈，少了一隻，哭著回去找，找到天黑。", 效: { 體: 1 } },
+
+  // ── 童年 7～12 ──
+  { id: "童-出路", 齡: [7, 9], 必: true, 文: "家裡人坐在燈下，商量你往後的出路。", 情: "大", 星: true, 擇: [
+    { 字: "去學舍念書", 文: "你被送進了學舍。第一天，先生讓你把名字寫了一百遍。", 效: { 智: 2, 財: -1, 旗: ["念過書"] }, 需: { 財: 2 } },
+    { 字: "跟家裡學手藝", 文: "你開始跟著家裡人學本事。手上的繭，是那一年長出來的。", 效: { 巧: 2, 旗: ["家學"] } },
+    { 字: "下田、幫家裡幹活", 文: "你天天跟著大人幹活，個子長得飛快。", 效: { 體: 2 } } ] },
+  { id: "童-打架", 齡: [7, 12], 文: "你和人打了一架，衣服扯破了，回家又挨了一頓罵。", 效: { 體: 1, 緣: -1 } },
+  { id: "童-先生誇", 齡: [8, 12], 旗: ["念過書"], 文: "先生說你的字寫得端正，把你的字貼在學舍的牆上。", 效: { 智: 1 }, 情: "喜" },
+  { id: "童-金屬片", 齡: [8, 12], 權: 1.2, 文: "你在河床撿到一塊刻滿細紋的金屬片，摸起來不冷也不熱。誰也說不出那是什麼。", 情: "大", 星: true, 擇: [
+    { 字: "留著", 文: "你把它藏在枕頭底下，有時候拿出來對著光看。", 效: { 旗: ["留古物"] } },
+    { 字: "賣給收舊貨的", 文: "收舊貨的翻來覆去看了很久，給了你一小串錢。", 效: { 財: 1 } },
+    { 字: "拿給先生或長輩看", 文: "長輩看了一晚，說這是「古時候的東西」，叫你別再去河床亂翻。", 效: { 智: 1, 旗: ["聽過古事"] } } ] },
+  { id: "童-律師", 齡: [7, 12], 律: true, 文: "一個懂{律}律的術師路過，握了一下你的手，說：「這孩子可以教。」", 效: { 旗: ["被看中"] }, 情: "大", 星: true },
+  { id: "童-算帳", 齡: [9, 12], 要: { 智: 4 }, 文: "你第一次幫家裡算帳，算錯了三文錢，偷偷用自己攢的錢補上。", 效: { 智: 1 } },
+  { id: "童-疫", 齡: [7, 12], 文: "疫病經過鎮上，家家戶戶門口掛了艾草。你們家的人都撐過來了。", 效: { 康: -6 }, 情: "憂" },
+  { id: "童-古塔", 齡: [9, 12], 文: "你和玩伴爬進一座廢棄的古塔，裡面有一排不會動的齒輪，比人還高。", 效: { 旗: ["見過遺跡"] }, 情: "大", 星: true },
+  { id: "童-狗", 齡: [7, 12], 文: "你撿回一隻小狗。牠後來跟了你很多年。", 效: { 旗: ["養狗"] }, 情: "喜" },
+  { id: "童-遠門", 齡: [9, 12], 家: ["小商販", "商號"], 文: "你跟著家裡跑了一趟貨，第一次走出{洲}的邊界。", 效: { 旗: ["出過遠門"], 智: 1 } },
+  { id: "童-落水", 齡: [7, 12], 無: ["識水"], 文: "你失足掉進河裡，被路過的人撈了上來，從此看見水就繞路。", 效: { 康: -8 }, 情: "憂" },
+  { id: "童-救人", 齡: [9, 12], 旗: ["識水"], 文: "有個孩子掉進水裡，你游過去把他拖上了岸。那家人送了你們一籃雞蛋。", 效: { 緣: 2 }, 情: "喜", 星: true },
+  { id: "童-說書", 齡: [8, 12], 文: "說書人在鎮上講了三天，說遠古的人住在會發光的塔裡。你蹲在最前面聽了三天。", 效: { 旗: ["聽過古事"] } },
+
+  // ── 少年 13～17 ──
+  { id: "少-定業", 齡: [13, 15], 必: true, 文: "你到了該定下來的年紀。", 情: "大", 星: true, 擇: [
+    { 字: "拜師學藝", 文: "你拜了一位師傅，從掃地挑水做起。", 效: { 巧: 2, 旗: ["學徒"], 職: "匠" } },
+    { 字: "進城謀個差事", 文: "你在城裡一家鋪子當伙計，學會了看人臉色，也學會了算帳。", 效: { 緣: 1, 財: 1, 旗: ["伙計"], 職: "商" } },
+    { 字: "繼續讀書", 文: "你把自己關在屋裡讀書，一讀就是好幾年。", 效: { 智: 2, 旗: ["讀書人"], 職: "讀" }, 需: { 智: 5 } },
+    { 字: "留在家裡", 文: "你留了下來，接過家裡的活。", 效: { 體: 1 } } ] },
+  { id: "少-喜歡", 齡: [13, 17], 文: "你第一次喜歡上一個人。那個人一直都不知道。" },
+  { id: "少-練律", 齡: [13, 17], 律: true, 文: "你偷偷練著讓{律象}聽話，成了一息，整個人坐倒在地上，喘了很久。", 效: { 旗: ["練律"], 康: -4 }, 星: true, 情: "大" },
+  { id: "少-嚴師", 齡: [14, 17], 旗: ["學徒"], 文: "師傅脾氣很壞，手藝卻是真的。你挨了一年的罵，學會了第一樣能拿出手的活。", 效: { 巧: 2 } },
+  { id: "少-旱", 齡: [13, 17], 文: "旱了一整年，河床裂成一塊一塊，米價漲到從沒見過的地步。", 效: { 財: -1, 康: -5 }, 情: "憂" },
+  { id: "少-修堤", 齡: [15, 17], 文: "官府來點丁，村裡的年輕人都被叫去修堤，你也去了。", 效: { 體: 1, 康: -4 } },
+  { id: "少-落榜", 齡: [15, 17], 旗: ["讀書人"], 低: { 智: 7 }, 文: "你去考了一場，沒考上。回家的路上，你一句話也沒說。", 情: "憂" },
+  { id: "少-中榜", 齡: [15, 17], 旗: ["讀書人"], 要: { 智: 8 }, 文: "你考上了，名字貼在縣城的牆上，家裡放了一串炮。", 效: { 旗: ["有功名"], 緣: 1 }, 情: "大", 星: true },
+  { id: "少-闖蕩", 齡: [16, 17], 文: "朋友約你一起去{遠方}闖蕩，說那邊工錢高。", 情: "大", 擇: [
+    { 字: "跟他走", 文: "你打了一個包袱，跟著朋友上了路。", 效: { 旗: ["離鄉"], 智: 1 } },
+    { 字: "留下來", 文: "你送他到村口。他回頭揮了揮手，就不見了。" } ] },
+  { id: "少-人緣", 齡: [13, 17], 要: { 緣: 6 }, 文: "鎮上誰家有事，都會來叫你一聲。", 效: { 緣: 1 }, 情: "喜" },
+  { id: "少-病", 齡: [13, 17], 低: { 體: 3 }, 文: "你又病了一場。大夫說你底子虛，要多吃少累。", 效: { 康: -8 }, 情: "憂" },
+  { id: "少-律考", 齡: [15, 17], 旗: ["被看中"], 文: "教你的術師說，城裡的術工學舍要開考核了。", 情: "大", 星: true, 擇: [
+    { 字: "去考", 文: "", 判: { 屬: "智", 難: 7, 成: { 文: "你考上了。學舍門口的石獅子，你摸了好幾遍。", 效: { 旗: ["術工學舍"], 職: "術" } }, 敗: { 文: "你沒考上。術師拍拍你的肩：「明年再來。」", 效: {} } } },
+    { 字: "不去", 文: "你沒有去。你覺得這本事放在家裡用，也夠了。" } ] },
+
+  // ── 成年 18～35 ──
+  { id: "成-婚事", 齡: [18, 26], 必: true, 文: "家裡替你說了一門親事。", 情: "大", 星: true, 擇: [
+    { 字: "答應", 文: "成親那天下著小雨。你記得對方掀開蓋頭時，比你還緊張。", 效: { 旗: ["成家"], 緣: 1 } },
+    { 字: "推掉，自己找", 文: "你推掉了。家裡人好幾個月沒給你好臉色。", 效: { 緣: -1, 旗: ["自主"] } },
+    { 字: "先立業，再成家", 文: "你說要先把日子過穩。家裡嘆了口氣，沒再提。", 效: { 財: 1 } } ] },
+  { id: "成-自找", 齡: [22, 32], 旗: ["自主"], 無: ["成家"], 文: "你遇上了一個說得來的人，兩個人沒怎麼商量，就把日子過到了一起。", 效: { 旗: ["成家"] }, 情: "喜", 星: true },
+  { id: "成-晚婚", 齡: [26, 34], 無: ["成家", "自主"], 文: "日子穩了以後，你成了家。", 效: { 旗: ["成家"] }, 情: "喜" },
+  { id: "成-得子", 齡: [19, 36], 旗: ["成家"], 文: "你有了第一個孩子。抱在手上，輕得不像一個人。", 效: { 旗: ["有子女"] }, 情: "喜", 星: true },
+  { id: "成-出師", 齡: [18, 24], 旗: ["學徒"], 文: "你出師了，開始自己接活。第一筆工錢，你拿去給師傅買了一壺酒。", 效: { 巧: 1, 財: 1, 旗: ["出師"] }, 情: "喜", 星: true },
+  { id: "成-術工", 齡: [18, 26], 旗: ["術工學舍"], 文: "你從術工學舍出來，第一份差事是替鍛坊控溫，一天下來手抖得拿不住碗。", 效: { 巧: 1, 財: 1, 旗: ["術工"] }, 星: true },
+  { id: "成-加稅", 齡: [20, 45], 文: "{勢}加了稅，你這一年多交了三成。", 效: { 財: -1 }, 情: "憂" },
+  { id: "成-借錢", 齡: [20, 40], 文: "老朋友來借錢，說三個月就還。", 擇: [
+    { 字: "借給他", 文: "你把攢下來的錢借了出去。", 效: { 財: -1, 旗: ["借出"] } },
+    { 字: "不借", 文: "你說手頭也緊。他點點頭走了，後來很少再來。", 效: { 緣: -1 } } ] },
+  { id: "成-還錢", 齡: [21, 45], 旗: ["借出"], 權: 0.6, 文: "那筆錢他還了，還多帶了一壺酒，說謝謝你那時候肯借。", 效: { 財: 1, 緣: 1, 去: ["借出"] }, 情: "喜" },
+  { id: "成-不還", 齡: [21, 45], 旗: ["借出"], 權: 0.6, 文: "那筆錢一直沒還。你們後來在街上遇見，都裝作沒看見。", 效: { 去: ["借出"] }, 情: "憂" },
+  { id: "成-劫道", 齡: [20, 45], 文: "你在山路上遇到劫道的，丟了一個月的工錢，人倒是沒事。", 效: { 財: -1 }, 情: "憂" },
+  { id: "成-遺跡", 齡: [20, 45], 權: 1, 文: "有人在山裡找到一處古代設施的入口，招人進去搬東西，給的錢比平常多三倍。", 情: "大", 星: true, 擇: [
+    { 字: "去", 文: "", 判: { 屬: "體", 難: 6, 成: { 文: "裡面很暗，牆上有你看不懂的符號。你搬出來三箱沒人認得的零件，領了一大筆錢。", 效: { 財: 2, 旗: ["進過遺跡"] } }, 敗: { 文: "走到一半，一扇門自己合上了。你被夾斷了兩根肋骨，拖了半年才好。", 效: { 康: -25, 旗: ["進過遺跡"] } } } },
+    { 字: "不去", 文: "你沒有去。聽說後來有人沒出來。" } ] },
+  { id: "成-徵役", 齡: [18, 35], 文: "邊上起了衝突，你被徵去運糧，走了三個月。", 效: { 體: 1, 康: -10, 旗: ["服過役"] }, 情: "憂" },
+  { id: "成-開鋪", 齡: [24, 45], 旗: ["伙計"], 要: { 財: 3 }, 文: "你攢夠了本錢，在{地}開了一間小鋪子。", 效: { 財: 2, 旗: ["開鋪"], 職: "商" }, 情: "大", 星: true },
+  { id: "成-江潮", 齡: [20, 45], 勢: ["江潮"], 文: "城裡的議會改了船稅，碼頭上的人吵了一個月，最後各讓一步。" },
+  { id: "成-承鼎", 齡: [20, 45], 勢: ["承鼎"], 文: "朝廷派來了新縣官。聽說是個清官，可是公文比從前多了一倍。" },
+  { id: "成-沙陵", 齡: [20, 45], 勢: ["沙陵"], 文: "幾個邦為了水源談判，商路停了一季，市集上的鹽貴了一半。", 效: { 財: -1 } },
+  { id: "成-島邦", 齡: [20, 45], 勢: ["島邦"], 文: "島上的長老們吵了一冬，最後決定跟外頭的大船隊立約。" },
+  { id: "成-大病", 齡: [25, 45], 文: "你大病一場，躺了兩個月，起來時瘦了一圈。", 效: { 康: -20 }, 情: "憂" },
+  { id: "成-衙門", 齡: [20, 35], 旗: ["有功名"], 文: "你在衙門裡謀了個差事，每天抄文書，抄到手腕發酸。", 效: { 財: 1, 旗: ["當差"], 職: "吏" } },
+  { id: "成-喝酒", 齡: [20, 35], 文: "你學會了喝酒，也學會了在不想說話的時候喝酒。" },
+  { id: "成-老人病", 齡: [28, 45], 文: "家裡的老人病了，請大夫要一大筆錢。", 情: "大", 擇: [
+    { 字: "賣東西請大夫", 文: "你賣了家裡最值錢的東西。老人多活了三年。", 效: { 財: -2, 緣: 1 } },
+    { 字: "自己照顧", 文: "你白天幹活、夜裡守著，整整一年沒睡過一個整覺。", 效: { 康: -12 } } ] },
+  { id: "成-大水", 齡: [20, 50], 洲: ["南濱洲", "鏡灣洲", "中原洲"], 文: "發了大水，你家的田淹了一半，水退了以後，泥有膝蓋那麼深。", 效: { 財: -1 }, 情: "憂" },
+  { id: "成-想遺跡", 齡: [25, 50], 旗: ["見過遺跡"], 文: "你常常想起小時候看見的那排齒輪，覺得它們像是在等誰。", 效: { 智: 1 } },
+  { id: "成-律工", 齡: [22, 45], 旗: ["術工"], 文: "你替人家修好了一件供律的器具，那家人說，你比從前那個師傅細心。", 效: { 巧: 1, 財: 1 } },
+  { id: "成-夜照明", 齡: [20, 45], 律: "火", 文: "鎮上請你在晚上點起一排火把。你點完最後一支，坐在台階上歇了很久。", 效: { 財: 1, 緣: 1 } },
+  { id: "成-引水", 齡: [20, 45], 律: "水", 文: "旱季裡，你幫鄰村把渠裡最後一點水引進田裡。村長送來一袋米。", 效: { 緣: 1 } },
+  { id: "成-土紋", 齡: [20, 45], 律: "土", 文: "你在車道上刻了土紋，貨車拉起來輕了一半。趕車的人都記住了你。", 效: { 財: 1, 緣: 1 } },
+  { id: "成-風帆", 齡: [20, 45], 律: "風", 文: "無風的日子，船家請你上船。你撐了一個時辰，船走了十里。", 效: { 財: 1 } },
+  { id: "成-離鄉安頓", 齡: [18, 26], 旗: ["離鄉"], 文: "你在{遠方}落了腳，租了一間只放得下一張床的屋子。", 效: { 旗: ["他鄉"] } },
+  { id: "成-想家", 齡: [20, 35], 旗: ["他鄉"], 文: "過年的時候，你在他鄉吃了一碗麵，想起家裡灶上的味道。", 情: "憂" },
+
+  // ── 中年 36～55 ──
+  { id: "中-收徒", 齡: [36, 55], 要: { 巧: 7 }, 文: "有個年輕人求你收他做徒弟，在門口站了一整天。", 擇: [
+    { 字: "收下", 文: "你收下了他。罵他的時候，你聽見了自己師傅的聲音。", 效: { 旗: ["有徒"], 緣: 1 } },
+    { 字: "不收", 文: "你讓他回去了。他走的時候，背挺得很直。" } ] },
+  { id: "中-子成家", 齡: [40, 55], 旗: ["有子女"], 文: "孩子成家了，搬去了另一條街。你常常繞路經過那裡。", 情: "喜" },
+  { id: "中-送友", 齡: [36, 55], 文: "你的一個老朋友過世了。你去送了他最後一程，回來喝了半夜的酒。", 情: "憂" },
+  { id: "中-置產", 齡: [38, 55], 要: { 財: 6 }, 文: "你在{地}置了一塊地，說是留給後人。", 效: { 財: -1, 旗: ["置產"] }, 情: "大", 星: true },
+  { id: "中-疫", 齡: [36, 55], 文: "一場疫病，你家熬過來了，隔壁那一家沒有。", 效: { 康: -10 }, 情: "憂" },
+  { id: "中-徒出師", 齡: [42, 60], 旗: ["有徒"], 文: "你的徒弟出師了，第一件活就做得比你年輕時好。你沒誇他，只多給了他一副工具。", 情: "喜", 星: true },
+  { id: "中-解古物", 齡: [36, 55], 旗: ["留古物"], 文: "你把小時候撿的那塊金屬片拿給一位學者看。他看了一夜，說可能是某種器件的一部分，別的什麼也說不準。", 效: { 旗: ["古物有人看過"] }, 情: "大", 星: true },
+  { id: "中-調停", 齡: [40, 55], 要: { 緣: 7 }, 文: "鄉里推你做了調停人，誰家吵架都來找你評理。", 效: { 緣: 1, 旗: ["調停人"] }, 星: true },
+  { id: "中-徵用", 齡: [40, 55], 文: "{勢}的官府要徵用一批人手去修路，點到了你家。", 擇: [
+    { 字: "自己去", 文: "你自己去了。路修好的時候，你的腰再也挺不直了。", 效: { 康: -12, 緣: 1 } },
+    { 字: "花錢請人代", 文: "你花了一筆錢請人代役。", 效: { 財: -1 } } ] },
+  { id: "中-鋪子", 齡: [36, 55], 旗: ["開鋪"], 文: "鋪子的生意起起落落，你學會了在好年頭多存一點。", 效: { 財: 1 } },
+  { id: "中-白髮", 齡: [40, 55], 文: "你在水盆裡看見自己的鬢角白了。" },
+  { id: "中-遠行", 齡: [36, 55], 文: "你出了一趟遠門，看見了{遠方}的海和山。回來以後，你說了一個月。", 效: { 智: 1, 旗: ["出過遠門"] }, 情: "喜" },
+
+  // ── 晚年 56～ ──
+  { id: "晚-孫", 齡: [56, 85], 旗: ["有子女"], 文: "孫子坐在你腿上，問你年輕時候的事。你講了很久，他早就睡著了。", 情: "喜", 星: true },
+  { id: "晚-分家", 齡: [60, 85], 旗: ["有子女"], 文: "你把家產分給孩子們。", 情: "大", 星: true, 擇: [
+    { 字: "平分", 文: "你分得一樣多。孩子們都沒說什麼，飯桌上卻安靜了好幾天。", 效: {} },
+    { 字: "多給最照顧你的那個", 文: "你多分了一份給最常回來看你的那個孩子。", 效: { 緣: -1 } },
+    { 字: "捐一份給學舍", 文: "你留了一份給鎮上的學舍。開學那天，先生在門口念了你的名字。", 效: { 財: -1, 旗: ["捐學"], 緣: 1 } } ] },
+  { id: "晚-夢", 齡: [60, 95], 文: "你夢見了小時候的{地}，夢裡的人都還年輕。" },
+  { id: "晚-牙", 齡: [62, 95], 文: "牙又掉了一顆。你笑著說，往後只能喝粥了。" },
+  { id: "晚-律老", 齡: [60, 95], 旗: ["術工"], 文: "你已經使不動律素了。手放在爐邊，只覺得暖。" },
+  { id: "晚-著書", 齡: [56, 85], 要: { 智: 7 }, 文: "你寫了一本小冊子，把這輩子學會的事都記了進去。", 效: { 旗: ["著書"] }, 情: "大", 星: true },
+  { id: "晚-老友", 齡: [58, 90], 旗: ["兒時玩伴"], 文: "兒時的玩伴來看你。你們兩個老人坐在門口，一個下午沒說幾句話，也不覺得悶。", 情: "喜" },
+  { id: "晚-狗", 齡: [56, 90], 旗: ["養狗"], 文: "你又養了一隻狗，跟小時候那隻長得有點像。" },
+
+  // ── 律素 ──
+  { id: "律-假片", 齡: [16, 65], 文: "市集上有人兜售便宜的術片，說是術工坊流出來的，只要平常一半的價錢。", 擇: [
+    { 字: "買一片", 文: "", 判: { 屬: "智", 難: 6, 成: { 文: "你翻來覆去看了紋路，認出是真的，撿了個便宜。", 效: { 財: -1, 片: "暖爐" } }, 敗: { 文: "拿回家一試，紋路是刻上去的，裡面什麼都沒有。", 效: { 財: -1 } } } },
+    { 字: "不買", 文: "你搖搖頭走開了。後來聽說買的人都上了當。" } ] },
+  { id: "律-求助", 齡: [18, 65], 律: true, 要: { 律: 3 }, 文: "夜裡有人敲門，說村口的井塌了半邊，有個孩子困在下面，求你用律素幫忙。", 情: "大", 擇: [
+    { 字: "去", 文: "", 判: { 屬: "律", 難: 6, 成: { 文: "你穩住了井壁，大家把孩子拉了上來。那一家人後來逢年過節都提著東西來看你。", 效: { 緣: 2, 律: 1 } }, 敗: { 文: "你撐了一會兒就撐不住，自己也被落石砸傷了。孩子是別人救上來的。", 效: { 康: -15, 律: 1 } } } },
+    { 字: "說自己做不到", 文: "你沒有去。那一夜你一直沒睡著。", 效: { 緣: -1 } } ] },
+  { id: "律-片壞", 齡: [12, 90], 旗: ["用過術片"], 權: 0.5, 文: "你把用壞的術片拆開來看，裡面的紋路細得像頭髮，一圈套著一圈。", 效: { 智: 1 } },
+];
+
+// 日常：沒有別的事的年份挑一句。條件：齡、職、洲、旗（都要有）、任（有一個就行）、無（都不能有）。
+// 句子可以用 {地}{洲}{遠方}{律象}。同一輩子先挑沒寫過的，都寫過了才挑十年內沒寫過的。
+const 日常庫 = [
+  { 齡: [1, 6], 文: ["你一天一天長大，衣服總是很快就短了。", "你學會了好幾句大人的話，常常用錯地方。", "你在門檻上坐著，看外面的人來來去去。",
+    "你發了一場燒，家裡人守了你兩夜。", "你學會自己穿鞋，雖然常常穿反。", "你第一次自己走到巷口，又自己走了回來。",
+    "你怕黑，晚上一定要有人陪著才睡得著。", "你跟著大人去了一趟市集，回來說了好幾天。", "你撿了一塊好看的石頭，藏在枕頭底下。",
+    "你學會數數，數到十就停下來重新數。", "你被狗追過一次，從此繞著那條巷子走。", "你最喜歡聽大人講從前的事，常常聽到一半就睡著了。"] },
+  { 齡: [7, 12], 文: ["這一年沒什麼大事，你又長高了一截。", "你幫家裡做了不少事，也偷懶了不少次。", "你和朋友們在外頭跑了一年。",
+    "你跟人打了一架，回家被罵得比打架還慘。", "你認得了幾十個字，看到招牌就要唸出來。", "你第一次替家裡跑腿，找回來的錢一文都沒少。",
+    "你在河邊玩水，被大人拎著耳朵帶回家。", "你打破了家裡的一只碗，偷偷埋在後院。", "你迷上了看人做活，一站就是半天。",
+    "你病了一個冬天，開春才又跑得動。", "你學會了爬樹，從樹上看得到很遠的地方。", "你交到一個很要好的朋友，兩個人什麼都一起做。"] },
+  { 齡: [13, 17], 文: ["你越來越少跟家裡人說心事了。", "這一年過得很快，快得你記不住做了什麼。", "你常常一個人走到{地}外頭，看路通到哪裡。",
+    "你開始在意別人怎麼看你。", "你跟家裡吵了一架，三天沒說話。", "你偷偷喜歡過一個人，誰也沒說。",
+    "你的力氣一下子大了，能做大人的活了。", "你第一次喝酒，喝完吐了一地。", "你把小時候的東西翻出來，送了一大半給鄰居的小孩。",
+    "你聽人說起{遠方}的事，心裡癢了很久。", "你夜裡睡不著，常常想自己以後會變成什麼樣的人。", "大人開始叫你做正事，你一半高興，一半不情願。"] },
+  { 齡: [18, 55], 文: ["日子一年一年過，沒什麼大事，也沒什麼不好。", "你打了一年的零工，什麼活都做過。", "這一年平平淡淡地過去了。",
+    "你搬了一次住處，才發現東西比想像的多。", "你跟一個老朋友斷了聯絡，也說不上為什麼。", "這一年米價漲了，你省吃儉用撐了過去。",
+    "你學會了一點算帳，不再被人騙。", "你去吃了一場喜酒，回來的路上想了很多。", "你幫鄰居修了屋頂，他們記了你很久的情。",
+    "這一年雨下得特別多，屋裡到處擺著接水的盆。", "你在路上遇到從前的熟人，站著聊到天黑。", "你送走了一位長輩，才發現自己已經不年輕了。",
+    "這一年過得很累，你也說不上是哪裡累。", "你攢了一點錢，又因為一點小事花掉了。", "你在市集上看人吵架，看完才想起自己要買什麼。"] },
+  { 齡: [56, 120], 文: ["你的腿腳不如從前，走一趟市集要歇好幾回。", "你在門口曬太陽，看著街上的年輕人。", "這一年你常常想起從前的事。",
+    "天冷的時候，你的老毛病又犯了。", "你的眼睛越來越花，穿針要請別人幫忙。", "你把年輕時的事說給小輩聽，他們只聽了一半。",
+    "你開始早睡早起，比雞還早。", "你去送了一個老朋友，回來在門口坐了一整個下午。", "你吃東西越來越慢，一碗飯要吃很久。",
+    "有人來問你從前的事，你記得比他們以為的清楚。", "你把家裡的事交給別人管，自己反倒閒不下來。", "你種了幾盆花，每天都要看一遍。",
+    "這幾年外頭變了很多，你有時候會認不出路。", "你睡得越來越少，夜裡常常醒著聽風。", "你把一些舊東西送了人，說留著也是放著。"] },
+
+  // 照職業
+  { 齡: [18, 55], 職: "農", 文: ["這一年收成還行，繳完該繳的還剩一點。", "雨水不多不少，你把田裡的活做完，就到了冬天。", "你換了一把新鋤頭，用起來比舊的順手。",
+    "蟲害來了一陣，你天天下田抓蟲。", "你學鄰居換了一種種子，收成好了一點。", "秋收那幾天，全家累得話都不想說。",
+    "你修好了田邊的水溝，下雨再也不怕淹。", "你坐在田埂上吃飯，看雲從山那頭過來。"] },
+  { 齡: [18, 55], 職: "漁", 文: ["出海的日子多，帶回來的魚也多。", "你補了一整個冬天的網。", "有一次風浪大，你在水上漂了一夜才回來。",
+    "這一年魚少，你常常空手回來。", "你換了一條新船，下水那天大家都來看。", "你學會看天色，比老漁夫說得還準。",
+    "你網到一條沒人認得的大魚，賣了好價錢。", "你曬了一院子的魚乾，整條街都聞得到。"] },
+  { 齡: [18, 55], 職: "牧", 文: ["羊群添了不少小羊。", "你趕著牲口換了一片草場。", "冬天凍死了幾隻羊，你心疼了很久。",
+    "狼來過一次，你守了三夜沒闔眼。", "你剪了一整季的毛，手都磨破了。", "你學會給牲口看病，附近的人都來找你。",
+    "草場被人佔了一角，你跟人理論了好幾回。", "你在高處搭了一個新棚子，夏天就住在那裡。"] },
+  { 齡: [18, 55], 職: "匠", 文: ["你接了不少活，手上的繭又厚了一層。", "你做壞了一件東西，賠了錢，也記住了教訓。", "你琢磨出一個省力的法子，自己高興了好幾天。",
+    "你做的東西被人誇了，嘴上說還好，心裡很得意。", "你的工具壞了一半，換新的花了不少錢。", "這一年活少，你把屋裡的東西全修了一遍。",
+    "有人拿來一件很舊的東西請你修，你修了一個月。", "你跟同行比了一次手藝，輸了，回去又練了一整年。"] },
+  { 齡: [18, 55], 職: "商", 文: ["生意不好不壞，你的算盤打得比從前快了。", "你跑了幾趟貨，認識了幾個新客人。", "有一筆帳收不回來，你只好認了。",
+    "你押對了一批貨，賺了一筆。", "路上不太平，你少跑了好幾趟。", "你學會了看人，誰會賴帳一眼就知道。",
+    "你跟老主顧喝了一次酒，談成了明年的生意。", "你的貨在路上淋了雨，賠了不少。"] },
+  { 齡: [18, 55], 職: "讀", 文: ["你讀了很多書，也替人寫了不少信。", "你在學舍教了一年的孩子。", "你抄了一部書，字比從前更穩。",
+    "你跟人爭一句書裡的話，爭了半個月。", "你替鄰里寫了好幾張契約，大家都信你。", "你讀到一本舊書，裡面記著你沒聽過的地方。",
+    "你熬夜讀書，眼睛有點不如從前。", "你寫了幾篇文章，自己讀了很多遍，沒給別人看。"] },
+  { 齡: [18, 55], 職: "吏", 文: ["衙門裡的事一件接一件，你學會了先做要緊的。", "你經手了一樁官司，回家想了好幾夜。", "上頭換了人，你的日子照舊。",
+    "你算了一整年的帳，一文都對得上。", "有人想託你辦事，你推了好幾次才推掉。", "你下鄉跑了一趟，鞋底都磨穿了。",
+    "你寫的公文被上頭退回來三次。", "公文裡多了一條新規矩，你照辦就是了。"] },
+  { 齡: [18, 55], 職: "術", 文: ["你又學會了一樣術紋的刻法。", "你替人做了幾件術片，每一件都比上一件穩。", "你練得太狠，躺了好幾天。",
+    "你刻錯了一道紋，整片材料只能丟掉。", "有人拿一塊舊術片來問你，你也看不懂。", "你的手越來越穩，刻紋時不用再屏住呼吸。",
+    "這一年材料貴，你接活接得很小心。", "你教了旁人一個小訣竅，對方高興得請你吃飯。"] },
+
+  // 照這輩子發生過的事
+  { 齡: [20, 70], 旗: ["成家"], 文: ["你跟另一半為了一點小事吵架，晚飯時又和好了。", "家裡添了幾樣東西，越來越像一個家。", "你們一起把屋子重新整理了一遍。",
+    "另一半病了一陣，你學會了自己煮飯。", "你們存了一點錢，商量了很久要拿來做什麼。", "夜裡你們常常說話說到很晚。"] },
+  { 齡: [22, 60], 旗: ["有子女"], 文: ["你在門框上刻了一道，記下孩子這一年長了多高。", "孩子病了一場，你整夜沒睡。", "你教孩子認字，自己也想起不少早忘了的。",
+    "孩子闖了禍，你去替孩子賠了不是。", "孩子問了你一個問題，你答不上來。", "你帶孩子爬上附近最高的地方，看了好一會兒。",
+    "為了孩子，你比從前更捨不得花錢。", "孩子跟你頂嘴，你想起自己小時候。"] },
+  { 齡: [58, 120], 旗: ["有子女"], 文: ["孫輩來看你，屋裡吵得你很開心。", "孩子們各有各的日子，你不想多問。", "孩子帶了好吃的回來，你只吃了一點，剩下的留著。",
+    "你把家裡的事一件一件交代給孩子。"] },
+  { 齡: [5, 60], 旗: ["養狗"], 文: ["你的狗又胖了一圈。", "狗跟著你走遍了附近的每一條路。", "狗老了，常常趴在門口等你回來。"] },
+  { 齡: [18, 90], 任: ["離鄉", "他鄉"], 文: ["你收到一封家書，讀了好幾遍。", "你在外地過節，吃不到家裡的味道。", "街上有人說話的口音跟家鄉一樣，你跟著那人走了半條街。",
+    "你想回{地}看看，又覺得回去也不知道要說什麼。", "你在外頭交了幾個朋友，都跟你一樣離家很遠。"] },
+  { 齡: [18, 90], 任: ["讀書人", "念過書"], 文: ["你閒下來就翻幾頁書，覺得心裡比較靜。", "鄰居拿信來請你念，你念得很慢，怕念錯。", "你在牆上寫了幾個字，自己看了很久。"] },
+  { 齡: [20, 75], 旗: ["開鋪"], 文: ["鋪子的生意時好時壞，你天天照樣開門。", "你給鋪子換了一塊新招牌。", "鋪子裡來了個怪客人，買了東西一句話也沒說就走了。",
+    "你在鋪子後頭隔出一間小屋，常常就睡在那裡。"] },
+  { 齡: [25, 80], 旗: ["有徒"], 文: ["你的徒弟學得慢，你罵了很多次，也教了很多次。", "徒弟做出一件像樣的東西，你嘴上沒說什麼。", "你把一個訣竅教給徒弟，教完有點捨不得。"] },
+  { 齡: [13, 25], 旗: ["學徒"], 無: ["出師"], 文: ["師傅今天心情好，多教了你一手。", "你每天最早起來掃地生火，最晚才睡。", "你偷偷練到半夜，手上起了好幾個水泡。"] },
+  { 齡: [18, 80], 任: ["術工", "術工學舍"], 文: ["學舍裡見過的那些紋路，有時候會在夢裡出現。", "有人知道你學過術工，拿東西來請你看。"] },
+  { 齡: [15, 100], 任: ["見過遺跡", "進過遺跡"], 文: ["你偶爾會想起遺跡裡那些看不懂的符號。", "有人說遺跡那邊又有動靜，你聽了半天沒出聲。", "你夢見自己又走進那道牆後面，醒來時天還沒亮。"] },
+  { 齡: [18, 57], 旗: ["兒時玩伴"], 文: ["你遇見小時候一起玩的人，兩個人都老了不少。", "兒時的玩伴託人帶了點東西給你。"] },
+  { 齡: [8, 80], 旗: ["有律"], 文: ["你有時候會盯著{律象}看很久，旁人不知道你在看什麼。", "你感覺得到身上的律素又穩了一點。", "你不太跟人說你感覺得到律素的事。"] },
+
+  // 照出生的洲
+  { 齡: [7, 110], 洲: "中原洲", 文: ["大路上來來往往的車馬比往年多。", "起了大霧，好幾天看不見對面的山。", "縣裡貼出新的告示，大家圍著看了半天。"] },
+  { 齡: [7, 110], 洲: "南濱洲", 文: ["潮水比往年高，岸邊的石階淹掉了一層。", "夏天來了一場大風，屋頂掀了一角。", "港邊來了外地的船，大家都跑去看。"] },
+  { 齡: [7, 110], 洲: "西陲洲", 文: ["風沙大的那幾天，你把門窗都封了起來。", "商隊經過的時候，整個地方都熱鬧起來。", "高地的夜裡很冷，你學會了生一整夜的火。"] },
+  { 齡: [7, 110], 洲: "北岫洲", 文: ["雪來得早，你們提前把柴堆滿。", "山上的林子砍掉了一片，你看著覺得空。", "冬天太長，你數著日子等開春。"] },
+  { 齡: [7, 110], 洲: "鏡灣洲", 文: ["灣裡的水很平，你常坐在岸邊發呆。", "灣口來了幾艘從外洲來的船。", "灣邊的市集比往年熱鬧。"] },
+  { 齡: [7, 110], 洲: "東岬洲", 文: ["夜裡看得見遠處燈塔的光，一圈一圈地轉。", "島和島之間的船停了好幾天，大家都在等風停。", "海霧一來，整個岬角都看不見。"] },
+];
+
+// 死因：照年紀挑一句。
+const 死因 = [
+  { 齡: [0, 6], 文: ["那年冬天特別冷，你沒能撐過去。", "一場急病，你還不到能記事的年紀，就走了。"] },
+  { 齡: [7, 39], 文: ["一場急病帶走了你，來得太快，什麼都來不及。", "你在路上出了意外，再也沒有回來。", "那年的疫病沒有放過你。"] },
+  { 齡: [40, 69], 文: ["你積勞成疾，在一個秋天走了。", "一場大病，你沒有再起來。", "你在睡夢中走了，家裡人第二天早上才發現。"] },
+  { 齡: [70, 200], 文: ["你在睡夢中走了，很安靜。", "你在一個晴天的午後闔上了眼，手邊還放著半碗茶。", "你走的那天，屋外的樹剛發芽。"] },
+];
+
+// ════════════ 養成：一年十二回 ════════════
+// 這些事件改成自己動手做（上學堂、拜師、考功名、開鋪子、買地……），年底不再自己發生。
+const 改由行動 = ["童-出路", "少-定業", "少-落榜", "少-中榜", "少-律考", "成-出師", "成-術工", "成-開鋪", "成-衙門", "中-置產"];
+
+// 工作：上工一回拿一回的工錢。需：本事門檻（本事是 0～100）。要旗：要先有的記號（或旗有了就不看需；或家：這些出身也進得去）。
+// 升：做滿幾回、本事到了，年底升上去。險：每回受傷的機會。隱：平常不列出來（升上去或自己開的才有）。
+const 工表 = [
+  { id: "零工", 名: "打零工", 職: null, 齡: [12, 65], 薪: [10, 16], 長: { 體: 1.2 }, 體力: 14, 說: "什麼活都做，工錢少" },
+  { id: "學徒", 名: "當學徒", 職: "匠", 齡: [12, 24], 需: { 巧: 20 }, 薪: [2, 5], 長: { 巧: 3.6, 體: 0.6 }, 體力: 14, 旗: ["學徒"], 說: "工錢很少，手藝長得快；做滿三年、手藝到 50 就出師",
+    升: { 資: 36, 需: { 巧: 50 }, 到: "工匠", 旗: ["出師"], 文: "你出師了，開始自己接活。第一筆工錢，你拿去給師傅買了一壺酒。" } },
+  { id: "工匠", 名: "做工匠", 職: "匠", 齡: [16, 72], 需: { 巧: 65 }, 或旗: "出師", 薪: [28, 46], 長: { 巧: 1.4 }, 體力: 14, 說: "出了師，或手藝夠好" },
+  { id: "伙計", 名: "當伙計", 職: "商", 齡: [13, 45], 需: { 緣: 25, 智: 20 }, 薪: [14, 24], 長: { 緣: 1.6, 智: 1 }, 體力: 12, 旗: ["伙計"], 說: "看人臉色、學算帳；做滿四年、聰慧人緣到 50 就當掌櫃",
+    升: { 資: 48, 需: { 智: 50, 緣: 50 }, 到: "掌櫃", 旗: ["掌櫃"], 文: "東家把櫃上的鑰匙交給了你，從今天起你是掌櫃。" } },
+  { id: "掌櫃", 名: "當掌櫃", 職: "商", 齡: [20, 72], 需: { 智: 60, 緣: 60 }, 薪: [45, 70], 長: { 智: 1, 緣: 1 }, 體力: 10, 說: "管一間鋪子的進出" },
+  { id: "塾師", 名: "教蒙學", 職: "讀", 齡: [18, 80], 需: { 智: 55 }, 薪: [20, 34], 功名倍: 1.6, 長: { 智: 1.2, 緣: 0.6 }, 體力: 8, 說: "教孩子認字；有功名的束脩多" },
+  { id: "書吏", 名: "在衙門當書吏", 職: "吏", 齡: [18, 60], 需: { 智: 50 }, 要旗: "有功名", 或家: ["小吏"], 薪: [34, 52], 長: { 智: 1.2, 緣: 0.4 }, 體力: 10, 旗: ["當差"], 說: "要有功名（小吏人家的孩子也進得去）",
+    升: { 資: 60, 需: { 智: 65, 緣: 45 }, 到: "主簿", 旗: ["主簿"], 文: "上頭點了你做主簿，衙門裡的人見了你都改了口。" } },
+  { id: "主簿", 名: "做主簿", 職: "吏", 齡: [22, 68], 要旗: "主簿", 隱: true, 薪: [60, 88], 長: { 智: 0.8, 緣: 0.8 }, 體力: 10, 說: "管一縣的文書" },
+  { id: "鏢師", 名: "走鏢", 職: "鏢", 齡: [18, 50], 需: { 體: 55 }, 薪: [40, 66], 長: { 體: 1.4 }, 體力: 24, 險: 0.06, 旗: ["走過鏢"], 說: "工錢高，會受傷" },
+  { id: "術工", 名: "做術工", 職: "術", 齡: [16, 68], 需: { 律: 50 }, 要旗: "術工學舍", 薪: [60, 96], 長: { 律: 1.2, 巧: 0.8 }, 體力: 18, 旗: ["術工"], 說: "要先考進術工學舍" },
+  { id: "鋪子", 名: "顧自己的鋪子", 職: "商", 齡: [18, 85], 要旗: "開鋪", 隱: true, 薪: null, 長: { 緣: 0.8, 智: 0.8 }, 體力: 12, 說: "賺多少看你的本事和運氣" },
+];
+// 家裡的活：照出身。
+const 家業表 = {
+  農: { 名: "種家裡的田", 薪: [12, 22], 長: { 體: 1.4 }, 體力: 18 },
+  漁: { 名: "跟家裡出海打漁", 薪: [14, 26], 長: { 體: 1.5 }, 體力: 20, 險: 0.02 },
+  牧: { 名: "幫家裡放牧", 薪: [12, 22], 長: { 體: 1.2, 緣: 0.3 }, 體力: 16 },
+  匠: { 名: "在家裡的作坊做活", 薪: [10, 20], 長: { 巧: 1.6 }, 體力: 12 },
+  商: { 名: "顧家裡的攤子", 薪: [12, 22], 長: { 緣: 1, 智: 0.8 }, 體力: 10 },
+  讀: { 名: "替人抄書寫信", 薪: [10, 18], 需: { 智: 30 }, 長: { 智: 1.2 }, 體力: 8 },
+  吏: { 名: "在衙門跑腿", 薪: [12, 20], 長: { 緣: 1, 智: 0.6 }, 體力: 12 },
+};
+
+// 一回裡碰巧遇到的小事（每回約一成機會）。效是直接加減：本事 0～100、錢（文）、體力、康。
+const 小事庫 = [
+  { 動: ["上學堂", "自己讀書"], 文: "先生點你起來背書，你一字不差。", 效: { 智: 2 } },
+  { 動: ["上學堂"], 文: "你在學舍打瞌睡，被先生用戒尺敲了手心。", 效: { 體力: -5 } },
+  { 動: ["上學堂"], 文: "同窗借了你一枝筆，後來一直沒還。", 效: {} },
+  { 動: ["自己讀書"], 文: "你借到一本難找的書，熬了兩夜讀完。", 效: { 智: 3, 體力: -10 } },
+  { 動: ["聽人講古"], 文: "講古的人說，遠古的人能在天上飛。你聽得張大了嘴。", 效: { 旗: ["聽過古事"] } },
+  { 動: ["練身體"], 文: "你練得太猛，扭傷了腳踝。", 效: { 體力: -15, 康: -3 } },
+  { 動: ["練身體"], 文: "你一口氣挑了兩擔水上坡，自己都嚇了一跳。", 效: { 體: 2 } },
+  { 動: ["學手藝"], 文: "你做壞了一件東西，拆開重來，反倒看懂了竅門。", 效: { 巧: 2 } },
+  { 動: ["學手藝"], 文: "刀子一滑，手指劃了一道口子。", 效: { 康: -2, 體力: -5 } },
+  { 動: ["修律"], 文: "{律象}在你手邊安安靜靜地聽了一會兒話。", 效: { 律: 3 } },
+  { 動: ["修律"], 文: "律素反衝回來，你眼前黑了好一陣。", 效: { 康: -4, 體力: -10 } },
+  { 動: ["上工"], 文: "東家這回多給了你一點工錢。", 效: { 錢: 10 } },
+  { 動: ["上工"], 文: "活做到一半出了差錯，被扣了工錢。", 效: { 錢: -8 } },
+  { 動: ["上工"], 文: "一起做活的人教了你一個省力的法子。", 效: { 體力: 8 } },
+  { 動: ["上工", "幫家裡做事"], 文: "你在路上撿到幾文錢，等了半天沒人來找。", 效: { 錢: 5 } },
+  { 動: ["幫家裡做事"], 文: "大人誇你能幹，多給了你兩文零用。", 效: { 錢: 2 } },
+  { 動: ["跟人來往"], 文: "你認識了一個談得來的人，聊到很晚。", 效: { 緣: 2 } },
+  { 動: ["跟人來往"], 文: "你說錯了一句話，得罪了人，回家想了半天。", 效: { 緣: -2 } },
+  { 動: ["陪家人"], 文: "家裡人做了你愛吃的菜。", 效: { 體力: 10 } },
+  { 動: ["陪家人"], 文: "你們說起從前的事，笑了一整個晚上。", 效: { 緣: 1 } },
+  { 動: ["休息"], 文: "你睡了一整天，醒來覺得整個人輕了。", 效: { 體力: 10 } },
+  { 動: ["做買賣"], 文: "路上下了大雨，貨濕了一半。", 效: { 錢: -30 } },
+  { 動: ["做買賣"], 文: "一個老客人多訂了一批貨。", 效: { 錢: 30 } },
+  { 動: ["*"], 文: "天氣很好，你做完事還在河邊坐了一會兒。", 效: { 體力: 5 } },
+  { 動: ["*"], 文: "下了一場大雨，你淋得一身濕。", 效: { 體力: -6 } },
+];
+
+// ════════════ 律素 ════════════
+// 律術境界：律術到這個數，蓋一方印。境界越高，接得到的律活越大。
+const 律境 = [[20, "感知", "你第一次能清楚感覺到{律象}裡的律素在動，閉上眼也找得到。"], [40, "控制", "{律象}開始聽你的話，要它往哪裡去，它就往哪裡去一點。"],
+  [60, "穩定", "你能把律素穩穩收在手裡，一整個時辰都不散。"], [80, "精細", "你能只動{律象}裡最細的那一縷，旁邊的一絲都不碰。"]];
+// 律活：照自己的律和律術接活（施術用的是同一份體力）。需：律術門檻。地：舞台畫在哪裡。用途照世界設定舉的例子（鍛造控溫、點火把、土紋運輸）往外推，都是局部的工藝。
+const 律活表 = {
+  火: [{ 需: 20, 名: "替人點火把", 薪: [14, 24], 地: "市集" }, { 需: 40, 名: "替鍛坊控溫", 薪: [32, 50], 地: "作坊" }, { 需: 60, 名: "替窯場看火", 薪: [55, 85], 地: "術坊" }],
+  水: [{ 需: 20, 名: "替人找水脈", 薪: [14, 24], 地: "田" }, { 需: 40, 名: "替鄰村引渠灌田", 薪: [32, 50], 地: "田" }, { 需: 60, 名: "替染坊調水", 薪: [55, 85], 地: "碼頭" }],
+  土: [{ 需: 20, 名: "在車道上刻土紋", 薪: [14, 24], 地: "大路" }, { 需: 40, 名: "替碼頭穩石岸", 薪: [32, 50], 地: "碼頭" }, { 需: 60, 名: "替官府修橋墩", 薪: [55, 85], 地: "大路" }],
+  風: [{ 需: 20, 名: "替人揚場吹穀", 薪: [14, 24], 地: "田" }, { 需: 40, 名: "替船家撐帆", 薪: [32, 50], 地: "海邊" }, { 需: 60, 名: "替鍛坊鼓風", 薪: [55, 85], 地: "作坊" }],
+};
+const 律活精 = { 需: 80, 名: "替術工坊試新術片", 薪: [90, 130], 地: "術坊" };
+// 術片：現成的術片誰都能買來用，用久了會壞（年：能用幾年；次：能用幾回）。有律、律術 50、手藝 40、考進過術工學舍的人可以自己做。
+const 術片表 = [
+  { id: "暖爐", 名: "暖爐片", 律: "火", 價: 120, 年: 2, 說: "冬天屋裡暖和，每年身子多留 2" },
+  { id: "引火", 名: "引火片", 律: "火", 價: 140, 年: 2, 說: "點燈不費事（燈油另買），讀書、學手藝多長兩成" },
+  { id: "濾水", 名: "濾水片", 律: "水", 價: 100, 年: 3, 說: "水喝得乾淨，累過頭少四成病倒" },
+  { id: "車板", 名: "土紋車板", 律: "土", 價: 150, 次: 40, 說: "搬運省力，粗活上工少花 5 體力" },
+  { id: "鼓風", 名: "鼓風片", 律: "風", 價: 180, 次: 40, 說: "爐火旺，做手藝的活工錢多一成半" },
+  { id: "護身", 名: "護身片", 律: "土", 價: 140, 年: 3, 說: "做活受傷、施術反衝都傷得輕一半" },
+];
+</script>
+<script>// 環澤一生｜舞台
+// 這一回你在哪裡、在做什麼：景是積木拼的，人是紙偶。積木和紙偶從《環澤七州》養成版的舞台改過來。
+// 這個檔只管畫（回傳 HTML／SVG 字串），不碰引擎；頁面決定什麼時候畫、畫哪一個地方。
+const 一生舞台 = (function () {
+  "use strict";
+  const esc = (x) => String(x == null ? "" : x).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const G = 140;                                   // 地線。景圖是 400 寬，看得到的是 y 30～180（地線在下面四分之一）
+  const r1 = (n) => Math.round(n * 10) / 10;
+  const 雜 = (s) => { let h = 7; for (const c of String(s)) h = (Math.imul(h, 31) + c.charCodeAt(0)) >>> 0; return h; };
+
+  // ---------- 積木（多半照七州） ----------
+  const 頂 = (x, y, w, 簷, 高) => {
+    簷 = 簷 == null ? 9 : 簷; 高 = 高 || 14;
+    return `<path class="屋頂" d="M${x - 簷} ${y} C${r1(x - 簷 * 0.2)} ${y - 1} ${r1(x + 簷 * 0.4)} ${r1(y - 高 * 0.5)} ${x + 簷} ${y - 高} L${x + w - 簷} ${y - 高} C${r1(x + w - 簷 * 0.4)} ${r1(y - 高 * 0.5)} ${r1(x + w + 簷 * 0.2)} ${y - 1} ${x + w + 簷} ${y} Z"/><rect class="脊" x="${x + 簷 - 2}" y="${y - 高 - 3}" width="${w - 簷 * 2 + 4}" height="3.4" rx="1"/>`;
+  };
+  const 匾 = (cx, y, 字) => { const w = 字.length * 11 + 8; return `<rect class="匾" x="${r1(cx - w / 2)}" y="${y}" width="${w}" height="13" rx="1.5"/><text class="匾字" x="${cx}" y="${y + 10}">${esc(字)}<\/text>`; };
+  function 屋(x, w, h, o) {
+    o = o || {};
+    const y = G - h, 窗y = y + Math.min(14, h * 0.28);
+    let s = `<rect class="牆" x="${x}" y="${y}" width="${w}" height="${h}"/>`;
+    if (o.開) s += `<rect class="暗" x="${x + 8}" y="${y + 10}" width="${w - 16}" height="${h - 10}"/>`;
+    if (o.柱) for (let i = 0; i <= o.柱; i++) s += `<rect class="木" x="${r1(x + (w - 4) * i / o.柱)}" y="${y}" width="4" height="${h}"/>`;
+    if (o.門) s += `<rect class="門" x="${r1(x + w / 2 - 9)}" y="${G - 28}" width="18" height="28"/><path class="格" d="M${r1(x + w / 2)} ${G - 28} v28"/>`;
+    for (const wx of o.窗 || []) s += `<rect class="窗" x="${x + wx}" y="${r1(窗y)}" width="16" height="14"/><path class="格" d="M${x + wx + 8} ${r1(窗y)} v14 M${x + wx} ${r1(窗y + 7)} h16"/>`;
+    s += 頂(x, y, w, o.簷, o.脊 || Math.max(12, w * 0.09));
+    if (o.匾) s += 匾(x + w / 2, y + 3, o.匾);
+    return s;
+  }
+  const 圍牆 = (x, w, h) => `<rect class="牆" x="${x}" y="${G - (h || 22)}" width="${w}" height="${h || 22}"/><rect class="脊" x="${x}" y="${G - (h || 22) - 3}" width="${w}" height="3.4"/>`;
+  const 幌 = (x, 字, h) => { h = h || 70; return `<path class="木線" d="M${x} ${G} V${G - h}"/><rect class="幌" x="${x + 1}" y="${G - h + 2}" width="13" height="${字.length * 12 + 6}"/>${[...字].map((c, i) => `<text class="幌字" x="${x + 7.5}" y="${G - h + 14 + i * 12}">${esc(c)}<\/text>`).join("")}`; };
+  function 城牆(x, w, h, 門) {
+    let s = `<rect class="城" x="${x}" y="${G - h}" width="${w}" height="${h}"/>`;
+    for (let i = x; i < x + w - 4; i += 12) s += `<rect class="城" x="${i}" y="${G - h - 5}" width="7" height="5"/>`;
+    for (let j = G - h + 12; j < G - 4; j += 12) s += `<path class="磚" d="M${x} ${j} h${w}"/>`;
+    if (門 != null) s += `<path class="門洞" d="M${門 - 20} ${G} V${G - 34} a20 20 0 0 1 40 0 V${G} Z"/>`;
+    return s;
+  }
+  const 攤 = (x, w, 色) => `<path class="木線" d="M${x + 3} ${G} V${G - 40} M${x + w - 3} ${G} V${G - 40}"/><path class="篷 ${色 || ""}" d="M${x - 4} ${G - 36} L${x + 6} ${G - 50} H${x + w - 6} L${x + w + 4} ${G - 36} Z"/><rect class="木" x="${x}" y="${G - 16}" width="${w}" height="5"/><path class="木線" d="M${x + 4} ${G - 11} V${G} M${x + w - 4} ${G - 11} V${G}"/>`;
+  const 袋堆 = (x, n, y) => { y = y == null ? G : y; let s = ""; const 列 = [[0, 0], [15, 0], [30, 0], [7, -10], [22, -10], [14, -20]]; for (let i = 0; i < Math.min(n, 6); i++) s += `<rect class="袋" x="${x + 列[i][0]}" y="${y - 10 + 列[i][1]}" width="15" height="10" rx="3"/>`; return s; };
+  const 箱 = (x, w, h, y) => { w = w || 16; h = h || 12; y = y == null ? G : y; return `<rect class="木" x="${x}" y="${y - h}" width="${w}" height="${h}"/><path class="格" d="M${x} ${r1(y - h / 2)} h${w}"/>`; };
+  const 船 = (x, w, y, 篷) => { y = y == null ? G + 16 : y; return `<path class="船" d="M${x} ${y - 8} Q${r1(x + w / 2)} ${y + 6} ${x + w} ${y - 8} L${x + w - 8} ${y} H${x + 8} Z"/>${篷 === false ? "" : `<path class="篷" d="M${r1(x + w * 0.3)} ${y - 8} q${r1(w * 0.2)} -14 ${r1(w * 0.4)} 0 Z"/>`}`; };
+  const 樹 = (x, h, 松) => { h = h || 46; return 松
+    ? `<path class="木線 粗" d="M${x} ${G} V${G - h}"/><path class="葉" d="M${x - 14} ${r1(G - h * 0.45)} L${x} ${r1(G - h * 0.8)} L${x + 14} ${r1(G - h * 0.45)} Z M${x - 11} ${r1(G - h * 0.7)} L${x} ${G - h - 6} L${x + 11} ${r1(G - h * 0.7)} Z"/>`
+    : `<path class="木線 粗" d="M${x} ${G} V${r1(G - h * 0.6)}"/><ellipse class="葉" cx="${x}" cy="${r1(G - h * 0.75)}" rx="${r1(h * 0.32)}" ry="${r1(h * 0.3)}"/><ellipse class="葉 淺" cx="${r1(x - h * 0.16)}" cy="${r1(G - h * 0.82)}" rx="${r1(h * 0.16)}" ry="${r1(h * 0.14)}"/>`; };
+  const 棚 = (x, w, h) => { h = h || 34; return `<path class="木線" d="M${x + 3} ${G} V${G - h} M${x + w - 3} ${G} V${G - h + 6}"/><path class="蘆頂" d="M${x - 5} ${G - h + 2} L${r1(x + w * 0.3)} ${G - h - 9} L${x + w + 5} ${G - h + 8} Z"/>`; };
+  function 櫃(x, w, h, 欄, 列) {
+    let s = `<rect class="木" x="${x}" y="${G - h}" width="${w}" height="${h}"/>`;
+    const cw = w / 欄, ch = (h - 4) / 列;
+    for (let i = 0; i < 欄; i++) for (let j = 0; j < 列; j++) s += `<rect class="屜" x="${r1(x + i * cw + 1.2)}" y="${r1(G - h + 3 + j * ch)}" width="${r1(cw - 2.4)}" height="${r1(ch - 2)}"/>`;
+    return s;
+  }
+  const 燈籠 = (x, y) => `<path class="木線" d="M${x} ${y - 8} V${y}"/><ellipse class="燈" cx="${x}" cy="${y + 6}" rx="5" ry="6.5"/><path class="木線" d="M${x} ${y + 12.5} v4"/>`;
+  const 井 = (x) => `<rect class="石" x="${x}" y="${G - 10}" width="20" height="10" rx="1"/><path class="木線" d="M${x + 2} ${G - 10} V${G - 26} H${x + 18} V${G - 10}"/>`;
+  const 石獅 = (x) => `<rect class="石" x="${x}" y="${G - 8}" width="14" height="8"/><path class="石" d="M${x + 2} ${G - 8} v-9 a5 5 0 0 1 10 0 v9 Z"/><circle class="石" cx="${x + 7}" cy="${G - 20}" r="4.2"/>`;
+  const 桌 = (x, w, h) => { h = h || 12; return `<rect class="木" x="${x}" y="${G - h}" width="${w}" height="3.5"/><path class="木線" d="M${x + 3} ${G - h + 3} V${G} M${x + w - 3} ${G - h + 3} V${G}"/>`; };
+  const 煙 = (x, y) => `<path class="煙" d="M${x} ${y} q-5 -8 0 -15 q5 -7 0 -15"/><path class="煙 慢" d="M${x + 6} ${y - 2} q-4 -7 0 -13 q4 -6 0 -12"/>`;
+  const 爐 = (x) => `<path class="鐵" d="M${x} ${G} l2 -12 h14 l2 12 Z"/><rect class="鐵" x="${x + 3}" y="${G - 17}" width="12" height="5" rx="2"/>${煙(x + 9, G - 18)}`;
+  const 水面 = (x1, x2, y) => { y = y == null ? G : y; const n = Math.max(1, Math.floor((x2 - x1 - 24) / 16));
+    return `<rect class="水" x="${x1}" y="${y}" width="${x2 - x1}" height="${200 - y}"/>${[9, 22, 38].map((d, i) => `<path class="浪 浪${i}" d="M${x1 + 6 + i * 7} ${y + d} ${Array.from({ length: Math.max(1, n - i) }, () => "q4 -3 8 0 t8 0").join(" ")}"/>`).join("")}`; };
+  const 棧 = (x, w, y) => { y = y == null ? G : y; let s = `<rect class="木" x="${x}" y="${y - 3}" width="${w}" height="5"/>`; for (let i = x + 6; i < x + w; i += 22) s += `<path class="木線 粗" d="M${i} ${y + 2} V${y + 26}"/>`; return s; };
+  const 階 = (x, w, n) => { n = n || 3; let s = ""; for (let i = 0; i < n; i++) s += `<rect class="石" x="${x - i * 5}" y="${G - (n - i) * 4}" width="${w + i * 10}" height="4"/>`; return s; };
+  const 山 = (pts, cls) => `<path class="${cls || "遠"}" d="M0 ${G} ${pts.map(([x, y]) => `L${x} ${y}`).join(" ")} L400 ${G} Z"/>`;
+  const 柵 = (x, w) => { let s = `<path class="木線" d="M${x} ${G - 9} h${w} M${x} ${G - 4} h${w}"/>`; for (let i = x; i <= x + w; i += 9) s += `<path class="木線" d="M${i} ${G} v-13"/>`; return s; };
+  const 牌坊 = (x, w) => `<path class="朱線 粗" d="M${x + 4} ${G} V${G - 62} M${r1(x + w * 0.3)} ${G} V${G - 72} M${r1(x + w * 0.7)} ${G} V${G - 72} M${x + w - 4} ${G} V${G - 62}"/><rect class="朱柱" x="${x}" y="${G - 76}" width="${w}" height="6"/>${頂(x + 4, G - 76, w - 8, 10, 10)}`;
+  const 帳 = (x, w, h, 帶) => `<path class="帳布" d="M${x} ${G} V${r1(G - h * 0.5)} Q${r1(x + w * 0.5)} ${r1(G - h * 1.25)} ${x + w} ${r1(G - h * 0.5)} V${G} Z"/><path class="帳帶${帶 ? " " + 帶 : ""}" d="M${x} ${r1(G - h * 0.5)} Q${r1(x + w * 0.5)} ${r1(G - h * 1.25)} ${x + w} ${r1(G - h * 0.5)} v5 Q${r1(x + w * 0.5)} ${r1(G - h * 1.25 + 5)} ${x} ${r1(G - h * 0.5 + 5)} Z"/><path class="暗" d="M${r1(x + w / 2 - 8)} ${G} V${G - 18} q8 -8 16 0 V${G} Z"/>`;
+  const 高爐 = (x, w) => { w = w || 44; return `<path class="石" d="M${x} ${G} l5 -46 h${w - 10} l5 46 Z"/><rect class="鐵" x="${r1(x + w / 2 - 6)}" y="${G - 66}" width="12" height="22"/><path class="暗" d="M${r1(x + w / 2 - 8)} ${G} v-14 a8 8 0 0 1 16 0 v14 Z"/><path class="火" d="M${r1(x + w / 2 - 5)} ${G - 2} q-1 -8 5 -12 q6 4 5 12 Z"/>${煙(r1(x + w / 2), G - 68)}`; };
+  const 砧 = (x) => `<path class="鐵" d="M${x} ${G - 12} h20 l4 -3 v6 h-8 v5 h4 v4 h-16 v-4 h4 v-5 h-8 Z"/>`;
+  const 罐 = (x, n) => { let t = ""; for (let i = 0; i < (n || 3); i++) t += `<path class="陶" d="M${x + i * 13 + 3} ${G} q-5 -7 0 -12 h1 v-3 h5 v3 h1 q5 5 0 12 Z"/>`; return t; };
+  const 馬 = (x, 淺) => `<g class="馬${淺 ? " 淺馬" : ""}"><ellipse cx="${x + 18}" cy="${G - 20}" rx="14" ry="7.5"/><path d="M${x + 28} ${G - 23} l8 -13 l5 1 l1 6 l-5 1 l-4 9 Z"/><path class="馬腿" d="M${x + 8} ${G - 15} v15 M${x + 13} ${G - 15} v15 M${x + 23} ${G - 15} v15 M${x + 28} ${G - 15} v15"/><path class="馬腿" d="M${x + 4} ${G - 22} q-5 4 -4 10"/><\/g>`;
+  const 羊 = (x) => `<g class="羊"><ellipse cx="${x + 9}" cy="${G - 8}" rx="9" ry="5.5"/><circle cx="${x + 18}" cy="${G - 11}" r="3"/><path class="馬腿" d="M${x + 4} ${G - 4} v4 M${x + 13} ${G - 4} v4"/><\/g>`;
+  const 魚架 = (x, w) => { let t = `<path class="木線" d="M${x} ${G} V${G - 40} M${x + w} ${G} V${G - 40} M${x - 3} ${G - 38} H${x + w + 3}"/>`; for (let i = x + 8; i < x + w - 4; i += 11) t += `<path class="魚" d="M${i} ${G - 37} q3 6 0 16 q-3 -10 0 -16 Z"/>`; return t; };
+  function 梯田(x, w, 層) {
+    let t = "";
+    for (let i = 0; i < 層; i++) {
+      const y = G - i * 15, x1 = x + i * (w / 層) * 0.55, x2 = x + w;
+      t += `<path class="田土" d="M${r1(x1)} ${y} H${x2} V${y - 15} H${r1(x1 + (w / 層) * 0.55)} Z"/>`;
+      for (let k = r1(x1 + 14); k < x2 - 4; k += 12) t += `<path class="草" d="M${r1(k + i * 3)} ${y - 1} v-6 M${r1(k + i * 3 - 2)} ${y - 4} l2 -3 l2 3"/>`;
+    }
+    return t;
+  }
+  const 旗 = (x, h, cls) => `<path class="木線" d="M${x} ${G} V${G - h}"/><path class="旗 ${cls || ""}" d="M${x} ${G - h} l18 5 l-18 6 Z"/>`;
+  const 牆旗 = (x, y, cls) => `<path class="木線" d="M${x} ${y} v-18"/><path class="旗 ${cls || ""}" d="M${x} ${y - 18} l14 4 l-14 5 Z"/>`;
+  const 田 = (x, w) => { let t = ""; for (let i = 0; i < 5; i++) t += `<path class="田壟" d="M${x} ${G + 8 + i * 10} H${x + w}"/>`; for (let k = x + 8; k < x + w; k += 14) t += `<path class="草" d="M${k} ${G + 8} v-5 M${k + 4} ${G + 18} v-5 M${k + 2} ${G + 28} v-5"/>`; return t; };
+  const 網 = (x, w) => `<path class="木線" d="M${x} ${G} V${G - 36} M${x + w} ${G} V${G - 30}"/><path class="網線" d="M${x} ${G - 34} Q${r1(x + w / 2)} ${G - 8} ${x + w} ${G - 28} M${x} ${G - 26} Q${r1(x + w / 2)} ${G - 2} ${x + w} ${G - 20}"/>`;
+  const 界石 = (x) => `<path class="石" d="M${x} ${G} v-14 q6 -5 12 0 v14 Z"/><path class="字痕" d="M${x + 3} ${G - 9} h6"/>`;
+  const 床 = (x) => `<rect class="木" x="${x}" y="${G - 9}" width="40" height="4"/><path class="木線" d="M${x + 2} ${G - 5} V${G} M${x + 38} ${G - 5} V${G}"/><rect class="紙片" x="${x + 2}" y="${G - 14}" width="30" height="5" rx="2"/>`;
+  const 晾布 = (x, w) => `<path class="木線" d="M${x} ${G} V${G - 40} M${x + w} ${G} V${G - 40} M${x} ${G - 38} Q${r1(x + w / 2)} ${G - 33} ${x + w} ${G - 38}"/>${[0.2, 0.5, 0.78].map((k) => `<rect class="紙片" x="${r1(x + w * k - 6)}" y="${G - 36}" width="12" height="18"/>`).join("")}`;
+  const 草叢 = (x, n) => { let t = ""; for (let i = 0; i < (n || 6); i++) t += `<path class="草" d="M${x + i * 9} ${G + 4 + (i % 3) * 14} l-2 -6 M${x + i * 9} ${G + 4 + (i % 3) * 14} l1 -7 M${x + i * 9} ${G + 4 + (i % 3) * 14} l4 -5"/>`; return t; };
+  const 岩 = (x, w, h) => `<path class="石" d="M${x} ${G} l${r1(w * 0.2)} -${h} l${r1(w * 0.45)} ${r1(h * 0.25)} l${r1(w * 0.35)} ${r1(h * 0.75)} Z"/>`;
+  const 柳 = (x, h) => { h = h || 60; let t = `<path class="木線 粗" d="M${x} ${G} q-3 -${r1(h * 0.5)} 2 -${h}"/>`; for (let i = -3; i <= 3; i++) t += `<path class="柳絲" d="M${x + 2} ${G - h} q${i * 9} ${r1(h * 0.1)} ${i * 10} ${r1(h * (0.5 + (Math.abs(i) % 2) * 0.12))}"/>`; return t; };
+  // 一生才用到的
+  const 燈塔 = (x) => `<path class="牆" d="M${x} ${G} L${x + 7} ${G - 88} H${x + 25} L${x + 32} ${G} Z"/><path class="朱線" d="M${x + 3} ${G - 40} H${x + 29} M${x + 5} ${G - 64} H${x + 27}"/><rect class="燈 塔燈" x="${x + 9}" y="${G - 100}" width="14" height="12"/>${頂(x + 6, G - 100, 20, 4, 8)}`;
+  const 木樁 = (x) => `<path class="木線 粗" d="M${x} ${G} V${G - 38}"/><path class="木線 粗" d="M${x - 9} ${G - 28} H${x + 9} M${x - 7} ${G - 16} H${x + 7}"/>`;
+  const 石鎖 = (x) => `<path class="石" d="M${x} ${G} v-9 h18 v9 Z"/><path class="石線" d="M${x + 4} ${G - 9} q5 -10 10 0"/>`;
+  const 搖籃 = (x) => `<path class="木" d="M${x} ${G - 18} q22 22 44 0 Z"/><path class="木線" d="M${x + 4} ${G} l6 -8 M${x + 40} ${G} l-6 -8"/><path class="紙片" d="M${x + 6} ${G - 18} q16 -6 32 0 Z"/>`;
+  const 榜 = (x, y, w, h) => { let t = `<rect class="榜紙" x="${x}" y="${y}" width="${w}" height="${h}"/>`; for (let i = x + w - 8; i > x + 4; i -= 7) t += `<path class="榜字" d="M${i} ${y + 6} v${h - 12}"/>`; return t; };
+  const 招牌 = (cx, y, 字) => { const w = Math.max(40, 字.length * 13 + 12); return `<g class="招牌"><path class="木線" d="M${cx - w / 2 + 6} ${y - 10} V${y} M${cx + w / 2 - 6} ${y - 10} V${y}"/><rect class="匾" x="${r1(cx - w / 2)}" y="${y}" width="${w}" height="16" rx="1.5"/><text class="匾字 大" x="${cx}" y="${y + 12}">${esc(字)}<\/text><\/g>`; };
+  const 路 = () => `<path class="路" d="M0 ${G + 12} Q120 ${G + 4} 200 ${G + 14} T400 ${G + 8} V${G + 30} Q280 ${G + 36} 200 ${G + 30} T0 ${G + 34} Z"/>`;
+  const 律色 = { 土: "#b88a4a", 水: "#5b9db0", 火: "#d0552f", 風: "#8fb58a" };
+  const 律紋 = (cx, cy, 律) => `<g class="律紋" style="--律:${律色[律] || "#d0552f"}"><circle cx="${cx}" cy="${cy}" r="16"/><circle cx="${cx}" cy="${cy}" r="9"/><path d="M${cx - 16} ${cy} H${cx + 16} M${cx} ${cy - 16} V${cy + 16}"/><\/g>`;
+
+  // ---------- 遠景：每一洲一種（方位照世界設定的地理特色，形狀只是示意） ----------
+  const 遠景 = {
+    中原洲: () => 山([[0, 104], [60, 88], [120, 100], [190, 78], [260, 98], [330, 84], [400, 100]]) + 山([[0, 122], [90, 110], [200, 120], [300, 108], [400, 118]], "遠 近"),
+    南濱洲: () => `<rect class="水 遠水" x="0" y="106" width="400" height="${G - 106}"/>` + `<path class="遠" d="M0 ${G} L0 98 Q40 88 80 104 L120 ${G} Z"/><path class="遠 近" d="M300 ${G} Q340 104 400 110 V${G} Z"/>`,
+    西陲洲: () => `<path class="遠" d="M0 ${G} V96 H40 L52 84 H110 L122 96 H190 V${G} Z"/><path class="遠" d="M230 ${G} V90 L250 78 H320 L336 92 H400 V${G} Z"/>` + 山([[0, 124], [120, 116], [260, 124], [400, 114]], "遠 近 沙"),
+    北岫洲: () => 山([[0, 92], [40, 54], [86, 86], [140, 40], [196, 80], [250, 50], [310, 86], [360, 58], [400, 76]]) + [[40, 54], [140, 40], [250, 50], [360, 58]].map(([x, y]) => `<path class="雪頂" d="M${x - 10} ${y + 12} L${x} ${y} L${x + 10} ${y + 12} l-4 -2 l-3 3 l-3 -3 Z"/>`).join("") + [30, 70, 330, 370].map((x) => `<path class="遠 近" d="M${x} ${G} l9 -24 l9 24 Z"/>`).join(""),
+    鏡灣洲: () => `<rect class="水 遠水" x="0" y="112" width="400" height="${G - 112}"/>` + 山([[0, 110], [70, 96], [140, 112], [140, 112], [400, 112]], "遠 近") + `<path class="遠" d="M260 112 Q320 92 400 100 V112 Z"/>`,
+    東岬洲: () => `<rect class="水 遠水" x="0" y="108" width="400" height="${G - 108}"/>` + `<path class="遠" d="M0 ${G} V94 Q60 80 120 100 L170 108 V${G} Z"/>` + [[250, 104, 26], [310, 100, 18], [356, 106, 12]].map(([x, y, w]) => `<path class="遠 近" d="M${x} 110 q${w / 2} -${110 - y + 6} ${w} 0 Z"/>`).join(""),
+  };
+
+  // ---------- 地方 ----------
+  // 家：照出生地猜一種景
+  function 家型(地) {
+    for (const [re, t] of [[/漁/, "漁村"], [/港/, "港"], [/茶/, "茶村"], [/沙洲|小島/, "島"], [/牧/, "牧村"], [/驛/, "驛"], [/關/, "關"], [/林場|獵/, "林"], [/燈塔/, "燈塔"], [/田莊/, "田莊"], [/市集/, "市"], [/城/, "城"], [/鎮/, "鎮"]]) if (re.test(地)) return t;
+    return "村";
+  }
+  const 家景 = {
+    村: () => 樹(54, 60) + 屋(110, 130, 54, { 門: true, 窗: [14, 98] }) + 井(268) + 柵(300, 90) + 草叢(14, 4),
+    鎮: () => 屋(4, 92, 58, { 窗: [14, 62] }) + 屋(108, 124, 62, { 門: true, 窗: [12, 96] }) + 燈籠(122, G - 58) + 屋(250, 100, 56, { 窗: [14, 70] }) + 幌(366, "茶", 56),
+    城: () => 城牆(0, 400, 104) + 屋(30, 112, 56, { 門: true, 窗: [12] }) + 燈籠(46, G - 52) + 屋(250, 120, 60, { 門: true, 窗: [96] }) + 樹(196, 50),
+    驛: () => 屋(20, 140, 60, { 門: true, 匾: "驛", 窗: [12, 112] }) + 柵(176, 70) + 馬(250) + 樹(350, 56),
+    漁村: () => 水面(250, 400) + 船(290, 76) + 屋(20, 110, 50, { 門: true, 窗: [84] }) + 魚架(150, 46) + 網(206, 30),
+    港: () => 水面(220, 400) + 棧(220, 96) + 船(318, 72) + 箱(156) + 箱(174, 18, 14) + 屋(8, 120, 62, { 門: true, 窗: [92] }) + 燈籠(20, G - 58),
+    茶村: () => 梯田(170, 230, 4) + 屋(10, 112, 50, { 門: true, 窗: [84] }) + 樹(146, 48),
+    島: () => 水面(0, 70) + 水面(330, 400) + 船(4, 60) + 屋(110, 110, 48, { 門: true, 窗: [82] }) + 樹(262, 54) + 岩(290, 34, 16),
+    牧村: () => 帳(20, 84, 48, "朱帶") + 柵(130, 120) + 羊(150) + 羊(186) + 馬(212) + 帳(290, 72, 40) + 草叢(360, 4),
+    關: () => 城牆(0, 400, 96, 310) + 牆旗(40, G - 101) + 牆旗(220, G - 101, "靛旗") + 屋(60, 104, 46, { 門: true, 窗: [10] }),
+    林: () => 樹(20, 76, true) + 樹(58, 88, true) + 屋(100, 116, 50, { 門: true, 窗: [88] }) + [0, 1, 2].map((i) => `<rect class="木" x="${240 + i * 4}" y="${G - 8 - i * 8}" width="${50 - i * 8}" height="8" rx="4"/>`).join("") + 樹(318, 80, true) + 樹(360, 96, true),
+    燈塔: () => 水面(250, 400) + 燈塔(330) + 屋(30, 120, 54, { 門: true, 窗: [14] }) + 岩(240, 40, 20) + 網(170, 36),
+    田莊: () => 田(170, 230) + 屋(10, 132, 56, { 門: true, 窗: [100] }) + 樹(166, 52) + 柵(176, 80),
+    市: () => 屋(10, 110, 56, { 門: true, 窗: [84] }) + 攤(170, 76, "朱篷") + 袋堆(178, 3, G - 16) + 攤(276, 80, "靛篷") + 幌(372, "市", 56),
+  };
+  const 地方景 = {
+    學舍: () => 圍牆(0, 104) + 樹(50, 58, true) + 屋(116, 176, 64, { 柱: 4, 門: true, 匾: "學舍", 簷: 12, 脊: 18 }) + 階(194, 20, 2) + 圍牆(304, 96) + 樹(360, 50, true),
+    講古: () => 柳(60, 70) + 桌(250, 46) + `<rect class="木" x="262" y="${G - 22}" width="20" height="4"/>` + 幌(318, "說書", 66) + 樹(372, 50),
+    窗下: () => 樹(44, 62) + 桌(176, 50, 16) + `<rect class="紙片" x="186" y="${G - 21}" width="16" height="5" rx="1"/>` + 屋(230, 160, 74, { 門: true, 窗: [14, 128] }) + 燈籠(244, G - 70),
+    空地: () => 樹(40, 62) + 木樁(250) + 石鎖(282) + 石鎖(306) + 柵(330, 70) + 草叢(10, 5),
+    作坊: () => 屋(4, 124, 76, { 開: true, 柱: 2, 匾: "作坊", 簷: 10 }) + 爐(30) + 砧(196) + 箱(236) + 箱(254, 16, 22) + 晾布(318, 60),
+    術坊: () => 屋(4, 124, 74, { 開: true, 匾: "術工坊" }) + 高爐(240, 46) + 罐(306, 3) + 律紋(66, G - 34),
+    術學舍: () => 圍牆(0, 400, 40) + 牌坊(110, 196) + 匾(208, G - 70, "術工學舍") + 石獅(90) + 石獅(312) + 高爐(350, 40),
+    榜牆: () => 圍牆(30, 340, 76) + 榜(70, G - 70, 120, 44) + 榜(210, G - 70, 120, 44) + `<rect class="榜紙 紅" x="70" y="${G - 70}" width="120" height="10"/><rect class="榜紙 紅" x="210" y="${G - 70}" width="120" height="10"/>` + 石獅(10) + 石獅(376),
+    田: () => 田(0, 400) + 棚(330, 58, 30) + 樹(20, 54) + 界石(260),
+    海邊: () => 水面(190, 400) + 船(240, 96) + 魚架(30, 48) + 網(100, 40),
+    草場: () => 草叢(0, 10) + 羊(60) + 羊(100) + 馬(230) + 羊(300) + 帳(336, 60, 40) + 草叢(180, 6),
+    市集: () => 攤(10, 76, "朱篷") + 袋堆(18, 3, G - 16) + 幌(96, "市") + 攤(236, 80, "靛篷") + 袋堆(244, 2, G - 16) + 攤(330, 64, "朱篷"),
+    衙門: () => 屋(80, 250, 82, { 柱: 4, 門: true, 匾: "衙門", 簷: 14, 脊: 22 }) + 階(193, 24, 2) + 石獅(54) + 石獅(334) + 旗(30, 78) + 旗(378, 78, "靛旗"),
+    醫館: () => 屋(4, 130, 80, { 開: true, 柱: 2, 匾: "醫館", 簷: 12 }) + 櫃(22, 92, 56, 6, 4) + 爐(196) + 晾布(310, 70),
+    茶館: () => 屋(4, 130, 70, { 開: true, 柱: 2, 匾: "茶館" }) + 桌(180, 46) + 桌(290, 46) + 幌(372, "茶", 58) + 燈籠(30, G - 64) + 燈籠(116, G - 64),
+    鋪子: (o) => 屋(70, 260, 78, { 柱: 3, 簷: 12, 窗: [26, 218] }) + `<rect class="木" x="96" y="${G - 22}" width="208" height="22"/><rect class="木" x="92" y="${G - 25}" width="216" height="4"/>` + 招牌(200, G - 76, o.店 || "鋪") + 燈籠(86, G - 64) + 燈籠(314, G - 64) + 袋堆(250, 3, G - 25),
+    大路: () => 路() + 樹(30, 60) + 界石(110) + 岩(300, 50, 26) + 樹(370, 50, true),
+    碼頭: () => 水面(0, 170) + 船(10, 92) + 棧(110, 70) + 袋堆(196, 6) + 箱(256) + 箱(274, 18, 14) + 幌(320, "渡口"),
+  };
+
+  const 飄 = {
+    春: Array.from({ length: 10 }, (_, i) => `<circle class="花瓣 飄${i % 4}" cx="${(i * 67 + 30) % 400}" cy="${(i * 41) % 110}" r="1.7"/>`).join(""),
+    夏: Array.from({ length: 7 }, (_, i) => `<circle class="螢 飄${i % 4}" cx="${(i * 59 + 40) % 400}" cy="${70 + (i * 23) % 60}" r="1.4"/>`).join(""),
+    秋: Array.from({ length: 7 }, (_, i) => `<path class="落葉 飄${i % 4}" d="M${(i * 83 + 20) % 400} ${(i * 29) % 90} q3 -3 6 0 q-3 3 -6 0 Z"/>`).join(""),
+    冬: Array.from({ length: 14 }, (_, i) => `<circle class="雪 飄${i % 4}" cx="${(i * 71) % 400}" cy="${(i * 37) % 120}" r="${1 + (i % 3) * 0.4}"/>`).join(""),
+  };
+  function 景圖(o) {
+    const 中 = o.地方 === "家" ? (家景[家型(o.地 || "")] || 家景.村)() : (地方景[o.地方] || 家景.村)(o);
+    return `<svg class="景圖" viewBox="0 30 400 150" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+      <defs><linearGradient id="天漸" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--天a)"/><stop offset="0.8" style="stop-color:var(--天b)"/><\/linearGradient><\/defs>
+      <rect y="0" width="400" height="200" fill="url(#天漸)"/><circle class="日" cx="338" cy="44" r="11"/>
+      ${(遠景[o.洲] || 遠景.中原洲)()}
+      <rect class="地" x="0" y="${G}" width="400" height="${200 - G}"/><path class="地紋" d="M0 ${G + 22} H400 M0 ${G + 40} H400"/>
+      ${中}${飄[o.季] || ""}<\/svg>`;
+  }
+
+  // ---------- 紙偶 ----------
+  // o：{ 性, 齡, 衣, 頭, 持, 名 }。小孩頭小身短，老了頭髮白、七十以後拄杖。
+  function 偶(o) {
+    const 女 = o.性 === "女", 老 = o.齡 >= 58, 小 = o.齡 < 13;
+    const 髮 = 老 ? "髮 白" : "髮";
+    const 頭 = o.頭 || (小 ? (女 ? "丫" : "總") : 女 ? "鬟" : "髻");
+    const 頭飾 = {
+      丫: `<circle class="${髮}" cx="15.5" cy="9" r="3.4"/><circle class="${髮}" cx="28.5" cy="9" r="3.4"/><path class="${髮}" d="M14 15 a8 8.6 0 0 1 16 0 q-3 -4 -8 -4 q-5 0 -8 4 Z"/>`,
+      總: `<path class="${髮}" d="M14 15 a8 8.6 0 0 1 16 0 q-3 -4 -8 -4 q-5 0 -8 4 Z"/><circle class="${髮}" cx="22" cy="5.4" r="2.6"/>`,
+      鬟: `<path class="${髮}" d="M13.2 16 a8.8 9.4 0 0 1 17.6 0 q-2 -6 -8.8 -6 q-6.8 0 -8.8 6 Z"/><circle class="${髮}" cx="22" cy="4" r="3.8"/><path class="朱線" d="M26 3.6 h5.5"/>`,
+      髻: `<path class="${髮}" d="M13.2 15 a8.8 9.4 0 0 1 17.6 0 q-3 -4.6 -8.8 -4.6 q-5.8 0 -8.8 4.6 Z"/><circle class="${髮}" cx="22" cy="4" r="2.7"/>`,
+      巾: `<rect class="${髮}" x="14.5" y="3.5" width="15" height="8.5" rx="1.5"/><path class="髮線" d="M28 11 q4 5 3 11"/>`,
+      帽: `<path class="${髮}" d="M13.5 13 a8.5 9 0 0 1 17 0 Z"/><circle class="朱點" cx="22" cy="3.6" r="1.5"/>`,
+      紗: `<rect class="髮" x="15" y="4.5" width="14" height="7.5" rx="2"/><path class="髮線" d="M15 9 H4.5 M29 9 H39.5"/>`,
+      笠: `<path class="笠" d="M5 15 L22 3 L39 15 Z"/>`,
+    }[頭] || "";
+    const 鬚 = 老 && !女 ? `<path class="髮 白" d="M18 21.5 q4 7.5 8 0 q-4 2 -8 0 Z"/>` : "";
+    const 持們 = {
+      卷: `<rect class="紙片" x="30.5" y="39" width="9" height="5" rx="2"/>`,
+      書: `<path class="紙片" d="M13 34 q4.5 -2 9 0 v9 q-4.5 -2 -9 0 Z M31 34 q-4.5 -2 -9 0 v9 q4.5 -2 9 0 Z"/>`,
+      算: `<rect class="木" x="29.5" y="38.5" width="11" height="7" rx="1"/><path class="格" d="M31.5 41 h7 M31.5 43.6 h7"/>`,
+      杖: `<path class="木線 粗" d="M37 66 V31 q0 -4 -4 -4"/>`,
+      篙: `<path class="木線" d="M38 66 L34 3"/>`,
+      刀: `<path class="鐵" d="M35 46 L45 28 l1.8 1 L37.6 47 Z"/><path class="木線 粗" d="M34 49 l2.4 -3.6"/>`,
+      錘: `<path class="木線 粗" d="M35 46 L40 31"/><rect class="鐵" x="35.4" y="26" width="10" height="6" rx="1" transform="rotate(18 40.4 29)"/>`,
+      鋤: `<path class="木線 粗" d="M37 62 L32 20"/><path class="鐵" d="M30 19 l10 2 l-1 3.6 l-9 -1.8 Z"/>`,
+      筆: `<path class="木線" d="M34 45 L41 35"/><path class="暗" d="M34 45 l-1.6 2.8 l2.8 -1.4 Z"/>`,
+      碗: `<path class="石" d="M27 40 h12 q-0.6 5.4 -6 5.4 q-5.4 0 -6 -5.4 Z"/>`,
+      杯: `<path class="石" d="M31 39 h7 l-1 6 h-5 Z"/>`,
+      擔: `<path class="木線 粗" d="M-8 25 Q22 21 52 25"/><path class="木線" d="M-5 25 l-2.4 14 M-5 25 l2.4 14 M49 25 l-2.4 14 M49 25 l2.4 14"/><path class="袋" d="M-10 39 h10 l-1.4 8 h-7.2 Z M44 39 h10 l-1.4 8 h-7.2 Z"/>`,
+      光: `<circle class="律光" cx="22" cy="38" r="5"/>`,
+    };
+    const 持 = 持們[o.持 || (o.齡 >= 70 ? "杖" : "")] || "";
+    const 我 = o.我 ? " 我偶" : "";
+    return `<svg class="偶${小 ? " 小" : ""}${我}" viewBox="0 0 44 68" aria-hidden="true" focusable="false" style="--衣:${o.衣 || "var(--我衣)"}${o.律 ? `;--律:${律色[o.律]}` : ""}">
+      <ellipse class="影" cx="22" cy="65" rx="13" ry="2.6"/>
+      <g class="身"><path class="衣" d="M14 26 Q22 22 30 26 L35 62 Q22 66 9 62 Z"/>
+        <path class="袖" d="M14 27 L7 44 L11 46 L16 34 Z M30 27 L37 44 L33 46 L28 34 Z"/>
+        <path class="帶" d="M12.6 41 Q22 44 31.4 41 L31.8 44.4 Q22 47.4 12.2 44.4 Z"/>
+        <path class="襟" d="M19 25 L22 33 L25 25"/>
+        <circle class="臉" cx="22" cy="16" r="8"/>${頭飾}${鬚}
+        <circle class="眼" cx="19" cy="16.6" r="0.9"/><circle class="眼" cx="25" cy="16.6" r="0.9"/><g class="持">${持}<\/g><\/g><\/svg>`;
+  }
+  // 旁人：照地方擺一兩個不具名的人（先生、師傅、大夫、客人……），第二段的家人朋友會換成有名字的
+  const 旁表 = {
+    學舍: [{ x: 70, 頭: "巾", 持: "卷", 齡: 50 }], 講古: [{ x: 66, 頭: "巾", 持: "杯", 齡: 62 }, { x: 84, 齡: 9 }],
+    作坊: [{ x: 70, 頭: "巾", 持: "錘", 齡: 52 }], 術坊: [{ x: 72, 頭: "冠", 持: "光", 齡: 56 }], 術學舍: [{ x: 72, 頭: "冠", 齡: 58 }],
+    市集: [{ x: 66, 頭: "帽", 持: "算", 齡: 44 }, { x: 84, 齡: 30 }], 衙門: [{ x: 72, 頭: "紗", 齡: 46 }],
+    醫館: [{ x: 70, 頭: "巾", 持: "碗", 齡: 60 }], 茶館: [{ x: 64, 齡: 34, 持: "杯" }, { x: 80, 齡: 50, 頭: "帽" }],
+    碼頭: [{ x: 74, 頭: "笠", 持: "擔", 齡: 36 }], 大路: [{ x: 74, 頭: "笠", 持: "刀", 齡: 40 }], 榜牆: [{ x: 66, 齡: 24 }, { x: 82, 頭: "巾", 齡: 40 }],
+  };
+  const 旁衣 = (i, 地方) => `hsl(${(雜(地方 + i) % 360)} ${26 + (雜(地方 + "彩" + i) % 14)}% ${40 + (雜(地方 + "明" + i) % 12)}%)`;
+
+  // 六洲示意圖：投胎時一洲一洲亮過去，落在出生的那一洲。形狀和方位只是示意（世界設定沒定詳細地圖）。
+  const 洲位 = { 北岫洲: [196, 54], 西陲洲: [78, 118], 中原洲: [204, 128], 南濱洲: [150, 196], 鏡灣洲: [282, 186], 東岬洲: [338, 116] };
+  function 六洲圖() {
+    const 陸 = "M40 120 Q34 70 92 48 Q150 20 230 28 Q300 34 330 70 Q372 74 386 108 Q380 140 340 146 Q318 152 312 170 Q300 158 272 160 Q252 172 262 196 Q232 222 176 222 Q110 226 74 196 Q36 168 40 120 Z";
+    const 島 = [[364, 170, 9], [384, 152, 6], [350, 192, 5]];
+    return `<svg class="六洲圖" viewBox="0 0 420 250" role="img" aria-label="六洲方位示意">
+      <path class="陸" d="${陸}"/><path class="灣" d="M312 170 Q300 158 272 160 Q252 172 262 196 Q286 200 300 186 Z"/>${島.map(([x, y, r]) => `<circle class="陸" cx="${x}" cy="${y}" r="${r}"/>`).join("")}
+      <path class="山紋" d="M150 70 l10 -14 l10 14 M176 64 l12 -18 l12 18 M226 70 l9 -12 l9 12 M60 104 l8 -10 l8 10 M96 96 l9 -12 l9 12"/>
+      ${Object.entries(洲位).map(([名, [x, y]]) => `<g class="洲點" data-洲="${名}"><circle cx="${x}" cy="${y}" r="5"/><text x="${x}" y="${y - 10}">${名.slice(0, 2)}<\/text><\/g>`).join("")}<\/svg>`;
+  }
+  // 墓碑：名字直寫刻在碑上
+  function 墓碑(名, 享年漢) {
+    const 字 = [...名];
+    return `<svg class="墓碑" viewBox="0 0 90 150" role="img" aria-label="${esc(名)}之墓">
+      <path class="碑基" d="M6 144 h78 v-10 h-78 Z"/><path class="碑身" d="M14 134 V30 Q14 8 45 8 Q76 8 76 30 V134 Z"/>
+      <path class="碑框" d="M22 128 V34 Q22 16 45 16 Q68 16 68 34 V128 Z"/>
+      ${字.map((c, i) => `<text class="碑字" x="45" y="${44 + i * 22}">${esc(c)}<\/text>`).join("")}
+      <text class="碑小" x="45" y="${Math.min(124, 52 + 字.length * 22)}">${esc(享年漢)}<\/text><\/svg>`;
+  }
+
+  // o：{ 地方, 洲, 地, 季, 牌, 店, 性, 齡, 衣, 律, 持, 動, 入, 飄, 報, 印, 嬰, 類 }
+  // 動：這一回的動作（揮、讀、舉、坐、睡、修、走、站）；入：剛換地方，紙偶走進來；飄：要飄起來的數字；報：一句小事；印：蓋一方朱印。
+  function 場景(o) {
+    const 旁 = (旁表[o.地方] || []).map((p, i) => `<div class="旁" style="left:${p.x}%">${偶({ 性: 雜(o.地方 + i) % 2 ? "女" : "男", 衣: 旁衣(i, o.地方), ...p })}<\/div>`).join("");
+    const 我 = o.嬰
+      ? `<div class="我 嬰" style="left:40%"><svg class="搖籃圖" viewBox="0 0 60 30" aria-hidden="true"><g transform="translate(8 -110)">${搖籃(0)}<\/g><circle class="臉" cx="30" cy="12" r="5"/><\/svg><\/div>`
+      : `<div class="我 動-${esc(o.動 || "站")}${o.入 ? " 入" : ""}" style="left:40%">${偶({ 性: o.性, 齡: o.齡, 持: o.持, 律: o.律, 我: true })}${o.動 === "睡" ? `<span class="睡字" aria-hidden="true">z<i>z<\/i><\/span>` : ""}<\/div>`;
+    const 飄字 = (o.飄 || []).length ? `<div class="飄字" style="left:40%">${o.飄.map((t, i) => `<span class="${/−/.test(t) ? "減" : /^錢/.test(t) ? "錢" : "加"}" style="--序:${i}">${esc(t)}<\/span>`).join("")}<\/div>` : "";
+    return `<div class="舞台 季-${esc(o.季 || "春")}${o.類 ? " " + esc(o.類) : ""}" style="--我衣:${o.衣 || "var(--朱)"}">
+      ${景圖(o)}
+      ${o.牌 ? `<div class="台牌">${esc(o.牌)}<\/div>` : ""}
+      ${旁}${我}${飄字}
+      ${o.報 ? `<div class="台報">${esc(o.報)}<\/div>` : ""}
+      ${o.印 ? `<div class="朱印" aria-hidden="true">${esc(o.印)}<\/div>` : ""}<\/div>`;
+  }
+  return { 場景, 偶, 六洲圖, 墓碑, 家型 };
+})();
+</script>
+<script>
+"use strict";
+const 世界 = "";
+// 公開版（GitHub Pages）：沒有 Claude、沒有共用的追思館，存檔只在這個瀏覽器裡
+const 公開版 = true;
+// ================= 小工具 =================
+const $ = (id) => document.getElementById(id);
+const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+function 亂(n) { const max = Math.floor(4294967296 / n) * n, a = new Uint32Array(1); do crypto.getRandomValues(a); while (a[0] >= max); return a[0] % n; }
+const 隨 = () => 亂(1000000) / 1000000;
+function 挑權(list, ws) { let s = 0; for (const w of ws) s += w; let r = 隨() * s; for (let i = 0; i < list.length; i++) { r -= ws[i]; if (r < 0) return list[i]; } return list[list.length - 1]; }
+const 夾 = (v, a, b) => Math.max(a, Math.min(b, v));
+const 本事鍵 = ["體", "智", "巧", "緣"];
+const 屬名 = { 體: "體魄", 智: "聰慧", 巧: "手藝", 緣: "人緣", 律: "律術", 財: "家底" };
+const 律象 = { 土: "地上的沙", 水: "碗裡的水", 火: "燭火", 風: "窗紙" };
+const 職名 = { 農: "務農", 漁: "打漁", 牧: "放牧", 匠: "做手藝", 商: "做買賣", 讀: "讀書", 吏: "在衙門當差", 術: "術工", 鏢: "走鏢" };
+const 數字 = ["〇", "一", "二", "三", "四", "五", "六", "七", "八", "九"];
+function 漢數(n) { if (n < 10) return 數字[n]; if (n < 20) return "十" + (n % 10 ? 數字[n % 10] : ""); if (n < 100) return 數字[Math.floor(n / 10)] + "十" + (n % 10 ? 數字[n % 10] : ""); return 數字[Math.floor(n / 100)] + "百" + (n % 100 ? (n % 100 < 10 ? "零" : "") + 漢數(n % 100) : ""); }
+const 身子 = (k) => (k >= 80 ? "硬朗" : k >= 60 ? "尚可" : k >= 40 ? "有些虛" : k >= 20 ? "虛弱" : "病重");
+const 改由 = new Set(改由行動);
+
+// ================= 一生的狀態 =================
+// 本事 0～100，資質（出生時分的點數）決定練起來多快。一年十二回，每回做一件事；六歲以前由家裡人帶著過。
+let 生 = null;
+const 設 = { 用Claude: true, 好模型: false, 動畫: true, 律戲: true };
+let sample = null, db = null, 使用者 = null, 忙 = false;
+
+function 填(t) {
+  const 出 = 生.出;
+  return String(t).replace(/\{名\}/g, 出.名).replace(/\{洲\}/g, 出.洲).replace(/\{地\}/g, 出.地).replace(/\{勢\}/g, 出.勢)
+    .replace(/\{律\}/g, 生.律 || "").replace(/\{律象\}/g, 律象[生.律] || "燭火").replace(/\{遠方\}/g, 生.遠方);
+}
+function 投胎() {
+  const 洲 = 洲表[亂(洲表.length)];
+  const 勢 = 挑權(洲.勢.map((x) => x[0]), 洲.勢.map((x) => x[1]));
+  const 家候 = 家表.filter((h) => !h.洲 || h.洲.includes(洲.名));
+  const 家 = 挑權(家候, 家候.map((h) => h.權));
+  const 性 = 亂(2) ? "男" : "女";
+  const 名 = 姓表[亂(姓表.length)] + 名表[性][亂(名表[性].length)];
+  const 他洲 = 洲表.filter((x) => x.名 !== 洲.名);
+  return { 洲: 洲.名, 勢, 地: 洲.地[亂(洲.地.length)], 家: 家.名, 職: 家.職, 財: 家.財, 性, 名, 律: 家.律機 && 隨() < 家.律機 ? 律名[亂(4)] : null, 遠方: 他洲[亂(他洲.length)].名 };
+}
+function 抽天賦() {
+  const 權 = { 1: 10, 2: 5, 3: 2, 4: 1 }, 候 = 天賦表.slice(), 出 = [];
+  while (出.length < 8 && 候.length) { const t = 挑權(候, 候.map((x) => 權[x.級])); 出.push(t); 候.splice(候.indexOf(t), 1); }
+  return 出;
+}
+function 開始(出, 天賦ids, 分) {
+  const 資 = { 體: 分.體, 智: 分.智, 巧: 分.巧, 緣: 分.緣 };
+  const s = { v: 3, id: Date.now().toString(36) + 亂(1e6).toString(36), 出, 天賦: 天賦ids, 資, 屬: {}, 家底: 出.財, 錢: 0, 康: 0, 體力: 0,
+    律: 出.律, 職: 出.職, 工: null, 地數: 0, 片: [], 旗: [], 已: {}, 次: {}, 考: {}, 齡: 0, 回: 0, 本年: [], 去年動: [], 年初: null, 本記: "",
+    年: [], 年暫: null, 終: null, 遠方: 出.遠方, 待: null, 起於: Date.now() };
+  let 康加 = 0;
+  for (const id of 天賦ids) {
+    const t = 天賦表.find((x) => x.id === id); if (!t) continue;
+    for (const [k, v] of Object.entries(t.效)) {
+      if (本事鍵.includes(k)) 資[k] = 夾(資[k] + v, 0, 13);
+      else if (k === "財") s.家底 = 夾(s.家底 + v, 0, 10);
+      else if (k === "康") 康加 += v;
+      else if (k === "旗") s.旗.push(...v);
+      else if (k === "律") s.律 = v;
+    }
+  }
+  for (const k of 本事鍵) s.屬[k] = 資[k] * 3;
+  if (s.律) { s.屬.律 = 4; if (!s.旗.includes("有律")) s.旗.push("有律"); }
+  s.康 = 夾(68 + (資.體 - 5) * 4 + 康加, 20, 100);
+  s.年.push({ 齡: 0, 文: [`你出生在${出.洲}${出.地}，一戶${出.家}人家，是個${出.性 === "女" ? "女孩" : "男孩"}。家裡給你取名${出.名}。`], 情: "大", 星: 1 });
+  return s;
+}
+const 體力上限 = (s = 生) => Math.round(夾(62 + s.屬.體 * 0.38 - Math.max(0, s.齡 - 50) * 0.9 + (s.天賦.includes("早起") ? 6 : 0) + (s.天賦.includes("精力") ? 12 : 0), 25, 112));
+const 有 = (f) => 生.旗.includes(f);
+// 挑了這個天賦沒有（作用寫在引擎裡的那些天賦，見事件庫的天賦表）
+const 天 = (id) => 生.天賦.includes(id);
+function 加旗(f) { if (!有(f)) 生.旗.push(f); }
+
+// ---- 年底的大事（事件庫）：本事照舊的 0～10 尺寸比，錢 150 文算一點家底 ----
+function 值(k) { const s = 生; return k === "康" ? s.康 : k === "財" ? s.錢 / 150 : (s.屬[k] ?? 0) / 10; }
+function 合(e) {
+  const s = 生, a = s.齡;
+  if (改由.has(e.id)) return false;
+  if (a < e.齡[0] || a > e.齡[1]) return false;
+  if (!e.重 && s.已[e.id] != null) return false;
+  for (const [k, v] of Object.entries(e.要 || {})) if (值(k) < v) return false;
+  for (const [k, v] of Object.entries(e.低 || {})) if (值(k) > v) return false;
+  if (e.家 && !e.家.includes(s.出.家)) return false;
+  if (e.洲 && !e.洲.includes(s.出.洲)) return false;
+  if (e.勢 && !e.勢.includes(s.出.勢)) return false;
+  if (e.旗 && !e.旗.every(有)) return false;
+  if (e.無 && e.無.some(有)) return false;
+  if (e.職 && !e.職.includes(s.職)) return false;
+  if (e.律 === true && !s.律) return false;
+  if (typeof e.律 === "string" && s.律 !== e.律) return false;
+  if (e.性 && s.出.性 !== e.性) return false;
+  return true;
+}
+// 直接加減：本事 0～100、錢、體力、康、旗
+function 套直效(效) {
+  if (!效) return;
+  const s = 生;
+  for (const k of [...本事鍵, "律"]) if (效[k] && s.屬[k] != null) s.屬[k] = 夾(s.屬[k] + 效[k], 0, 100);
+  if (效.錢) s.錢 += 效.錢;
+  if (效.體力) s.體力 = 夾(s.體力 + 效.體力, 0, 體力上限());
+  if (效.康) s.康 = 夾(s.康 + 效.康, 0, 100);
+  for (const f of 效.旗 || []) 加旗(f);
+  for (const f of 效.去 || []) s.旗 = s.旗.filter((x) => x !== f);
+  if (效.職 !== undefined && (效.職 === null || 職名[效.職])) s.職 = 效.職;
+  if (效.片) 給片(效.片);
+}
+// 事件庫的效：本事一點＝5，家底一點＝80 文
+function 套效(效) {
+  if (!效) return;
+  // 十六歲以前，家裡的錢財起落算在家底上，不算在自己身上
+  const 小 = 生.齡 < 16 && 效.財;
+  if (小) 生.家底 = 夾(生.家底 + 效.財, 0, 10);
+  const d = { 康: 效.康, 旗: 效.旗, 去: 效.去, 職: 效.職, 片: 效.片, 錢: 小 ? 0 : (效.財 || 0) * 80 };
+  for (const k of [...本事鍵, "律"]) if (效[k]) d[k] = 效[k] * 5;
+  套直效(d);
+}
+function 日常句() {
+  const s = 生, a = s.齡;
+  const 候 = 日常庫.filter((d) => a >= d.齡[0] && a <= d.齡[1] && (!d.職 || d.職 === s.職) && (!d.洲 || d.洲 === s.出.洲)
+    && (!d.旗 || d.旗.every(有)) && (!d.任 || d.任.some(有)) && (!d.無 || !d.無.some(有)));
+  const 句 = (組) => 組.flatMap((d) => d.文.map(填));
+  // 這輩子寫過的先不用；都寫過了，才挑近十年沒寫過的
+  const 用過 = new Set(s.年.flatMap((y) => y.文 || []));
+  const 近 = new Set(s.年.slice(-10).flatMap((y) => y.文 || []));
+  const 專 = 候.filter((d) => d.職 || d.洲 || d.旗 || d.任);
+  let 可 = 專.length && 隨() < 0.45 ? 句(專).filter((t) => !用過.has(t)) : [];
+  if (!可.length) 可 = 句(候).filter((t) => !用過.has(t));
+  if (!可.length) 可 = 句(候).filter((t) => !近.has(t));
+  if (!可.length) 可 = 句(候);
+  return 可[亂(可.length)] || "這一年平平淡淡地過去了。";
+}
+function 挑事件(靜) {
+  const 候 = 事件庫.filter(合);
+  // 人生的幾個岔路口（有選項、窗口最後一年）不能錯過
+  const 必 = 候.find((e) => e.必 && 生.齡 === e.齡[1]);
+  if (必) return 必;
+  if (!候.length || 隨() < 靜) return null;
+  const 遺 = 有("遺跡緣");
+  return 挑權(候, 候.map((e) => (e.權 ?? 1) * (遺 && /遺跡|古/.test(e.id) ? 3 : 1)));
+}
+function 死率() {
+  const a = 生.齡; if (a >= 110 || 生.康 <= 0) return 1;
+  let p = a <= 5 ? 0.007 : a < 40 ? 0.0025 : a < 50 ? 0.005 : a < 60 ? 0.011 : a < 70 ? 0.024 : a < 80 ? 0.06 : a < 90 ? 0.14 : 0.3;
+  const k = 生.康; p *= k < 20 ? 4 : k < 35 ? 2.2 : k < 50 ? 1.3 : k > 85 ? 0.5 : k > 70 ? 0.75 : 1;
+  if (有("逢凶化吉")) p *= 0.6;
+  return p;
+}
+function 死否() {
+  if (隨() >= 死率()) return false;
+  const 組 = 死因.find((d) => 生.齡 >= d.齡[0] && 生.齡 <= d.齡[1]) || 死因[死因.length - 1];
+  const 句 = 組.文[亂(組.文.length)];
+  const 末 = 生.年[生.年.length - 1];
+  if (末 && 末.齡 === 生.齡) { 末.文.push(句); 末.情 = "死"; } else 生.年.push({ 齡: 生.齡, 文: [句], 情: "死", 星: 0 });
+  生.終 = { 享年: 生.齡, 評: 評語(), 銘: 墓誌(), 生平: "", 留館: false };
+  return true;
+}
+function 年老() {
+  const s = 生;
+  if (s.齡 > 45) s.康 = 夾(s.康 - 隨() * (s.齡 - 45) * 0.08, 0, 100);
+  else if (s.康 < 70) s.康 = 夾(s.康 + 1.5, 0, 100);
+}
+
+// ---- 六歲以前：一年一行，由家裡人帶著過 ----
+function 嬰一年() {
+  const s = 生;
+  if (s.終 || s.齡 >= 6) return "";
+  if (s.齡 >= 5) {
+    s.齡 = 6; s.回 = 0; s.體力 = 體力上限(); s.年初 = 快照();
+    s.本年 = [{ 回: 0, 名: "六歲了", 文: "你六歲了。從今年起，一年十二回，每一回要做什麼，由你自己挑。" }];
+    return "長大";
+  }
+  s.齡 += 1; 年老();
+  const e = 挑事件(0.32);
+  if (e) { s.已[e.id] = s.齡; 套效(e.效); s.年.push({ 齡: s.齡, 文: [填(e.文)], 情: e.情 || "平", 星: e.星 ? 1 : 0 }); }
+  else s.年.push({ 齡: s.齡, 文: [日常句()], 情: "平", 星: 0 });
+  return 死否() ? "死" : "續";
+}
+
+// ---- 本事怎麼長：資質越高越快、頂也越高（資質 0 約 40、5 約 65、10 以上到 100）；越接近頂越難長，過了頂幾乎不動；年紀大了慢 ----
+const 頂 = (k, s = 生) => Math.min(100, 40 + (k === "律" ? 6 : s.資[k]) * 5);
+function 成長(k, 基) {
+  const s = 生; if (s.屬[k] == null) return;
+  const 資 = k === "律" ? 6 : s.資[k], 頂k = 頂(k), v = s.屬[k];
+  const 齡係 = s.齡 < 18 ? 1.15 : s.齡 <= 40 || 天("晚成") ? 1 : s.齡 <= 60 ? 0.8 : 0.5;
+  const 近 = v < 頂k ? Math.max(0.08, 1 - v / 頂k) : 0.03;
+  const d = 基 * (0.5 + 資 * 0.08) * 近 * 齡係 * (0.85 + 隨() * 0.3);
+  s.屬[k] = Math.min(100, Math.round((s.屬[k] + d) * 10) / 10);
+}
+const 本 = (k) => Math.floor(生.屬[k] ?? 0);
+function 缺需(需) {
+  for (const [k, v] of Object.entries(需 || {})) {
+    if (k === "律" && 生.屬.律 == null) return "要有律素適性";
+    if (本(k) < v) return `要${屬名[k]} ${v}`;
+  }
+  return "";
+}
+const 快照 = () => ({ 屬: { ...生.屬 }, 錢: 生.錢, 體力: 生.體力, 康: 生.康 });
+function 差(前, 含體力 = true) {
+  const s = 生, 片 = [], 號 = (d) => (d > 0 ? "+" : "−") + Math.abs(d);
+  for (const k of [...本事鍵, "律"]) if (s.屬[k] != null) { const d = Math.floor(s.屬[k]) - Math.floor(前.屬[k] ?? 0); if (d) 片.push(`${屬名[k]} ${號(d)}`); }
+  const m = Math.round(s.錢 - 前.錢); if (m) 片.push(`錢 ${號(m)}`);
+  if (含體力) { const t = Math.round(s.體力 - 前.體力); if (t) 片.push(`體力 ${號(t)}`); }
+  const k = Math.round(s.康 - 前.康); if (k) 片.push(`身子 ${號(k)}`);
+  return 片.join("・");
+}
+
+// ---- 工作 ----
+function 活(id) {
+  if (id === "家業") { const f = 家業表[生.出.職]; return f && { id: "家業", 職: 生.出.職, 齡: [12, 72], ...f, 說: "家裡本來就做的活" }; }
+  return 工表.find((w) => w.id === id) || null;
+}
+const 現活 = () => (生.工 ? 活(生.工.id) : null);
+function 活擋(w) {
+  const s = 生;
+  if (s.工 && s.工.id === w.id) return "正在做";
+  if (s.齡 < w.齡[0]) return `${w.齡[0]} 歲才能做`;
+  if (s.齡 > w.齡[1]) return "年紀太大了";
+  const 免 = (w.或旗 && 有(w.或旗)) || (w.或家 && w.或家.includes(s.出.家));
+  if (w.要旗 && !有(w.要旗) && !(w.或家 && w.或家.includes(s.出.家))) return w.id === "術工" ? "要先考進術工學舍" : w.id === "書吏" ? "要有功名" : "還做不了";
+  if (!免 || w.要旗) { const 缺 = 缺需(w.需); if (缺) return 缺; }
+  return "";
+}
+function 可找的活() {
+  const 列 = [];
+  if (生.出.職 && 家業表[生.出.職]) 列.push(活("家業"));
+  for (const w of 工表) if (!w.隱 || 有(w.要旗)) 列.push(w);
+  return 列;
+}
+function 抽薪(w) {
+  const s = 生;
+  let 薪;
+  if (w.id === "鋪子") {
+    const 底 = Math.max(s.屬.巧, (s.屬.智 + s.屬.緣) / 2);
+    薪 = 隨() < 0.06 ? -30 : (10 + 底 * 0.7) * (0.5 + 隨() * 0.8);
+  } else 薪 = w.薪[0] + 隨() * (w.薪[1] - w.薪[0]);
+  if (w.功名倍 && 有("有功名")) 薪 *= w.功名倍;
+  if (天("快手") && 薪 > 0) 薪 *= 1.1;
+  if (有片("鼓風") && w.職 === "匠" && 薪 > 0) { 薪 *= 1.15; 用片("鼓風"); }
+  if (天("精算") && w.職 === "商" && 薪 > 0) 薪 *= 1.15;
+  if (s.齡 >= 60 && 薪 > 0) 薪 *= 0.7;
+  return Math.round(薪);
+}
+function 升遷() {
+  const s = 生, w = 現活();
+  if (!w || !w.升) return "";
+  const u = w.升;
+  if (s.工.資 < Math.round(u.資 * (天("貴人") ? 0.6 : 1)) || 缺需(u.需)) return "";
+  const 新 = 活(u.到);
+  s.工 = { id: u.到, 資: 0 }; s.職 = 新.職;
+  for (const f of u.旗 || []) 加旗(f);
+  return { 文: u.文, 印: u.旗 ? u.旗[0] : "" };
+}
+
+// ---- 一回能做的事 ----
+// 每件：類、齡、體力（花多少；負的是回復）、名、說（按鈕上的小字）、見（這個年紀看不看得到）、擋（為什麼還不能做）、做（做了以後）。
+const 類名 = { 學: "學本事", 工: "工作與錢", 律: "律素", 人: "人", 身: "身子" };
+const 家付 = (n) => 生.齡 < 18 && 生.家底 >= n;
+const 醫費 = () => (天("秘方") ? 20 : 40);
+// ---- 術片：身上帶著就有用，用久了會壞 ----
+const 片表 = (id) => 術片表.find((x) => x.id === id);
+const 有片 = (id) => (生.片 || []).some((x) => x.id === id && x.剩 > 0);
+function 給片(id) { const t = 片表(id); if (!t) return; 生.片 = (生.片 || []).filter((x) => x.id !== id); 生.片.push({ id, 剩: t.年 || t.次, 計: t.年 ? "年" : "次" }); }
+function 壞片(x) { 生.片 = 生.片.filter((y) => y !== x); 加旗("用過術片"); (生.剛壞 = 生.剛壞 || []).push(片表(x.id).名); }
+function 用片(id) { const x = (生.片 || []).find((y) => y.id === id && y.計 === "次" && y.剩 > 0); if (x && --x.剩 <= 0) 壞片(x); }
+const 粗活 = (w) => !!w && (["零工", "鏢師"].includes(w.id) || (w.id === "家業" && ["農", "漁", "牧"].includes(w.職)));
+// 受傷：帶著護身片傷得輕一半
+function 傷(n) { 生.康 = 夾(生.康 - (有片("護身") ? Math.ceil(n / 2) : n), 0, 100); }
+// ---- 律活：照自己的律和律術，接得到最大的那一種 ----
+function 現律活() { if (!生.律 || 生.屬.律 == null) return null; const 律 = 本("律"); if (律 >= 律活精.需) return 律活精; return [...律活表[生.律]].reverse().find((w) => 律 >= w.需) || null; }
+// 律術過了哪些還沒記下來的境界：記下來，回傳這些境界（年底的事件也可能讓律術跳過一格）
+function 新境() { if (生.屬.律 == null) return []; const 新 = 律境.filter(([n, 名]) => 本("律") >= n && !有("律" + 名)); for (const [, 名] of 新) 加旗("律" + 名); return 新; }
+const 律境名 = () => { const 律 = 本("律"); const 到 = 律境.filter(([n]) => 律 >= n).pop(); return 到 ? 到[1] : ""; };
+// 施術：修律、律活、做術片、做術工。施術和做事用同一份體力，體力低或身子差的時候可能昏倒。
+const 施術的 = (id) => ["修律", "律活", "做術片"].includes(id) || (id === "上工" && 生.工 && 生.工.id === "術工");
+const 施術險 = (體力) => (體力 < 25 ? 0.2 : 0) + (生.康 < 40 ? 0.2 : 0);
+const 動表 = [
+  { id: "上學堂", 類: "學", 齡: [6, 15], 體力: 10, 名: "上學堂",
+    說: () => `聰慧↑・${家付(3) ? "家裡出束脩" : "束脩 8 文"}`,
+    擋: () => (家付(3) || 生.錢 >= 8 ? "" : "要 8 文束脩，家裡出不起"),
+    做: () => { if (!家付(3)) 生.錢 -= 8; 成長("智", 1.3); 成長("緣", 0.2); if ((生.次.上學堂 || 0) + 1 >= 12) 加旗("念過書"); } },
+  { id: "聽人講古", 類: "學", 齡: [6, 12], 體力: 4, 名: "聽人講古", 說: () => "聰慧↑一點・不花錢",
+    做: () => { 成長("智", 0.6); 成長("緣", 0.25); if (隨() < 0.1) 加旗("聽過古事"); } },
+  { id: "自己讀書", 類: "學", 齡: [12, 100], 體力: 10, 名: "自己讀書", 說: () => "聰慧↑",
+    擋: () => (本("智") >= 25 || 有("念過書") ? "" : "要先識字（聰慧 25 或上過學堂）"),
+    做: () => { 成長("智", 1.1 * (有片("引火") ? 1.2 : 1)); if ((生.次.自己讀書 || 0) + 1 >= 30 && 本("智") >= 45) 加旗("讀書人"); } },
+  { id: "練身體", 類: "學", 齡: [6, 75], 體力: () => (天("利落") ? 12 : 18), 名: "練身體", 說: () => (天("利落") ? "體魄↑" : "體魄↑・很累"), 做: () => { 成長("體", 1.25); } },
+  { id: "學手藝", 類: "學", 齡: [6, 75], 體力: 12, 名: () => (生.齡 < 13 && ["工匠", "術工之家"].includes(生.出.家) ? "跟家裡學手藝" : "學手藝"), 說: () => "手藝↑",
+    做: () => { 成長("巧", 1.2 * (天("細心") ? 1.15 : 1) * (有片("引火") ? 1.2 : 1)); if (生.齡 < 13 && ["工匠", "術工之家"].includes(生.出.家) && (生.次.學手藝 || 0) + 1 >= 12) 加旗("家學"); } },
+  // 修律：參是小遊戲的等第（準、好、弱、衝）；不玩（或一口氣做完）就照常修，律術低時偶爾反衝
+  { id: "修律", 類: "律", 齡: [8, 75], 體力: 20, 名: "修律", 見: () => !!生.律, 說: () => (設.律戲 && !靜() ? "律術↑・要穩住律勁" : "律術↑・律術低時偶爾反衝"),
+    做: (等) => {
+      成長("律", 1.3 * ({ 準: 1.8, 好: 1.3, 弱: 0.7, 衝: 0.6 }[等] ?? 1)); if (本("律") >= 20) 加旗("練律");
+      if (等 === "衝" || (等 == null && 本("律") < 30 && 隨() < 0.12)) { 傷(5); return { 文: "律素沒收住，反衝回來，你躺了好幾天。", 情: "憂" }; }
+      if (等 === "準") return { 文: "這一回收得恰到好處，律素順順地流了過去。" };
+      if (等 === "弱") return { 文: "力道不夠，律素一下子就散了。" };
+    } },
+  { id: "考功名", 類: "學", 齡: [16, 50], 體力: 20, 名: "去考功名",
+    說: () => `聰慧越高越有把握・盤纏 ${家付(4) ? "家裡出" : "100 文"}・三年一次`,
+    擋: () => (有("有功名") ? "已經考上了" : 本("智") < 60 ? "要聰慧 60" : 生.考.功名 != null && 生.齡 - 生.考.功名 < 3 ? `${生.考.功名 + 3} 歲才能再考` : !家付(4) && 生.錢 < 100 ? "要盤纏 100 文" : ""),
+    做: () => {
+      生.考.功名 = 生.齡; if (!家付(4)) 生.錢 -= 100;
+      const 底 = 本("智") + (天("讀書種子") ? 6 : 0), 點 = 底 + 亂(30), 判 = { 名: 天("讀書種子") ? "聰慧＋6" : "聰慧", 低: 底, 高: 底 + 29, 難: 88, 點 };
+      if (點 >= 88) { 加旗("有功名"); 成長("緣", 1.5); return { 文: "你考上了，名字貼在城牆上，家裡放了一串炮。", 星: 1, 情: "大", 判, 印: "中" }; }
+      return { 文: "你去考了一場，沒考上。回家的路上，你一句話也沒說。", 情: "憂", 判 };
+    } },
+  { id: "考學舍", 類: "律", 齡: [14, 30], 體力: 15, 名: "考術工學舍", 見: () => !!生.律 && !有("術工學舍"), 說: () => "律術和聰慧越高越有把握・兩年一次",
+    擋: () => (有("術工學舍") ? "已經考進去了" : 本("律") < 35 ? "要律術 35" : 本("智") < 30 ? "要聰慧 30" : 生.考.學舍 != null && 生.齡 - 生.考.學舍 < 2 ? `${生.考.學舍 + 2} 歲才能再考` : ""),
+    做: () => {
+      生.考.學舍 = 生.齡;
+      const 底 = Math.floor((本("律") + 本("智")) / 2), 點 = 底 + 亂(30), 判 = { 名: "律術聰慧", 低: 底, 高: 底 + 29, 難: 65, 點 };
+      if (點 >= 65) { 加旗("術工學舍"); return { 文: "你考進了術工學舍。學舍門口的石獅子，你摸了好幾遍。", 星: 1, 情: "大", 判, 印: "錄" }; }
+      return { 文: "你沒考上。考官說你的律素還不穩，過兩年再來。", 情: "憂", 判 };
+    } },
+
+  { id: "上工", 類: "工", 齡: [12, 120], 見: () => !!生.工, 名: () => `上工：${現活().名}`, 體力: () => 現活().體力 - (有片("車板") && 粗活(現活()) ? 5 : 0),
+    說: () => { const w = 現活(); return `${w.薪 ? `一回 ${w.薪[0]}～${w.薪[1]} 文` : "賺多少看本事"}・${Object.keys(w.長).map((k) => 屬名[k]).join("、")}↑`; },
+    做: () => {
+      const w = 現活(), 薪 = 抽薪(w);
+      生.錢 += 薪; for (const [k, b] of Object.entries(w.長)) 成長(k, b * 0.4); 生.工.資 += 1;
+      for (const f of w.旗 || []) 加旗(f);
+      if (有片("車板") && 粗活(w)) 用片("車板");
+      if (w.險 && 隨() < w.險 * (天("膽大") ? 0.5 : 1)) { 傷(10); return { 文: w.id === "鏢師" ? "路上遇到劫鏢的，你挨了一刀，養了好些日子。" : "做活的時候出了意外，你受了傷。", 情: "憂" }; }
+      if (薪 < 0) return { 文: "這一回生意虧了錢。", 情: "憂" };
+    } },
+  { id: "幫家裡做事", 類: "工", 齡: [6, 15], 體力: 10, 名: "幫家裡做事", 說: () => "賺一點零用・身子骨↑",
+    做: () => { 生.錢 += 1 + 亂(4); const f = 家業表[生.出.職]; if (f) for (const [k, b] of Object.entries(f.長)) 成長(k, b * 0.3); else 成長("體", 0.4); } },
+  { id: "找活", 類: "工", 齡: [12, 80], 體力: 4, 名: () => (生.工 ? "換個活" : "找活做"), 說: () => (生.工 ? `現在：${現活().名}` : "看看有哪些活能做"), 不重: true,
+    擋: (參) => (參 == null ? "" : 活(參) ? 活擋(活(參)) : "沒有這個活"),
+    做: (參) => { const w = 活(參); 生.工 = { id: w.id, 資: 0 }; 生.職 = w.職; for (const f of w.旗 || []) 加旗(f); return { 名: `開始${w.名}`, 文: "" }; } },
+  { id: "做買賣", 類: "工", 齡: [18, 80], 體力: 15, 名: "做一筆買賣", 說: () => "本錢 200 文・聰慧人緣越高越會賺",
+    擋: () => (本("智") < 35 ? "要聰慧 35" : 生.錢 < 200 ? "要本錢 200 文" : ""),
+    做: () => { const 低 = Math.round(200 * (0.3 + (生.屬.智 + 生.屬.緣) / 220) * (天("精算") ? 1.1 : 1)), 回本 = Math.round(低 + 180 * 隨()); 生.錢 += 回本 - 200; 成長("智", 0.35); 成長("緣", 0.35);
+      const 判 = { 名: "收回", 低, 高: 低 + 180, 難: 200, 點: 回本, 單: "文" };
+      return 回本 >= 420 ? { 文: "這一筆押對了，賺了一大筆。", 星: 1, 情: "喜", 判 } : 回本 < 160 ? { 文: "這一筆賠了。", 情: "憂", 判 } : { 文: 回本 >= 200 ? "小賺了一點。" : "差一點回本。", 判 }; } },
+  { id: "開鋪子", 類: "工", 齡: [20, 70], 體力: 20, 名: "開自己的鋪子", 見: () => !有("開鋪"), 說: () => "要 1200 文本錢・手藝 60，或聰慧人緣都 45",
+    擋: () => (生.錢 < 1200 ? "要本錢 1200 文" : 本("巧") >= 60 || (本("智") >= 45 && 本("緣") >= 45) ? "" : "要手藝 60，或聰慧人緣都 45"),
+    做: () => { 生.錢 -= 1200; 加旗("開鋪"); 生.工 = { id: "鋪子", 資: 0 }; 生.職 = 本("巧") >= 60 ? "匠" : "商"; return { 文: `你在${生.出.地}開了一間自己的鋪子。掛招牌那天，你在門口站了很久。`, 星: 1, 情: "大", 印: "開張" }; } },
+  { id: "買地", 類: "工", 齡: [20, 80], 體力: 6, 名: "置一塊地", 說: () => "2500 文・往後每年收租 150 文",
+    擋: () => (生.錢 < 2500 ? "要 2500 文" : ""),
+    做: () => { 生.錢 -= 2500; 生.地數 += 1; 加旗("置產"); return { 文: 生.地數 === 1 ? `你在${生.出.地}置了一塊地，說是留給後人。` : `你又置了一塊地，現在有 ${生.地數} 塊了。`, 星: 生.地數 === 1 ? 1 : 0, 情: "大", 印: 生.地數 === 1 ? "置產" : "" }; } },
+
+  { id: "律活", 類: "律", 齡: [12, 75], 見: () => !!生.律, 名: () => `律活：${(現律活() || 律活表[生.律][0]).名}`, 體力: () => { const w = 現律活(); return w ? 16 + Math.floor(w.需 / 20) * 3 : 16; },
+    說: () => { const w = 現律活(); return w ? `一回 ${w.薪[0]}～${w.薪[1]} 文・律術↑` : ""; },
+    擋: () => (現律活() ? "" : "要律術 20（感知）"),
+    做: () => { const w = 現律活(); 生.錢 += Math.round(w.薪[0] + 隨() * (w.薪[1] - w.薪[0])); 成長("律", 0.7); 成長("緣", 0.25); } },
+  { id: "買術片", 類: "律", 齡: [10, 100], 體力: 4, 名: "買術片", 不重: true, 說: () => `${術片表.length} 種，${Math.min(...術片表.map((t) => t.價))} 文起・誰都能用`,
+    擋: (參) => (參 == null ? "" : !片表(參) ? "沒有這種" : 生.錢 < 片表(參).價 ? `要 ${片表(參).價} 文` : ""),
+    做: (參) => { const t = 片表(參); 生.錢 -= t.價; 給片(參); return { 名: `買了一片${t.名}`, 文: "" }; } },
+  { id: "做術片", 類: "律", 齡: [16, 75], 體力: 22, 名: "做術片", 見: () => !!生.律, 不重: true, 說: () => "做來賣，或做給自己用",
+    擋: (參) => (!(有("術工學舍") || 有("術工")) ? "要先考進術工學舍" : 本("律") < 50 ? "要律術 50" : 本("巧") < 40 ? "要手藝 40" : 參 == null || 片表(參.id) ? "" : "沒有這種"),
+    做: (參) => { const t = 片表(參.id); 成長("律", 0.6); 成長("巧", 0.6);
+      if (參.自) { 給片(t.id); return { 名: `做了一片${t.名}給自己`, 文: "" }; }
+      const 賣 = Math.round(t.價 * (0.5 + 隨() * 0.3)); 生.錢 += 賣; return { 名: `做了一片${t.名}賣掉`, 文: "" }; } },
+
+  { id: "陪家人", 類: "人", 齡: [6, 120], 體力: -8, 名: "陪家人", 說: () => "人緣↑一點・歇口氣", 做: () => { 成長("緣", 0.35 * (天("孝順") ? 2 : 1)); if (生.康 < 80) 生.康 = 夾(生.康 + (天("孝順") ? 2 : 1), 0, 100); } },
+  { id: "跟人來往", 類: "人", 齡: [8, 120], 體力: 6, 名: "跟人來往", 說: () => (生.齡 >= 16 ? "人緣↑・請客 5 文" : "人緣↑"),
+    做: () => { if (生.齡 >= 16 && 生.錢 >= 5) 生.錢 -= 5; 成長("緣", 1.15 * (天("熱鬧") ? 1.3 : 1)); } },
+
+  { id: "休息", 類: "身", 齡: [6, 120], 體力: -40, 名: "休息", 說: () => "體力回來", 做: () => { if (天("好眠")) 生.體力 += 10; if (生.康 < 75) 生.康 = 夾(生.康 + 1, 0, 100); } },
+  { id: "看大夫", 類: "身", 齡: [6, 120], 體力: -20, 名: "看大夫", 說: () => `身子↑・${家付(3) ? "家裡出錢" : `${醫費()} 文`}`,
+    擋: () => (家付(3) || 生.錢 >= 醫費() ? "" : `要 ${醫費()} 文`),
+    做: () => { if (!家付(3)) 生.錢 -= 醫費(); 生.康 = 夾(生.康 + 10, 0, 100); } },
+
+  { id: "自寫", 類: "自", 齡: [6, 120], 體力: 0, 名: "自己想做的事", 不重: true,
+    做: (r) => { 套直效(r.效); return { 名: "自己的事", 文: r.文, 星: r.星 ? 1 : 0 }; } },
+];
+const 動名 = (a, 參) => (typeof a.名 === "function" ? a.名(參) : a.名);
+const 動耗 = (a, 參) => (typeof a.體力 === "function" ? a.體力(參) : a.體力);
+// 這件事現在：看不看得到、能不能做、為什麼
+function 可做(a, 參) {
+  const s = 生;
+  const 見 = !!a && s.齡 >= a.齡[0] && s.齡 <= a.齡[1] && (!a.見 || a.見());
+  if (!見) return { 見: false, 行: false, 因: "" };
+  if (s.終 || s.待 || s.齡 < 6) return { 見, 行: false, 因: "" };
+  if (s.回 >= 12) return { 見, 行: false, 因: "這一年的十二回用完了" };
+  const 擋 = a.擋 ? a.擋(參) : "";
+  if (擋) return { 見, 行: false, 因: 擋 };
+  if (動耗(a, 參) > 0 && s.體力 <= 0) return { 見, 行: false, 因: "累得動不了，先休息" };
+  return { 見, 行: true, 因: "" };
+}
+function 挑小事(id) {
+  if (隨() >= (天("福星") ? 0.2 : 0.11)) return null;
+  const 候 = 小事庫.filter((x) => (x.動.includes(id) || x.動.includes("*")) && (id !== "修律" || 生.律));
+  const 事 = 候.length ? 候[亂(候.length)] : null;
+  // 福星：壞事有一半會躲過
+  if (事 && 天("福星") && Object.values(事.效).some((v) => typeof v === "number" && v < 0) && 隨() < 0.5) return null;
+  return 事;
+}
+// 做一回。回傳這一回的紀錄；不能做回傳 null。
+function 做(id, 參) {
+  const s = 生, a = 動表.find((x) => x.id === id);
+  if (!a || !可做(a, 參).行 || (id === "找活" && !活(參))) return null;
+  const 前 = 快照(), 名 = 動名(a, 參), 耗 = 動耗(a, 參), 施 = 施術的(id), 險 = 施 ? 施術險(s.體力) : 0;
+  const r = a.做(參) || {};
+  s.體力 = 夾(s.體力 - 耗, 0, 體力上限());
+  s.次[id] = (s.次[id] || 0) + 1; s.回 += 1;
+  const 行 = { 回: s.回, 動: id, 參: id === "自寫" || id === "修律" ? null : 參 ?? null, 名: r.名 || 名, 文: r.文 || "", 星: r.星 ? 1 : 0, 情: r.情 || "" };
+  if (r.判) 行.判 = r.判;
+  if (r.印) 行.印 = r.印;
+  if (施 && 隨() < 險) { 傷(8); s.體力 = 0; 行.小 = "你施術到一半眼前一黑，昏了過去，躺了好幾天。"; 行.情 = "憂"; }
+  else if (耗 > 0 && s.體力 < 15 && 隨() < (0.12 + (15 - s.體力) / 30) * (天("少病") ? 0.5 : 1) * (有片("濾水") ? 0.6 : 1)) { s.康 = 夾(s.康 - 5, 0, 100); 行.小 = "你累過了頭，病了幾天。"; }
+  else { const 事 = 挑小事(id); if (事) { 套直效(事.效); 行.小 = 填(事.文); } }
+  // 律術過了一個境界：蓋一方印
+  const 到 = 新境().pop(); if (到) { 行.印 = 到[1]; 行.文 = [行.文, 填(到[2])].filter(Boolean).join(""); 行.星 = 1; 行.情 = "大"; }
+  if (s.剛壞 && s.剛壞.length) { 行.小 = [行.小, `你的${s.剛壞.join("、")}用壞了。`].filter(Boolean).join(""); s.剛壞 = []; }
+  行.變 = 差(前);
+  s.本年.push(行);
+  return 行;
+}
+
+// ---- 年底：結帳、年底的大事、升遷、老一歲 ----
+function 年用() {
+  const s = 生; if (s.齡 < 16) return 0;
+  let 用 = 60 + (有("成家") ? 40 : 0) + (有("有子女") ? 50 : 0);
+  if (s.齡 < 20) 用 -= s.家底 * 8;
+  if (s.齡 >= 60 && 有("有子女")) 用 -= 50;
+  if (s.齡 >= 65) 用 *= 0.5;
+  if (天("節儉")) 用 *= 0.8;
+  return Math.max(0, Math.round(用));
+}
+function 年總(閒) {
+  const s = 生, 數 = new Map();
+  for (const x of s.本年) if (x.回 > 0) 數.set(x.名.replace(/：.*$/, ""), (數.get(x.名.replace(/：.*$/, "")) || 0) + 1);
+  if (閒 > 0) 數.set("閒著", 閒);
+  const 做了 = [...數].map(([k, n]) => `${k}${漢數(n)}回`).join("、");
+  const 變 = s.年初 ? 差(s.年初, false) : "";
+  return `這一年：${做了 || "什麼也沒做"}。${變 ? 變 + "。" : ""}`;
+}
+function 年終() {
+  const s = 生;
+  if (s.終 || s.待 || s.年暫 || s.齡 < 6) return "";
+  const 閒 = 12 - s.回;
+  s.體力 = 夾(s.體力 + 閒 * 10, 0, 體力上限());
+  if (s.地數) s.錢 += s.地數 * 150;
+  s.錢 -= 年用();
+  const 總 = 年總(閒);
+  const 大 = s.本年.filter((x) => x.星 && x.文);
+  const 情 = 大.length ? "大" : s.本年.some((x) => x.情 === "喜") ? "喜" : s.本年.some((x) => x.情 === "憂") ? "憂" : "平";
+  s.年暫 = { 齡: s.齡, 文: 大.map((x) => x.文), 總, 情, 星: 大.length ? 1 : 0 };
+  if (s.本記) s.年暫.記 = s.本記;
+  const e = 挑事件(0.45);
+  if (e && e.擇) { s.待 = { id: e.id, 文: 填(e.文) }; return "擇"; }
+  if (e) { s.已[e.id] = s.齡; 套效(e.效); s.年暫.文.push(填(e.文)); if (s.年暫.情 === "平") s.年暫.情 = e.情 || "平"; if (e.星) s.年暫.星 = 1; }
+  else if (!s.年暫.文.length) s.年暫.文.push(日常句());
+  return 收尾();
+}
+function 收尾() {
+  const s = 生, y = s.年暫; s.年暫 = null;
+  s.年.push(y);
+  const 升 = 升遷(); if (升) { y.文.push(升.文); y.印 = 升.印; y.星 = 1; if (y.情 === "平") y.情 = "喜"; }
+  for (const [, 名, 文] of 新境()) { y.文.push(填(文)); y.印 = y.印 || 名; y.星 = 1; }
+  if (s.錢 < 0) { s.康 = 夾(s.康 - 2, 0, 100); y.文.push(`你欠了 ${-Math.round(s.錢)} 文的債，日子過得很緊。`); if (y.情 === "平") y.情 = "憂"; }
+  if (死否()) return "死";
+  for (const x of [...(s.片 || [])]) if (x.計 === "年" && --x.剩 <= 0) 壞片(x);
+  if (s.剛壞 && s.剛壞.length) { y.文.push(`你的${s.剛壞.join("、")}用壞了。`); s.剛壞 = []; }
+  s.齡 += 1; 年老();
+  if (有片("暖爐")) s.康 = 夾(s.康 + 2, 0, 100);
+  s.去年動 = s.本年.filter((x) => x.回 > 0).map((x) => ({ 動: x.動, 參: x.參 }));
+  s.本年 = []; s.回 = 0; s.本記 = "";
+  s.體力 = 夾(s.體力 + 40, 0, 體力上限());
+  if (s.齡 === 16 && s.家底 > 0) { const 給 = s.家底 * 40; s.錢 += 給; s.本年.push({ 回: 0, 名: "成年", 文: `你十六歲了。家裡給了你 ${給} 文，往後吃穿用度要自己打算。`, 變: `錢 +${給}` }); }
+  else if (s.齡 === 16) s.本年.push({ 回: 0, 名: "成年", 文: "你十六歲了。家裡拿不出錢給你，往後吃穿用度要自己打算。" });
+  s.年初 = 快照();
+  return "續";
+}
+function 選(i) {
+  const s = 生, e = 事件庫.find((x) => x.id === s.待.id), o = e.擇[i];
+  let 文 = o.文, 效 = o.效;
+  if (o.判) { const v = 值(o.判.屬) + 亂(5) + (天("膽大") ? 1 : 0); const r = v >= o.判.難 ? o.判.成 : o.判.敗; 文 = r.文; 效 = r.效; }
+  s.已[e.id] = s.齡; 套效(效);
+  const y = s.年暫;
+  y.擇 = { 字: o.字, 位: y.文.length }; y.文.push(s.待.文); if (文) y.文.push(文);
+  y.情 = e.情 || "大"; if (e.星) y.星 = 1;
+  s.待 = null;
+  return 收尾();
+}
+function 缺(o) {
+  for (const [k, v] of Object.entries(o.需 || {})) {
+    if (k === "財") { if (生.錢 < v * 150) return `要錢 ${v * 150} 文`; }
+    else if (值(k) < v) return `要${屬名[k]} ${v * 10}`;
+  }
+  return "";
+}
+const 旗評 = [["主簿", "做到主簿"], ["有功名", "讀書有成"], ["術工", "以律素為業"], ["開鋪", "開了自己的鋪子"], ["掌櫃", "當上掌櫃"], ["置產", "置下了家業"], ["著書", "留下一本書"], ["捐學", "有德於鄉里"],
+  ["調停人", "鄉里信得過的人"], ["出師", "學成一門手藝"], ["進過遺跡", "進過古代遺跡"], ["有徒", "有了傳人"], ["走過鏢", "走過鏢"], ["他鄉", "客居他鄉"], ["服過役", "服過役"], ["有子女", "兒孫繞膝"]];
+function 評語() {
+  const a = 生.齡;
+  const 壽 = a < 10 ? "早夭" : a < 30 ? "英年早逝" : a < 60 ? "中年而終" : a < 80 ? "壽終正寢" : "高壽";
+  const t = 旗評.filter(([f]) => 有(f)).map((x) => x[1]);
+  return 壽 + "・" + (t.slice(0, 2).join("、") || (a < 10 ? "來得匆忙" : "平凡的一生"));
+}
+function 墓誌() {
+  const o = 生.出, t = 旗評.filter(([f]) => 有(f)).map((x) => x[1]);
+  return `${o.名}，${o.洲}${o.地}人，${o.家}出身，享年${漢數(生.齡)}。${t.length ? t[0] + "。" : 生.齡 < 10 ? "來得匆忙，走得也匆忙，家裡人記了很多年。" : "一生平平淡淡，認識的人都記得。"}`;
+}
+
+// ================= 存檔：自己的這一生、前世、追思館 =================
+const 本機 = { get(k) { try { return JSON.parse(localStorage.getItem("環澤一生-" + k)); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem("環澤一生-" + k, JSON.stringify(v)); } catch (e) {} } };
+async function 讀我(k) {
+  if (db && 使用者) { try { const d = await db.collection("data/users/" + 使用者).doc(k).get(); if (d.exists) return structuredClone(d.data()); } catch (e) { console.warn(e); } }
+  return 本機.get(k);
+}
+async function 存帳號(k, v) { if (db && 使用者) { try { await db.collection("data/users/" + 使用者).doc(k).set(v); } catch (e) { console.warn("存帳號失敗", e); } } }
+async function 存我(k, v) { 本機.set(k, v); await 存帳號(k, v); }
+// 這一生：瀏覽器馬上存；帳號那邊等手停下來再存，一回一回按的時候不要每一下都寫
+let 存計 = null;
+function 存生() { 本機.set("life", { 生 }); clearTimeout(存計); 存計 = setTimeout(() => 存帳號("life", { 生 }), 1500); }
+async function 存生現在() { clearTimeout(存計); await 存我("life", { 生 }); }
+// 一年寫成一句：有選擇的年份，寫起因和選了什麼；長的截短。
+function 年句(y, 長 = 80) {
+  const t = y.擇 && typeof y.擇 === "object" ? `${y.文[y.擇.位]}（選了：${y.擇.字}）` : y.文.join("");
+  return t.length > 長 ? t.slice(0, 長 - 1) + "…" : t;
+}
+function 卡片(s) {
+  const 格 = Array.from({ length: s.齡 + 1 }, (_, i) => { const y = s.年.find((x) => x.齡 === i); return y ? { 平: "0", 喜: "1", 憂: "2", 大: "3", 死: "4" }[y.情] || "0" : "0"; }).join("");
+  const 大事 = s.年.filter((y) => y.星).slice(0, 8).map((y) => ({ 齡: y.齡, 文: 年句(y, 70) }));
+  return { id: s.id, 名: s.出.名, 性: s.出.性, 洲: s.出.洲, 地: s.出.地, 家: s.出.家, 職: s.職, 律: s.律, 享年: s.齡, 評: s.終.評, 銘: s.終.銘, 生平: s.終.生平 || "", 格, 星: s.年.filter((y) => y.星).map((y) => y.齡), 大事, 於: Date.now() };
+}
+async function 收進前世(s) {
+  const 前 = (await 讀我("lives")) || { lives: [] };
+  前.lives = [卡片(s), ...(前.lives || []).filter((x) => x.id !== s.id)].slice(0, 60);
+  await 存我("lives", 前);
+}
+async function 留館(s) {
+  if (!db || !使用者) return "這裡存不進追思館：要在 claude.ai 裡登入、打開這一頁才行。這一生收在「我的前世」。";
+  try {
+    const ref = db.collection("memorial").doc(使用者);
+    const d = await ref.get();
+    const 舊 = d.exists ? (d.data().lives || []) : [];
+    await ref.set({ lives: [卡片(s), ...舊.filter((x) => x.id !== s.id)].slice(0, 30) });
+    return "";
+  } catch (e) { console.warn(e); return "追思館這一次沒存進去：可能是你只有「檢視」的權限，請分享這一頁的人給你「可以使用」。這一生收在「我的前世」。"; }
+}
+async function 讀館() {
+  if (!db) return null;
+  try { const snap = await db.collection("memorial").get(); return snap.docs.flatMap((d) => (d.data().lives || [])).sort((a, b) => b.於 - a.於); }
+  catch (e) { console.warn(e); return null; }
+}
+
+// ================= Claude（可有可無） =================
+const 可用Claude = () => !!(sample && 設.用Claude);
+function 近況() { return 生.年.slice(-6).map((y) => `${y.齡}歲：${y.文.join("")}`).join("\n"); }
+function 人物欄() {
+  const s = 生, o = s.出, w = 現活();
+  return `${o.名}，${o.性}，${s.齡}歲。出生在${o.洲}${o.地}（${o.勢}），${o.家}出身；現在${w ? w.名 : "沒有固定的活"}；律素適性：${s.律 ? s.律 + "律" : "沒有"}。
+本事（0～100）：體魄${本("體")}、聰慧${本("智")}、手藝${本("巧")}、人緣${本("緣")}${s.屬.律 != null ? `、律術${本("律")}` : ""}；手上有 ${Math.round(s.錢)} 文；家底 ${s.家底}/10；體力 ${Math.round(s.體力)}/${體力上限()}；身子${身子(s.康)}。
+術片：${(s.片 || []).map((x) => 片表(x.id).名).join("、") || "無"}${s.律 ? `；律術境界：${律境名() || "還沒入門"}` : ""}
+天賦：${s.天賦.map((id) => (天賦表.find((t) => t.id === id) || {}).名).filter(Boolean).join("、") || "無"}
+經歷標記：${s.旗.join("、") || "無"}`;
+}
+const 世界提示 = `世界是《環澤》，設定如下（只當背景；設定沒定的事不要替它定案，例如遺跡的用途、律素適性的人口比例、詳細地名國界）：\n${世界}`;
+// 這一回自己想做的事
+async function 問回(玩家寫) {
+  const 今年 = 生.本年.filter((x) => x.回 > 0).map((x) => x.名).join("、");
+  const 提示 = `你在幫一個古風養成遊戲寫「一回」的結果（一年分十二回，每回做一件事）。${世界提示}
+
+這個人：
+${人物欄()}
+最近幾年：
+${近況()}
+今年已經做過：${今年 || "還沒做事"}
+
+玩家這一回想做：「${玩家寫}」
+
+規則：只寫這一回之內發生的事；用「你」稱呼；一到兩句，具體、平實；結果依這個人的本事、錢和處境判斷，可以成功、部分成功或失敗；做不到的事（例如錢不夠、本事差太多）就寫沒做成；不替玩家決定感受。
+只回一個 JSON：{"文":"這一回發生了什麼","效":{"體":0,"智":0,"巧":0,"緣":0,"錢":0,"康":0,"體力":0},"旗":[],"星":false}
+效：體智巧緣每項 -6～6（本事是 0～100，平常練一回大約 +2～3），錢 -200～200 文（花的不能超過手上的錢），康 -15～8，體力 -30～20（做事通常會累，是負的）。旗：0～1 個以後還會有影響的事，2～4 個字。星：這一回是人生大事才 true。`;
+  const r = await sample.json(提示, { modelTier: 設.好模型 ? "default" : "quick", cache: false });
+  const 文 = String(r?.文 || "").trim();
+  if (!文) throw { code: "empty_completion" };
+  const 數 = (k, a, b) => 夾(Math.round(Number(r?.效?.[k]) || 0), a, b);
+  const 效 = { 體: 數("體", -6, 6), 智: 數("智", -6, 6), 巧: 數("巧", -6, 6), 緣: 數("緣", -6, 6), 錢: 數("錢", -200, 200), 康: 數("康", -15, 8), 體力: 數("體力", -30, 20) };
+  if (效.錢 < 0) 效.錢 = Math.max(效.錢, -Math.max(0, Math.round(生.錢)));
+  效.旗 = (Array.isArray(r?.旗) ? r.旗 : []).map((x) => String(x).slice(0, 6)).filter(Boolean).slice(0, 1);
+  return { 文: 文.slice(0, 200), 效, 星: !!r?.星 };
+}
+// 年底岔路口自己寫的做法
+async function 問年(情境, 玩家寫) {
+  const 提示 = `你在幫一個古風養成遊戲寫「年底一件事」的結果。${世界提示}
+
+這個人：
+${人物欄()}
+最近幾年：
+${近況()}
+
+${情境}
+玩家寫的做法：「${玩家寫}」
+
+規則：只寫這件事的結果；用「你」稱呼；一到三句，具體、平實、不浮誇；結果依這個人的本事、錢和處境判斷，可以成功、部分成功或失敗；不替玩家決定感受；不要寫到以後的年份。
+只回一個 JSON：{"文":"發生了什麼","效":{"體":0,"智":0,"巧":0,"緣":0,"財":0,"康":0},"旗":[],"職":null,"星":false}
+效：體智巧緣每項 -2～2（一點約等於本事 5），財 -2～2（一點約 80 文），康 -30～15。旗：0～2 個以後還會有影響的事，每個 2～4 個字。職：營生改變才填 農、漁、牧、匠、商、讀、吏、術 之一，沒變填 null。星：人生大事就 true。`;
+  const r = await sample.json(提示, { modelTier: 設.好模型 ? "default" : "quick", cache: false });
+  const 效 = {};
+  for (const k of [...本事鍵, "財"]) 效[k] = 夾(Math.round(Number(r?.效?.[k]) || 0), -2, 2);
+  效.康 = 夾(Math.round(Number(r?.效?.康) || 0), -30, 15);
+  效.旗 = (Array.isArray(r?.旗) ? r.旗 : []).map((x) => String(x).slice(0, 6)).filter(Boolean).slice(0, 2);
+  if (r && typeof r.職 === "string" && 職名[r.職]) 效.職 = r.職;
+  const 文 = String(r?.文 || "").trim();
+  if (!文) throw { code: "empty_completion" };
+  return { 文, 效, 星: !!r?.星 };
+}
+async function 問生平() {
+  const s = 生;
+  const 譜 = s.年.map((y) => `${y.齡}歲：${y.文.join("")}${y.總 ? `（${y.總}）` : ""}${y.記 ? `（手記：${y.記}）` : ""}`).join("\n").slice(-7000);
+  const 提示 = `下面是古風養成遊戲《環澤》裡一個人的一生年譜。請寫他的墓誌和生平。
+${人物欄()}
+年譜：
+${譜}
+
+只回一個 JSON：{"銘":"墓誌，一句，三十字以內，古樸平實","生平":"生平，三到五句，用第三人稱，只寫年譜裡有的事，不誇大"}`;
+  const r = await sample.json(提示, { modelTier: "default", cache: false });
+  return { 銘: String(r?.銘 || "").trim().slice(0, 60), 生平: String(r?.生平 || "").trim().slice(0, 400) };
+}
+const 錯字 = { not_granted: "你沒有允許這一頁使用 Claude。照按鈕上的事做就好。", rate_limited: "Claude 的額度暫時用完，或叫得太頻繁。等一下再試，或先照按鈕上的事做。",
+  refused: "Claude 不寫這一段。換個說法再試。", invalid_json: "Claude 回的格式不對，再試一次。", session_expired: "登入過期了，重新登入 claude.ai 再回來。", tools_unavailable: "", sampling_disabled: "這個帳號不能讓網頁使用 Claude。" };
+const 錯說 = (e) => 錯字[e && e.code] || "這一次沒有成功，可以再試一次。";
+
+// ================= 畫面 =================
+const 場 = () => $("場");
+function 格HTML(s, 可點) {
+  return Array.from({ length: s.齡 + 1 }, (_, i) => {
+    const y = s.年.find((x) => x.齡 === i);
+    const 情 = y ? y.情 : "平", 星 = y && y.星 ? 1 : 0;
+    const t = y ? `${i}歲：${y.文.join("")}` : `${i}歲`;
+    return `<button type="button" data-齡="${i}" data-情="${esc(情)}" data-星="${星}" title="${esc(t)}" aria-label="${esc(t)}" ${可點 && y ? "" : "disabled"}></button>`;
+  }).join("");
+}
+const 格說HTML = `<div class="格說"><span><i style="background:var(--朱)"></i>大事</span><span><i style="background:var(--青)"></i>好事</span><span><i style="background:var(--淡)"></i>難過的事</span><span><i style="background:var(--紙三);border:1px solid var(--線)"></i>平常</span><span><i style="background:var(--墨)"></i>離世</span><span>★ 標星的年</span></div>`;
+function 卡格HTML(c) {
+  return [...c.格].map((ch, i) => `<button type="button" disabled data-情="${["平", "喜", "憂", "大", "死"][+ch] || "平"}" data-星="${c.星.includes(i) ? 1 : 0}" title="${i}歲"></button>`).join("");
+}
+
+function 首頁() {
+  $("控").hidden = true;
+  場().innerHTML = `<section class="卡 扉">
+    <div class="題"><h2>環澤一生</h2><span class="印" aria-hidden="true">投胎</span></div>
+    <div class="文">
+      <p>遠古的科技文明崩潰以後，六洲各自重建，日子大致像宋代。你會隨機投胎到六洲的某個角落，生在誰家、是男是女，都由不得你。</p>
+      <p>你能決定的，是帶著哪幾樣天賦、每一年的十二回拿來做什麼：讀書、練身體、學手藝、找活、做買賣、陪家人……本事練到了，才做得了那些事。年底會遇到岔路口，停下來讓你選。走完了，刻一方墓誌，${公開版 ? "收在「我的前世」裡" : "收進大家共用的追思館"}。</p>
+      <div class="鈕組" id="首鈕"><button class="鈕 朱" id="投" type="button">投胎</button></div>
+      <p class="小字" id="首說"></p>
+    </div></section>`;
+  $("投").onclick = 出生儀式;
+  (async () => {
+    const 舊 = await 讀我("life");
+    if (舊 && 舊.生 && 舊.生.v === 3 && !舊.生.終 && $("首鈕") && !$("接鈕")) {
+      const b = document.createElement("button"); b.className = "鈕 主"; b.type = "button"; b.id = "接鈕"; b.textContent = `接著過 ${舊.生.出.名} 的一生（${舊.生.齡} 歲）`;
+      b.onclick = () => { 生 = 舊.生; 一生頁(); };
+      $("首鈕").prepend(b);
+    }
+    if ($("首說")) $("首說").textContent = 公開版 ? "免費、不用登入。存檔留在這個瀏覽器裡，換電腦或清掉瀏覽器資料就不見了。" : sample ? "有 Claude 的話，每一回還可以自己寫想做的事，結束時請它寫墓誌；沒有也能照按鈕玩完一生。" : "這一頁不用 Claude 也能玩完一生。在 claude.ai 打開、允許使用 Claude 的話，還能自己寫想做的事。";
+  })();
+}
+function 出生儀式() {
+  const 出 = 投胎();
+  $("控").hidden = true;
+  場().innerHTML = `<section class="卡" style="display:grid;gap:14px;justify-items:start">
+    <div class="抽" id="抽" aria-live="polite">投胎中……</div>
+    <div id="圖位" style="width:100%">${一生舞台.六洲圖()}</div>
+    <p class="小字" style="margin:-8px 0 0">六洲方位示意（詳細的地形、國界世界設定還沒定）</p>
+    <div id="文書位" class="文書位"></div>
+    <div id="下一步"></div></section>`;
+  // 一洲一洲亮過去，越來越慢，落在出生的那一洲
+  const 轉 = ["中原洲", "南濱洲", "西陲洲", "北岫洲", "鏡灣洲", "東岬洲"];
+  const 點 = (洲) => document.querySelector(`.洲點[data-洲="${洲}"]`);
+  const 完 = () => {
+    document.querySelectorAll(".洲點").forEach((g) => g.classList.remove("亮"));
+    const g = 點(出.洲); if (g) g.classList.add("落");
+    $("抽").textContent = `${出.洲}・${出.地}`;
+    $("文書位").innerHTML = 文書HTML(出); $("文書位").classList.add("現");
+    $("下一步").innerHTML = `<button class="鈕 主" id="去備" type="button">收下文書，挑天賦</button>`;
+    $("去備").onclick = () => 備頁(出);
+  };
+  if (靜()) return 完();
+  const 步數 = 12 + 轉.indexOf(出.洲) + (亂(2) ? 6 : 0);
+  let n = 0;
+  const 走 = () => {
+    if (!$("抽")) return;
+    document.querySelectorAll(".洲點").forEach((g) => g.classList.remove("亮"));
+    if (n >= 步數) return 完();
+    const 洲 = 轉[n % 6]; const g = 點(洲); if (g) g.classList.add("亮");
+    $("抽").textContent = 洲 + "……";
+    n++;
+    setTimeout(走, 45 + Math.max(0, n - 步數 + 6) * 38);
+  };
+  走();
+}
+function 文書HTML(出, 天賦ids) {
+  const 天 = (天賦ids || []).map((id) => (天賦表.find((x) => x.id === id) || {}).名).filter(Boolean).join("、");
+  return `<div class="文書" role="group" aria-label="身分文書"><h3>身 分 文 書</h3>
+    <dl><dt>姓名</dt><dd>${esc(出.名)}</dd><dt>性別</dt><dd>${esc(出.性)}</dd><dt>籍貫</dt><dd>${esc(出.洲)}・${esc(出.地)}</dd>
+    <dt>所屬</dt><dd>${esc(出.勢)}</dd><dt>出身</dt><dd>${esc(出.家)}</dd>${出.律 ? `<dt>異稟</dt><dd>生來帶著${esc(出.律)}律的適性</dd>` : ""}${天 ? `<dt>天賦</dt><dd>${esc(天)}</dd>` : ""}</dl>
+    <div class="大印" aria-hidden="true">${esc(出.洲.slice(0, 2))}<br>籍冊</div></div>`;
+}
+function 備頁(出) {
+  const 牌們 = 抽天賦(), 選中 = new Set();
+  const 分 = { 體: 5, 智: 5, 巧: 5, 緣: 5 }, 總 = 20;
+  場().innerHTML = `<section class="卡 備">
+    ${文書HTML(出)}
+    <div><h3>挑三樣天賦</h3><p class="小字">這八張是這一次抽到的。顏色越深越少見。</p><div class="牌組" id="牌組"></div></div>
+    <div><h3>分配二十點資質</h3><p class="小字">每一項 0～10。資質越高，那一項練起來越快，起點也高一點。家底照出身，不能分。</p><div class="分配" id="分配"></div>
+      <p class="小字" id="剩"></p><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="鈕 小" id="隨分" type="button">隨便分</button></div></div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="鈕 朱" id="出世" type="button">出世</button><button class="鈕" id="重投" type="button">重新投胎</button></div>
+    <p class="小字" id="備說"></p></section>`;
+  const 畫牌 = () => {
+    $("牌組").innerHTML = 牌們.map((t) => `<button type="button" class="牌" data-級="${t.級}" data-id="${t.id}" aria-pressed="${選中.has(t.id)}"><b>${esc(t.名)}</b><span>${esc(t.說)}</span>${t.效說 ? `<em>${esc(t.效說)}</em>` : ""}</button>`).join("");
+    $("牌組").querySelectorAll(".牌").forEach((b) => b.onclick = () => { const id = b.dataset.id; if (選中.has(id)) 選中.delete(id); else if (選中.size < 3) 選中.add(id); 畫牌(); 畫狀(); });
+  };
+  const 用 = () => 分.體 + 分.智 + 分.巧 + 分.緣;
+  const 畫分 = () => {
+    $("分配").innerHTML = 本事鍵.map((k) => `<div class="分行"><label for="分-${k}">${屬名[k]}</label>
+      <button class="鈕 小" type="button" data-k="${k}" data-d="-1" aria-label="${屬名[k]}減一">－</button>
+      <div class="條" id="分-${k}" role="meter" aria-valuemin="0" aria-valuemax="10" aria-valuenow="${分[k]}"><i style="width:${分[k] * 10}%"></i></div>
+      <button class="鈕 小" type="button" data-k="${k}" data-d="1" aria-label="${屬名[k]}加一">＋</button><span class="值">${分[k]}</span></div>`).join("")
+      + `<div class="分行"><label>${屬名.財}</label><span></span><div class="條"><i style="width:${出.財 * 10}%"></i></div><span></span><span class="值">${出.財}</span></div>`;
+    $("分配").querySelectorAll("button").forEach((b) => b.onclick = () => { const k = b.dataset.k, d = +b.dataset.d; const v = 分[k] + d; if (v < 0 || v > 10) return; if (d > 0 && 用() >= 總) return; 分[k] = v; 畫分(); 畫狀(); });
+  };
+  const 畫狀 = () => { $("剩").textContent = `還剩 ${總 - 用()} 點`; $("出世").disabled = 選中.size !== 3 || 用() !== 總; $("備說").textContent = 選中.size !== 3 ? `天賦還要再挑 ${3 - 選中.size} 樣。` : 用() !== 總 ? "點數還沒分完。" : ""; };
+  $("隨分").onclick = () => { for (const k of 本事鍵) 分[k] = 0; for (let i = 0; i < 總; i++) { const 可 = 本事鍵.filter((k) => 分[k] < 10); 分[可[亂(可.length)]]++; } 畫分(); 畫狀(); };
+  $("重投").onclick = 出生儀式;
+  $("出世").onclick = () => { 生 = 開始(出, [...選中], { ...分 }); 存生(); 一生頁(); };
+  畫牌(); 畫分(); 畫狀();
+}
+
+// ================= 舞台與動畫 =================
+// 動畫：系統設了「減少動態」，或設定裡關掉，就不演。每個動畫都在一秒左右演完，不擋連按。
+const 靜 = () => !設.動畫 || matchMedia("(prefers-reduced-motion: reduce)").matches;
+function 套靜() { document.documentElement.classList.toggle("靜", !設.動畫); }
+const 季名 = ["春", "夏", "秋", "冬"];
+const 季 = (回) => 季名[Math.min(3, Math.floor(Math.max(0, 回 - 1) / 3))];
+const 地方名 = { 學舍: "學舍", 講古: "說書場", 窗下: "窗下", 空地: "空地", 作坊: "作坊", 術坊: "術工坊", 術學舍: "術工學舍", 榜牆: "榜下", 田: "田裡", 海邊: "海邊",
+  草場: "草場", 市集: "市集", 衙門: "衙門", 醫館: "醫館", 茶館: "茶館", 鋪子: "自己的鋪子", 大路: "大路上", 碼頭: "碼頭" };
+// 一件事在哪裡做、手上拿什麼、什麼動作（揮、讀、舉、坐、睡、修、走、站）
+const 活演 = { 零工: ["碼頭", "擔", "揮"], 學徒: ["作坊", "錘", "揮"], 工匠: ["作坊", "錘", "揮"], 伙計: ["市集", "算", "站"], 掌櫃: ["市集", "算", "站"], 塾師: ["學舍", "卷", "讀"],
+  書吏: ["衙門", "筆", "讀"], 主簿: ["衙門", "筆", "讀"], 鏢師: ["大路", "刀", "揮"], 術工: ["術坊", "光", "修"], 鋪子: ["鋪子", "算", "站"] };
+const 家業演 = { 農: ["田", "鋤", "揮"], 漁: ["海邊", "篙", "揮"], 牧: ["草場", "杖", "站"], 匠: ["作坊", "錘", "揮"], 商: ["市集", "算", "站"], 讀: ["窗下", "筆", "讀"], 吏: ["衙門", "筆", "站"] };
+const 動演 = { 上學堂: ["學舍", "書", "讀"], 聽人講古: ["講古", "", "坐"], 自己讀書: ["窗下", "書", "讀"], 練身體: ["空地", "", "舉"], 學手藝: ["作坊", "錘", "揮"],
+  修律: ["術坊", "光", "修"], 考功名: ["榜牆", "卷", "站"], 考學舍: ["術學舍", "", "站"], 找活: ["市集", "", "走"], 做買賣: ["市集", "算", "站"],
+  開鋪子: ["鋪子", "算", "站"], 買地: ["田", "", "站"], 買術片: ["術坊", "", "站"], 做術片: ["術坊", "光", "修"], 陪家人: ["家", "", "坐"], 跟人來往: ["茶館", "杯", "坐"], 休息: ["家", "", "睡"], 看大夫: ["醫館", "碗", "坐"], 自寫: ["家", "", "站"] };
+const 活的演 = (w) => (w ? (w.id === "家業" ? 家業演[w.職] : 活演[w.id]) : null);
+function 演法(x) {
+  if (!x) return ["家", "", "站"];
+  if (x.動 === "上工") return 活的演(現活()) || ["碼頭", "擔", "揮"];
+  if (x.動 === "幫家裡做事") return 家業演[生.出.職] || ["家", "擔", "揮"];
+  if (x.動 === "找活") return x.參 ? (活的演(活(x.參)) || ["市集", "", "走"]).slice(0, 2).concat("走") : ["市集", "", "走"];
+  if (x.動 === "律活") { const w = 現律活() || (生.律 && 律活表[生.律][0]); return [w ? w.地 : "術坊", "光", "修"]; }
+  return 動演[x.動] || ["家", "", "站"];
+}
+function 我衣() { let h = 7; for (const c of 生.出.名) h = (Math.imul(h, 31) + c.charCodeAt(0)) >>> 0; return `hsl(${h % 360} 34% 40%)`; }
+let 演 = null, 上地方 = null, 上格數 = 0;   // 演：剛做完、還沒演的那一回（{ 行, 飄 }）；上地方：舞台上一次畫的地方
+// 「聰慧 +2・錢 +30・體力 −14」→ 本事在前、錢、身子、體力在後，最多四個
+function 飄字(變) {
+  const 序 = (t) => (/^體力/.test(t) ? 3 : /^身子/.test(t) ? 2 : /^錢/.test(t) ? 1 : 0);
+  return (變 || "").split("・").filter(Boolean).sort((a, b) => 序(a) - 序(b)).slice(0, 4);
+}
+function 舞台HTML() {
+  const s = 生, o = s.出;
+  if (s.齡 < 6) return 一生舞台.場景({ 地方: "家", 洲: o.洲, 地: o.地, 季: "春", 牌: o.地, 嬰: true, 衣: 我衣() });
+  const 末 = [...s.本年].reverse().find((x) => x.回 > 0);
+  const [地方, 持, 動] = 演法(末);
+  const 新 = !!(演 && 末 && 演.行 === 末) && !靜();
+  const 時 = 季(末 ? 末.回 : 1);
+  const html = 一生舞台.場景({ 地方, 洲: o.洲, 地: o.地, 季: 時, 牌: `${地方 === "家" ? o.地 : 地方名[地方]}・${時}`, 店: o.名[0] + "記",
+    性: o.性, 齡: s.齡, 衣: 我衣(), 律: s.律, 持, 動: 新 || 動 === "睡" || 動 === "坐" ? 動 : "站", 入: 新 && 上地方 != null && 地方 !== 上地方,
+    飄: 新 ? 演.飄 : [], 報: 新 ? 末.小 || "" : "", 印: 新 ? 末.印 || "" : "", 類: 新 && 末.動 === "開鋪子" ? "開張" : "" });
+  上地方 = 地方;
+  return html;
+}
+// 擲骰尺：判＝{ 名, 低, 高, 難, 點, 單 }，擲出來的點落在低～高之間，到難就算成
+function 尺HTML(判, 演中) {
+  const 寬 = 判.高 - 判.低 + 1;
+  const 成 = 夾(((判.高 - 判.難 + 1) / 寬) * 100, 0, 100), 點 = 夾(((判.點 - 判.低 + 0.5) / 寬) * 100, 1, 99);
+  return `<span class="骰尺${演中 ? " 演" : ""}" style="--成:${成}%;--點:${點}%" role="img" aria-label="${esc(判.名)} ${判.低}～${判.高}，要 ${判.難}，這一回是 ${判.點}">
+    <span class="尺"><span class="成"></span><span class="針"></span></span><span class="註"><span>${esc(判.名)} ${判.低}</span><span>要 ${判.難}${判.單 || ""}</span><span>${判.高}</span></span></span>`;
+}
+// 過一年：翻一張年紙（不擋按鈕，兩秒內自己收掉）
+function 翻年紙(y) {
+  if (靜() || !y) return;
+  document.querySelectorAll(".年紙").forEach((e) => e.remove());
+  const 句 = (y.文 || [])[0] || "";
+  const d = document.createElement("div"); d.className = "年紙"; d.setAttribute("aria-hidden", "true");
+  d.innerHTML = `<div class="紙"><div class="歲">${漢數(生.齡)}歲</div><div class="句">${句 ? "去年：" + esc(句.length > 36 ? 句.slice(0, 35) + "…" : 句) : ""}</div>${y.印 ? `<div class="朱印">${esc(y.印)}</div>` : ""}</div>`;
+  document.body.appendChild(d);
+  setTimeout(() => d.remove(), 2000);
+}
+
+let 活開 = false, 全譜 = false, 片開 = "";
+// ---- 修律的小遊戲：律勁在條上來回走，停在律色那一段裡就長得多，衝過頭會反衝 ----
+let 律戲 = null;
+function 開律戲() {
+  收律戲();
+  const 位 = $("律戲位"); if (!位) return;
+  const 律 = 本("律"), w = 5 + 律 / 16, c = 30 + 亂(46), 色 = { 土: "#b88a4a", 水: "#5b9db0", 火: "#d0552f", 風: "#8fb58a" }[生.律];
+  位.innerHTML = `<div class="律戲" style="--律:${色}" role="group" aria-label="修律">
+    <div class="律戲頭"><b>修律・${esc(生.律)}律</b><span class="小字">律勁走到那一段顏色裡的時候按「收」（或按空白鍵）。越靠中間長得越多；衝過頭會反衝。</span></div>
+    <div class="律條" aria-hidden="true"><span class="律段" style="left:${c - w}%;width:${2 * w}%"><i class="律心"></i></span><span class="律針" id="律針"></span></div>
+    <div class="律鈕"><button class="鈕 朱" type="button" id="律收">收！</button><button class="鈕 小" type="button" id="律略">不玩，照常修</button>
+      <label class="小字"><input type="checkbox" id="律不玩"> 以後修律都照常修（設定裡可以再打開）</label></div></div>`;
+  const t0 = performance.now(), 針 = $("律針");
+  律戲 = { c, w, p: 2, raf: 0 };
+  const 走 = (t) => { if (!律戲) return; 律戲.p = 50 - 48 * Math.cos(((t - t0) / 1400) * 2 * Math.PI); 針.style.left = 律戲.p + "%"; 律戲.raf = requestAnimationFrame(走); };
+  律戲.raf = requestAnimationFrame(走);
+  $("律收").onclick = 收律勁;
+  $("律略").onclick = () => { 收律戲(); 動一回("修律"); };
+  $("律不玩").onchange = (e) => { 設.律戲 = !e.target.checked; 存設(); };
+  $("律收").focus({ preventScroll: true });
+  位.scrollIntoView({ block: "nearest" });
+}
+function 收律戲() { if (律戲) { cancelAnimationFrame(律戲.raf); 律戲 = null; } const 位 = $("律戲位"); if (位) 位.innerHTML = ""; }
+function 收律勁() {
+  if (!律戲) return;
+  const { p, c, w } = 律戲, d = Math.abs(p - c);
+  const 等 = d <= w * 0.4 ? "準" : d <= w ? "好" : p > c ? "衝" : "弱";
+  收律戲();
+  動一回("修律", 等);
+}
+document.addEventListener("keydown", (e) => { if (律戲 && (e.key === " " || e.key === "Enter") && !/TEXTAREA|INPUT/.test(e.target.tagName)) { e.preventDefault(); 收律勁(); } });
+function 一生頁() {
+  活開 = false; 片開 = ""; 全譜 = false; 上地方 = null; 上格數 = 0; 演 = null;
+  場().innerHTML = `<section class="生">
+    <div class="側">
+      <div class="卡 摘" id="摘"></div>
+      <div class="卡" id="格卡" style="display:grid;gap:8px"><div class="格頭"><b>年格子</b><span class="小字">點一格可以標星</span></div><div class="格" id="格"></div>${格說HTML}</div>
+    </div>
+    <div class="主">
+      <div class="卡 今" id="今"></div>
+      <div class="卡" id="往"><div class="往頭"><b>年譜</b><span class="小字">最近的在上面</span></div><div class="譜" id="譜"></div></div>
+    </div></section>`;
+  $("控").hidden = false;
+  畫全();
+}
+function 畫全() { 畫摘(); 畫格(); 畫今(); 畫譜(); 畫控(); }
+function 畫摘() {
+  const s = 生, o = s.出, w = 現活(), 上 = 體力上限();
+  const 舊 = {}; $("摘").querySelectorAll(".屬行[data-k]").forEach((r) => { 舊[r.dataset.k] = +r.dataset.v; });
+  const 條 = (名, v, 頂, 類 = "") => {
+    const 前 = 舊[名] ?? v, 變 = 類 ? "" : v > 前 ? "漲" : v < 前 ? "跌" : "";
+    return `<div class="屬行 ${類}" data-k="${名}" data-v="${v}"><span>${名}</span><div class="條" role="meter" aria-label="${名}" aria-valuemin="0" aria-valuemax="${頂}" aria-valuenow="${v}"><i style="width:${Math.min(100, (前 / 頂) * 100)}%" data-w="${Math.min(100, (v / 頂) * 100)}"></i></div><span class="值 ${變}">${v}</span></div>`;
+  };
+  $("摘").innerHTML = `<h3>${esc(o.名)}<small>${esc(o.性)}・${esc(o.洲)}・${esc(o.家)}</small></h3>
+    <div style="display:flex;align-items:baseline;gap:10px;margin-top:8px"><span class="齡">${s.齡}</span><span class="淡">歲・身子${身子(s.康)}</span></div>
+    <p>${w ? `${esc(w.名)}（做了 ${s.工.資} 回）` : s.齡 < 12 ? "還小，不用做活" : "沒有固定的活"}${s.律 ? `・${esc(s.律)}律${律境名() ? "・" + 律境名() : "適性"}` : ""}</p>
+    <div class="錢行"><span>錢 <b class="${s.錢 < 0 ? "欠" : ""}">${Math.round(s.錢)}</b> 文</span><span>家底 <b>${s.家底}</b></span>${s.地數 ? `<span>地 <b>${s.地數}</b> 塊</span>` : ""}</div>
+    ${(s.片 || []).length ? `<div class="錢行 片行">術片：${s.片.map((x) => `${esc(片表(x.id).名)}（${x.計 === "年" ? `${x.剩} 年` : `剩 ${x.剩} 回`}）`).join("、")}</div>` : ""}
+    <div class="屬列">${s.齡 >= 6 ? 條("體力", Math.round(s.體力), 上, "體") : ""}${本事鍵.map((k) => 條(屬名[k], 本(k), 100)).join("")}${s.屬.律 != null ? 條("律術", 本("律"), 100) : ""}</div>`;
+  void $("摘").offsetWidth;
+  $("摘").querySelectorAll("i[data-w]").forEach((i) => { i.style.width = i.dataset.w + "%"; });
+}
+function 畫格() {
+  $("格").innerHTML = 格HTML(生, true);
+  const 數 = 生.齡 + 1;
+  if (上格數 && 數 > 上格數 && $("格").lastElementChild) $("格").lastElementChild.classList.add("新");
+  上格數 = 數;
+  $("格").querySelectorAll("button").forEach((b) => b.onclick = () => {
+    const y = 生.年.find((x) => x.齡 === +b.dataset.齡); if (!y) return;
+    y.星 = y.星 ? 0 : 1; b.dataset.星 = y.星; const r = document.querySelector(`.年[data-齡="${y.齡}"]`); if (r) r.dataset.星 = y.星; 存生();
+  });
+}
+function 年HTML(y) {
+  const 擇 = y.擇 && typeof y.擇 === "object" ? y.擇 : null;
+  const 句 = y.文.map((t, i) => `<p>${esc(t)}</p>${擇 && i === 擇.位 ? `<span class="選">你選了：${esc(擇.字)}</span>` : ""}`).join("");
+  return `<div class="年" data-齡="${y.齡}" data-情="${esc(y.情)}" data-星="${y.星 ? 1 : 0}"><span class="歲">${y.齡} 歲</span><div class="句">${句}${y.總 ? `<p class="總">${esc(y.總)}</p>` : ""}${y.記 ? `<p class="記">手記：${esc(y.記)}</p>` : ""}</div></div>`;
+}
+function 畫譜() {
+  const 全 = 生.年.slice().reverse(), 顯 = 全譜 ? 全 : 全.slice(0, 8);
+  $("譜").innerHTML = 顯.map(年HTML).join("") + (全.length > 8 ? `<div><button class="鈕 小" type="button" id="譜全">${全譜 ? "只看最近八年" : `看全部 ${全.length} 年`}</button></div>` : "");
+  const b = $("譜全"); if (b) b.onclick = () => { 全譜 = !全譜; 畫譜(); };
+}
+function 行HTML(x) {
+  const 演中 = !!(演 && 演.行 === x) && !靜();
+  const 文 = x.文 ? `<span class="文${x.判 ? " 果" : ""}">${x.回 && !x.判 ? "　" : ""}${esc(x.文)}</span>` : "";
+  return `<li class="${x.星 ? "星" : ""}"><span class="回">${x.回 ? 漢數(x.回) : "・"}</span><div>${x.回 ? `<span>${esc(x.名)}</span>` : ""}${x.判 ? 尺HTML(x.判, 演中) : ""}${文}${x.變 ? `<span class="變">${esc(x.變)}</span>` : ""}${x.小 ? `<span class="小事">${esc(x.小)}</span>` : ""}</div></li>`;
+}
+// 按鈕上面只放「剛剛這一回」，高度大致固定，按鈕才不會一直往下跑；整年的清單放在按鈕下面
+function 最新HTML() {
+  const 末 = 生.本年[生.本年.length - 1];
+  return `<div class="最新" aria-live="polite">${末 ? `<ol class="本年">${行HTML(末)}</ol>` : `<p class="小字" style="margin:0">挑下面一件事，這一年的第一回就開始。</p>`}</div>`;
+}
+function 本年HTML() {
+  const 做過 = 生.本年.filter((x) => x.回 > 0);
+  if (做過.length < 2) return "";
+  return `<div class="年單"><b>這一年做過的事</b><ol class="本年" id="本年">${生.本年.map(行HTML).join("")}</ol></div>`;
+}
+function 動區HTML() {
+  let h = "";
+  for (const [類, 名] of Object.entries(類名)) {
+    const 鈕們 = 動表.filter((a) => a.類 === 類).map((a) => {
+      const c = 可做(a); if (!c.見) return "";
+      const 單 = { 找活: 活開, 買術片: 片開 === "買", 做術片: 片開 === "做" }[a.id], 開 = 單 !== undefined, 耗 = 動耗(a);
+      const 險 = !c.行 || (開 && a.id !== "做術片") ? "" : 施術的(a.id) && 施術險(生.體力) > 0 ? "體力低或身子差，施術可能昏倒" : 耗 > 0 && 生.體力 - 耗 < 15 ? "體力不夠了，做了可能累病" : "";
+      return `<button class="動" type="button" data-id="${a.id}" ${c.行 ? "" : "disabled"} ${開 ? `aria-expanded="${單}"` : ""}><b>${esc(動名(a))}</b><small class="${c.因 || 險 ? "鎖" : ""}">${esc(c.因 || 險 || a.說())}</small></button>`;
+    }).join("");
+    if (鈕們) h += `<div class="動組"><h4>${名}</h4><div class="動列">${鈕們}</div>${類 === "工" && 活開 ? 活單HTML() : ""}${類 === "律" && 片開 ? 片單HTML(片開) : ""}</div>`;
+  }
+  if (可用Claude()) h += `<div class="動組"><h4>自己想做的事</h4><div class="自寫"><textarea id="自字" rows="2" maxlength="200" placeholder="例如：去城裡找舅舅學算帳"></textarea>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><button class="鈕 朱 小" type="button" id="自做">照這樣過這一回</button><span class="小字" id="自說" aria-live="polite">Claude 會照你的本事和處境寫結果，用掉一回。</span></div></div></div>`;
+  return `<div class="動區">${h}</div>`;
+}
+function 片單HTML(模) {
+  const 列 = 術片表.map((t) => {
+    const 身上 = (生.片 || []).find((x) => x.id === t.id);
+    const 久 = t.年 ? `能用 ${t.年} 年` : `能用 ${t.次} 回`;
+    const 因 = 模 === "買" ? 可做(動表.find((a) => a.id === "買術片"), t.id).因 : 可做(動表.find((a) => a.id === "做術片"), { id: t.id }).因;
+    const 鈕 = 模 === "買"
+      ? `<button class="鈕 小" type="button" data-片="${t.id}" data-模="買" ${因 ? "disabled" : ""}>${因 ? esc(因) : `${身上 ? "換一片新的" : "買"}（${t.價} 文）`}</button>`
+      : 因 ? `<button class="鈕 小" type="button" disabled>${esc(因)}</button>` : `<span style="display:flex;gap:6px;flex-wrap:wrap"><button class="鈕 小" type="button" data-片="${t.id}" data-模="賣">做來賣</button><button class="鈕 小" type="button" data-片="${t.id}" data-模="自">做給自己</button></span>`;
+    return `<div class="活行"><div><b>${esc(t.名)}</b> <span class="小字">${t.律}律・${久}${身上 ? `・你身上這片還能用 ${身上.剩} ${身上.計 === "年" ? "年" : "回"}` : ""}</span><div class="小字">${esc(t.說)}</div></div>${鈕}</div>`;
+  }).join("");
+  return `<div class="活單" style="margin-top:8px"><div class="小字">${模 === "買" ? "走一趟術工坊買一片，花一回。同一種身上只帶一片，再買會換新的。" : "做一片要花一回，很累。賣掉大約拿市價的五到八成。"}</div>${列}</div>`;
+}
+function 活單HTML() {
+  const 列 = 可找的活().map((w) => {
+    const 因 = 可做(動表.find((a) => a.id === "找活"), w.id).因, 薪 = w.薪 ? `一回 ${w.薪[0]}～${w.薪[1]} 文` : "賺多少看本事";
+    return `<div class="活行"><div><b>${esc(w.名)}</b> <span class="小字">${薪}・${Object.keys(w.長).map((k) => 屬名[k]).join("、")}↑</span><div class="小字">${esc(w.說 || "")}</div></div>
+      <button class="鈕 小" type="button" data-活="${w.id}" ${因 ? "disabled" : ""}>${因 ? esc(因) : "去做"}</button></div>`;
+  }).join("");
+  return `<div class="活單" style="margin-top:8px"><div class="小字">換到新的活要花一回。升上去的活（掌櫃、主簿）要先在原來的活做出年資。</div>${列}
+    ${生.工 ? `<div><button class="鈕 小" type="button" id="辭工">不做現在這個活了</button><span class="小字">（不花一回）</span></div>` : ""}</div>`;
+}
+function 畫今() {
+  const s = 生;
+  收律戲();
+  if (s.終) {
+    $("今").innerHTML = `<p class="完">這一生走完了，享年${漢數(s.終.享年)}。</p><div><button class="鈕 主" type="button" id="今誌">看墓誌</button></div>`;
+    $("今誌").onclick = 墓誌頁; return;
+  }
+  if (s.齡 < 6) {
+    $("今").innerHTML = `${舞台HTML()}<div class="今頭"><span class="齡字">${漢數(s.齡)}歲</span></div>
+      <p class="完">你還小，日子由家裡人帶著過。六歲以後，一年十二回，每一回做什麼由你自己挑。</p>`;
+    return;
+  }
+  const 點 = Array.from({ length: 12 }, (_, i) => `<i class="${i < s.回 ? "用" : ""}"></i>`).join("");
+  $("今").innerHTML = `${舞台HTML()}<div class="今頭"><span class="齡字">${漢數(s.齡)}歲</span><span class="淡">第 ${Math.min(s.回 + 1, 12)} 回／十二回</span><span class="回點" aria-label="用了 ${s.回} 回">${點}</span></div>
+    ${最新HTML()}
+    <div id="律戲位"></div>
+    <div id="抉位"></div>
+    ${s.待 ? "" : s.回 >= 12 ? `<p class="完">這一年的十二回都用完了。按下面的「過一年」，看看年底會遇到什麼。</p>` : 動區HTML()}
+    ${本年HTML()}
+    <input class="本記" id="本記" maxlength="120" placeholder="這一年的手記（可以不寫）" value="${esc(s.本記)}" aria-label="這一年的手記">`;
+  演 = null;
+  if (s.待) 畫抉();
+  $("今").querySelectorAll(".動[data-id]").forEach((b) => b.onclick = () => {
+    const id = b.dataset.id;
+    if (id === "找活") { 活開 = !活開; 片開 = ""; 畫今(); return; }
+    if (id === "買術片" || id === "做術片") { const 模 = id === "買術片" ? "買" : "做"; 片開 = 片開 === 模 ? "" : 模; 活開 = false; 畫今(); return; }
+    if (id === "修律" && 設.律戲 && !靜()) { 開律戲(); return; }
+    動一回(id);
+  });
+  $("今").querySelectorAll("[data-活]").forEach((b) => b.onclick = () => { 活開 = false; 動一回("找活", b.dataset.活); });
+  $("今").querySelectorAll("[data-片]").forEach((b) => b.onclick = () => { const 模 = b.dataset.模; 片開 = ""; if (模 === "買") 動一回("買術片", b.dataset.片); else 動一回("做術片", { id: b.dataset.片, 自: 模 === "自" }); });
+  const 辭 = $("辭工"); if (辭) 辭.onclick = () => { 生.工 = null; 生.職 = null; 活開 = false; 存生(); 畫摘(); 畫今(); };
+  $("本記").oninput = (e) => { 生.本記 = e.target.value.slice(0, 120); 存生(); };
+  const 做鈕 = $("自做");
+  if (做鈕) 做鈕.onclick = async () => {
+    const t = $("自字").value.trim(); if (!t || 忙) return;
+    忙 = true; 做鈕.disabled = true; $("自說").textContent = "Claude 在寫這一回……";
+    try { const r = await 問回(t); 忙 = false; 動一回("自寫", r); }
+    catch (e) { 忙 = false; $("自說").textContent = 錯說(e); 做鈕.disabled = false; }
+  };
+}
+function 動一回(id, 參) {
+  const 行 = 做(id, 參);
+  if (!行) return;
+  演 = { 行, 飄: 飄字(行.變) };
+  存生(); 畫摘(); 畫今(); 畫控();
+}
+// 剩下的幾回一口氣做完：照去年，或都做同一件。太累的時候改成休息。
+function 連做(取) {
+  const 前 = 快照(); let 末 = null;
+  while (生.回 < 12 && !生.待 && !生.終) {
+    let x = 取(生.回);
+    const a = x && 動表.find((y) => y.id === x.動);
+    if (!a || a.不重 || !可做(a, x.參).行 || (動耗(a, x.參) > 0 && 生.體力 - 動耗(a, x.參) < 12)) x = { 動: "休息" };
+    末 = 做(x.動, x.參);
+    if (!末) break;
+  }
+  if (末) 演 = { 行: 末, 飄: 飄字(差(前)) };
+  存生(); 畫摘(); 畫今(); 畫控();
+}
+// 最近做的那件事，還能再做才算（考試、開鋪這種做一次的不算）
+function 末動() { for (let i = 生.本年.length - 1; i >= 0; i--) { const x = 生.本年[i]; if (x.回 > 0) { const a = 動表.find((y) => y.id === x.動); return a && !a.不重 && (生.回 >= 12 || 可做(a, x.參).行) ? x : null; } } return null; }
+function 畫控() {
+  const s = 生, b = (id, fn) => { const e = $(id); if (e) e.onclick = fn; };
+  let h;
+  if (s.終) h = `<button class="鈕 主" type="button" id="看誌">看墓誌</button>`;
+  else if (s.齡 < 6) h = `<span class="小字">${s.齡} 歲・身子${身子(s.康)}</span><div class="右"><button class="鈕" type="button" id="長大">直接長到六歲</button><button class="鈕 朱" type="button" id="過年">過一年 →</button></div>`;
+  else if (s.待) h = `<span class="小字">年底遇到一件事，選了才會到下一年。</span>`;
+  else {
+    const 末 = 末動(), 剩 = 12 - s.回;
+    h = `${剩 ? `<button class="鈕" type="button" id="照去年" ${s.去年動.length ? "" : "disabled"}>剩下的照去年</button>
+      <button class="鈕" type="button" id="都做" ${末 ? "" : "disabled"}>${末 ? `剩下都做「${esc(末.名.replace(/：.*$/, ""))}」` : "剩下都做同一件"}</button>` : ""}
+      <div class="右"><span class="小字">體力 ${Math.round(s.體力)}・錢 ${Math.round(s.錢)} 文</span>
+      <button class="鈕 ${剩 ? "" : "朱"}" type="button" id="過年">${剩 ? `過一年（閒 ${剩} 回）` : "過一年 →"}</button></div>`;
+  }
+  $("控").innerHTML = `<div class="控內">${h}</div>`;
+  b("看誌", 墓誌頁);
+  b("過年", 按過年);
+  b("長大", () => { while (生.齡 < 6 && !生.終) { if (嬰一年() === "死") { 存生(); 結束(); return; } } 存生(); 畫全(); });
+  b("照去年", () => 連做((i) => 生.去年動[i]));
+  b("都做", () => { const 末 = 末動(); if (末) 連做(() => ({ 動: 末.動, 參: 末.參 })); });
+}
+function 按過年() {
+  if (忙) return;
+  if (生.齡 < 6) { const r = 嬰一年(); 存生(); if (r === "死") { 結束(); return; } 畫全(); if (r === "續") 翻年紙(生.年[生.年.length - 1]); return; }
+  const r = 年終();
+  存生();
+  if (r === "死") { 結束(); return; }
+  活開 = false; 畫全();
+  if (r === "續") 翻年紙(生.年[生.年.length - 1]);
+  if (r === "擇") { const 抉 = $("抉位"); if (抉) 抉.scrollIntoView({ block: "center" }); }
+  else $("今").scrollIntoView({ block: "start" });
+}
+function 畫抉() {
+  const s = 生, e = 事件庫.find((x) => x.id === s.待.id);
+  $("抉位").innerHTML = `<div class="抉"><span class="小字">年底</span>
+    <p>${esc(s.待.文)}</p>
+    <div class="選項">${e.擇.map((o, i) => { const 少 = 缺(o); return `<button class="鈕" type="button" data-i="${i}" ${少 ? "disabled" : ""}>${esc(o.字)}${少 ? `<span class="缺">（${esc(少)}）</span>` : ""}</button>`; }).join("")}</div>
+    ${可用Claude() ? `<div class="自寫"><label class="小字" for="抉字">或者寫你自己的做法（Claude 會照你的處境寫結果）</label><textarea id="抉字" rows="2" maxlength="200"></textarea>
+      <div><button class="鈕 朱 小" type="button" id="抉做">照我的做法</button></div><div class="小字" id="抉說" aria-live="polite"></div></div>` : ""}
+  </div>`;
+  $("抉位").querySelectorAll("[data-i]").forEach((b) => b.onclick = () => 定(選(+b.dataset.i)));
+  const 做 = $("抉做");
+  if (做) 做.onclick = async () => {
+    const t = $("抉字").value.trim(); if (!t || 忙) return;
+    忙 = true; 做.disabled = true; $("抉說").textContent = "Claude 在寫……";
+    try {
+      const r = await 問年(`現在是 ${s.齡} 歲的年底。遇到一件事：${s.待.文}\n遊戲原本給的選項是：${e.擇.map((o) => o.字).join("／")}。玩家沒有選這些，寫了自己的做法。`, t);
+      s.已[e.id] = s.齡; 套效(r.效);
+      const y = s.年暫; y.擇 = { 字: t.slice(0, 40), 位: y.文.length }; y.文.push(s.待.文, r.文); y.情 = e.情 || "大"; if (e.星 || r.星) y.星 = 1;
+      s.待 = null; 忙 = false;
+      定(收尾());
+    } catch (err) { $("抉說").textContent = 錯說(err); 做.disabled = false; 忙 = false; }
+  };
+}
+function 定(r) {
+  存生();
+  if (r === "死") { 結束(); return; }
+  畫全(); $("今").scrollIntoView({ block: "start" });
+  翻年紙(生.年[生.年.length - 1]);
+}
+async function 結束() {
+  畫全();
+  await 收進前世(生);
+  const 錯 = 公開版 ? "這一生收在「我的前世」。" : await 留館(生);
+  生.終.留館 = !錯; 生.終.館錯 = 錯;
+  await 存生現在();
+  墓誌頁(true);
+}
+function 墓誌頁(初) {
+  const s = 生, o = s.出, c = s.終;
+  $("控").hidden = true;
+  const 大事 = s.年.filter((y) => y.星);
+  window.scrollTo(0, 0);
+  場().innerHTML = `<section class="卡 誌${初 === true && !靜() ? " 初" : ""}">
+    <div class="頭"><h2 class="碑題"><span class="視隱">${esc(o.名)}</span>${一生舞台.墓碑(o.名, "享年" + 漢數(c.享年))}</h2><div style="display:grid;gap:8px;min-width:0;flex:1">
+      <div class="評">${esc(c.評)}</div>
+      <div class="淡">${esc(o.性)}・${esc(o.洲)}${esc(o.地)}・${esc(o.家)}出身・享年${漢數(c.享年)}</div>
+      <p class="銘" id="銘">${esc(c.銘)}</p>
+      <p class="小字">最後一年（${c.享年} 歲）：${esc((s.年[s.年.length - 1] || { 文: [""] }).文.slice(-1)[0])}</p>
+      ${c.生平 ? `<p class="銘 淡" id="生平">${esc(c.生平)}</p>` : `<p class="銘 淡" id="生平" hidden></p>`}
+      ${可用Claude() && !c.生平 ? `<div><button class="鈕 小" type="button" id="請銘">請 Claude 寫墓誌與生平</button> <span class="小字" id="銘說" aria-live="polite"></span></div>` : ""}
+    </div></div>
+    <div style="display:grid;gap:8px"><b style="font-family:var(--字-題);font-weight:400;letter-spacing:.12em">年格子</b><div class="格" id="格">${格HTML(s, false)}</div>${格說HTML}</div>
+    ${大事.length ? `<div><b style="font-family:var(--字-題);font-weight:400;letter-spacing:.12em">這一生的大事</b><ul class="大事">${大事.map((y) => `<li>${y.齡} 歲：${esc(年句(y, 120))}</li>`).join("")}</ul></div>` : ""}
+    <p class="小字">${c.留館 ? "這一生已經收進追思館，打開這一頁的人都看得到。" : esc(c.館錯 || "這一生收在「我的前世」。")}</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="鈕 朱" type="button" id="再投">再投胎</button>${公開版 ? "" : `<button class="鈕" type="button" id="看館">看追思館</button>`}<button class="鈕" type="button" id="看譜">看整本年譜</button></div>
+  </section>`;
+  $("再投").onclick = () => { 生 = null; 存我("life", { 生: null }); 出生儀式(); };
+  if ($("看館")) $("看館").onclick = 開館;
+  $("看譜").onclick = () => { 一生頁(); 全譜 = true; 畫譜(); };
+  const 請 = $("請銘");
+  if (請) 請.onclick = async () => {
+    if (忙) return; 忙 = true; 請.disabled = true; $("銘說").textContent = "Claude 在寫……";
+    try {
+      const r = await 問生平();
+      if (r.銘) c.銘 = r.銘; c.生平 = r.生平;
+      await 存生現在(); await 收進前世(s); if (c.留館) await 留館(s);
+      墓誌頁();
+    } catch (e) { $("銘說").textContent = 錯說(e); 請.disabled = false; }
+    忙 = false;
+  };
+}
+
+// ================= 疊頁 =================
+function 開疊(html, 綁) {
+  $("疊內").innerHTML = html; $("疊").hidden = false;
+  const 關 = $("疊關"); if (關) { 關.onclick = 關疊; 關.focus(); }
+  if (綁) 綁();
+}
+function 關疊() { $("疊").hidden = true; }
+$("疊").addEventListener("click", (e) => { if (e.target === $("疊")) 關疊(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("疊").hidden) 關疊(); });
+function 碑HTML(c) {
+  return `<article class="碑"><h4>${esc(c.名)}<small>享年${c.享年}</small></h4>
+    <div class="評">${esc(c.評)}</div><div class="小字">${esc(c.性)}・${esc(c.洲)}${esc(c.地)}・${esc(c.家)}</div>
+    <p>${esc(c.銘)}</p>${c.生平 ? `<p class="淡">${esc(c.生平)}</p>` : ""}
+    <div class="格">${卡格HTML(c)}</div></article>`;
+}
+async function 開館() {
+  開疊(`<div class="標"><h2>追思館</h2><button class="鈕" type="button" id="疊關">關起來</button></div><div id="館內" class="小字">正在打開……</div>`);
+  const 全 = await 讀館();
+  if (!全) { $("館內").textContent = "這裡打不開追思館：要在 claude.ai 裡、登入以後打開這一頁才行。"; return; }
+  if (!全.length) { $("館內").textContent = "追思館還是空的。走完一生，這裡就會有第一方墓誌。"; return; }
+  const 平 = Math.round(全.reduce((a, c) => a + c.享年, 0) / 全.length);
+  const 最 = 全.reduce((a, c) => (c.享年 > a.享年 ? c : a));
+  const 洲數 = {}; for (const c of 全) 洲數[c.洲] = (洲數[c.洲] || 0) + 1;
+  $("館內").className = "";
+  $("館內").innerHTML = `<div class="數"><span><b>${全.length}</b>個一生</span><span><b>${平}</b>平均享年</span><span><b>${最.享年}</b>最長壽（${esc(最.名)}）</span></div>
+    <div class="數" style="margin-top:6px">${Object.entries(洲數).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<span>${esc(k)} ${v}</span>`).join("")}</div>
+    <div class="碑林" style="margin-top:14px">${全.slice(0, 90).map((c) => 碑HTML(c)).join("")}</div>`;
+}
+async function 開前世() {
+  開疊(`<div class="標"><h2>我的前世</h2><button class="鈕" type="button" id="疊關">關起來</button></div><div id="前內" class="小字">正在翻……</div>`);
+  const 前 = await 讀我("lives");
+  const l = (前 && 前.lives) || [];
+  $("前內").innerHTML = l.length ? `<div class="碑林">${l.map((c) => 碑HTML(c)).join("")}</div>` : "還沒有走完過一生。";
+  if (l.length) $("前內").className = "";
+}
+function 開設() {
+  開疊(`<div class="標"><h2>設定</h2><button class="鈕" type="button" id="疊關">關起來</button></div>
+    <div class="設">
+      ${公開版 ? "" : `<label><input type="checkbox" id="設C" ${設.用Claude ? "checked" : ""} ${sample ? "" : "disabled"}> <span>可以自己寫想做的事，結束時可以請 Claude 寫墓誌${sample ? "" : "（這裡用不了 Claude：要在 claude.ai 裡打開這一頁）"}<br><span class="小字">會用到你自己的 Claude 額度；第一次會先問你同不同意。</span></span></label>`}
+      <label><input type="checkbox" id="設律" ${設.律戲 ? "checked" : ""}> <span>修律時玩小遊戲<br><span class="小字">穩住律勁，停得準長得多，衝過頭會反衝。關掉就照常修；「剩下都做」一律照常修。</span></span></label>
+      <label><input type="checkbox" id="設動" ${設.動畫 ? "checked" : ""}> <span>動畫<br><span class="小字">紙偶走動、數字飄起來、翻年紙、蓋印。電腦或手機設了「減少動態」時一律不演。</span></span></label>
+      ${公開版 ? "" : `<label><input type="checkbox" id="設好" ${設.好模型 ? "checked" : ""} ${sample ? "" : "disabled"}> <span>寫結果時用比較好的模型<br><span class="小字">寫得比較細，但每一次要等比較久（十幾秒到一分鐘）。</span></span></label>`}
+      <p class="小字">存檔：${db && 使用者 ? "存在你自己的 Claude 帳號裡，換電腦也在。" : "存在這個瀏覽器裡；換電腦或清掉瀏覽器資料就不見了。"}</p>
+    </div>`, () => {
+    if ($("設C")) $("設C").onchange = (e) => { 設.用Claude = e.target.checked; 存設(); if (生 && 生.齡 >= 6 && !生.終 && $("今")) 畫今(); };
+    if ($("設好")) $("設好").onchange = (e) => { 設.好模型 = e.target.checked; 存設(); };
+    $("設動").onchange = (e) => { 設.動畫 = e.target.checked; 存設(); 套靜(); };
+    $("設律").onchange = (e) => { 設.律戲 = e.target.checked; 存設(); if (生 && 生.齡 >= 6 && !生.終 && $("今")) 畫今(); };
+  });
+}
+function 存設() { 本機.set("設", 設); }
+$("開館").onclick = 開館;
+if (公開版) $("開館").hidden = true;
+$("開前世").onclick = 開前世;
+$("開設").onclick = 開設;
+
+// ================= 開始 =================
+(async function 啟動() {
+  Object.assign(設, 本機.get("設") || {});
+  套靜();
+  首頁();
+  const c = window.claude;
+  if (typeof window.__假Claude === "function") sample = window.__假Claude;
+  else if (!公開版 && c && c.use) {
+    const [s, d, u] = await Promise.all([c.use("sample"), c.use("db"), c.use("user")]);
+    sample = s; db = d;
+    if (u) 使用者 = await u.id().catch(() => null);
+  }
+  if (!生) 首頁();
+})();
+window.環澤一生 = { 投胎, 抽天賦, 開始, 做, 可做, 年終, 嬰一年, 選, 死率, 動表, 工表, 活擋, 體力上限, get 生() { return 生; }, set 生(v) { 生 = v; }, 事件庫, 設, 首頁, 一生頁, 墓誌頁, 結束, 設Claude(fn) { sample = fn; }, 設庫(d, u) { db = d; 使用者 = u; } };
+</script>
+</body></html>
